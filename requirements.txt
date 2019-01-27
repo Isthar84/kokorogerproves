@@ -2,3 +2,4 @@ gunicorn
 flask-ask>=0.9.8
 kodi-voice>=1.1.1
 pymongo
+cryptography==2.1.4
