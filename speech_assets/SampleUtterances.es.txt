@@ -6,8 +6,69 @@ StreamAlbumOrSong play the {Album} by {Artist}
 StreamAlbumOrSong play the {Song} by {Artist}
 StreamAlbumOrSong play {Album} by {Artist}
 StreamAlbumOrSong play {Song} by {Artist}
-StreamArtist play artist {Artist}
-StreamArtist play music by {Artist}
+
+
+
+StreamArtist reproduce {Artist}
+StreamArtist reproduce a {Artist}
+StreamArtist reproduce música de {Artist}
+StreamArtist reproduce canciones de {Artist}
+StreamArtist reproduce álbumes de {Artist}
+StreamArtist reproduce discos de {Artist}
+StreamArtist pon {Artist}
+StreamArtist pon a {Artist}
+StreamArtist pon música de {Artist}
+StreamArtist pon canciones de {Artist}
+StreamArtist pon álbumes de {Artist}
+StreamArtist pon discos de {Artist}
+StreamArtist quiero oir {Artist}
+StreamArtist quiero oir a {Artist}
+StreamArtist quiero oir música de {Artist}
+StreamArtist quiero oir canciones de {Artist}
+StreamArtist quiero oir álbumes de {Artist}
+StreamArtist quiero oir discos de {Artist}
+StreamArtist quiero escuchar {Artist}
+StreamArtist quiero escuchar a {Artist}
+StreamArtist quiero escuchar música de {Artist}
+StreamArtist quiero escuchar canciones de {Artist}
+StreamArtist quiero escuchar álbumes de {Artist}
+StreamArtist quiero escuchar discos de {Artist}
+StreamArtist que reproduzca {Artist}
+StreamArtist que reproduzca a {Artist}
+StreamArtist que reproduzca música de {Artist}
+StreamArtist que reproduzca canciones de {Artist}
+StreamArtist que reproduzca álbumes de {Artist}
+StreamArtist que reproduzca discos de {Artist}
+StreamArtist de reproducir {Artist}
+StreamArtist de reproducir a {Artist}
+StreamArtist de reproducir música de {Artist}
+StreamArtist de reproducir canciones de {Artist}
+StreamArtist de reproducir álbumes de {Artist}
+StreamArtist de reproducir discos de {Artist}
+StreamArtist que ponga {Artist}
+StreamArtist que ponga a {Artist}
+StreamArtist que ponga música de {Artist}
+StreamArtist que ponga canciones de {Artist}
+StreamArtist que ponga álbumes de {Artist}
+StreamArtist que ponga discos de {Artist}
+StreamArtist de poner {Artist}
+StreamArtist de poner a {Artist}
+StreamArtist de poner música de {Artist}
+StreamArtist de poner canciones de {Artist}
+StreamArtist de poner álbumes de {Artist}
+StreamArtist de poner discos de {Artist}
+StreamArtist que quiero oir {Artist}
+StreamArtist que quiero oir a {Artist}
+StreamArtist que quiero oir música de {Artist}
+StreamArtist que quiero oir canciones de {Artist}
+StreamArtist que quiero oir álbumes de {Artist}
+StreamArtist que quiero oir discos de {Artist}
+StreamArtist que quiero escuchar {Artist}
+StreamArtist que quiero escuchar a {Artist}
+StreamArtist que quiero escuchar música de {Artist}
+StreamArtist que quiero escuchar canciones de {Artist}
+StreamArtist que quiero escuchar álbumes de {Artist}
+StreamArtist que quiero escuchar discos de {Artist}
 StreamAudioPlaylist reproduce la playlist {AudioPlaylist}
 StreamAudioPlaylist pon la playlist {AudioPlaylist}
 StreamAudioPlaylist quiero oir la playlist {AudioPlaylist}
@@ -16,20 +77,8 @@ StreamAudioPlaylist que reproduzca la playlist {AudioPlaylist}
 StreamAudioPlaylist de reproducir la playlist {AudioPlaylist}
 StreamAudioPlaylist que ponga la playlist {AudioPlaylist}
 StreamAudioPlaylist de poner la playlist {AudioPlaylist}
-StreamAudioPlaylist quer quiero oir la playlist {AudioPlaylist}
-StreamAudioPlaylist quer quiero escuchar la playlist {AudioPlaylist}
-StreamAudioPlaylist play audio playlist {AudioPlaylist}
-StreamAudioPlaylist play music playlist {AudioPlaylist}
-StreamAudioPlaylist play playlist {AudioPlaylist}
-StreamAudioPlaylist play song playlist {AudioPlaylist}
-StreamAudioPlaylist play the audio playlist {AudioPlaylist}
-StreamAudioPlaylist play the music playlist {AudioPlaylist}
-StreamAudioPlaylist play the playlist {AudioPlaylist}
-StreamAudioPlaylist play the song playlist {AudioPlaylist}
-StreamAudioPlaylist play {AudioPlaylist} audio playlist
-StreamAudioPlaylist play {AudioPlaylist} music playlist
-StreamAudioPlaylist play {AudioPlaylist} playlist
-StreamAudioPlaylist play {AudioPlaylist} song playlist
+StreamAudioPlaylist que quiero oir la playlist {AudioPlaylist}
+StreamAudioPlaylist que quiero escuchar la playlist {AudioPlaylist}
 
 
 
@@ -41,9 +90,312 @@ StreamAudioPlaylistRecent play recently added albums
 StreamAudioPlaylistRecent play recently added audio
 StreamAudioPlaylistRecent play recently added music
 StreamAudioPlaylistRecent play recently added songs
+
+
+
 StreamPartyMode play all music
 StreamPartyMode play music
 StreamPartyMode play random music
+
+
+StreamPartyMode reproduce canciones
+StreamPartyMode reproduce canciones de forma aleatoria
+StreamPartyMode reproduce canciones aleatoriamente
+StreamPartyMode reproduce canciones en modo aleatorio
+StreamPartyMode reproduce de forma aleatoria
+StreamPartyMode reproduce aleatoriamente canciones
+StreamPartyMode reproduce en modo aleatorio canciones
+StreamPartyMode reproduce todas las canciones
+StreamPartyMode reproduce todas las canciones de forma aleatoria
+StreamPartyMode reproduce todas las canciones aleatoriamente
+StreamPartyMode reproduce todas las canciones en modo aleatorio
+StreamPartyMode reproduce de forma aleatoria todas las canciones
+StreamPartyMode reproduce aleatoriamente todas las canciones
+StreamPartyMode reproduce en modo aleatorio todas las canciones
+StreamPartyMode reproduce música
+StreamPartyMode reproduce música de forma aleatoria
+StreamPartyMode reproduce música aleatoriamente
+StreamPartyMode reproduce música en modo aleatorio
+StreamPartyMode reproduce de forma aleatoria música
+StreamPartyMode reproduce aleatoriamente música
+StreamPartyMode reproduce en modo aleatorio música
+StreamPartyMode reproduce toda la música
+StreamPartyMode reproduce toda la música de forma aleatoria
+StreamPartyMode reproduce toda la música aleatoriamente
+StreamPartyMode reproduce toda la música en modo aleatorio
+StreamPartyMode reproduce de forma aleatoria toda la música
+StreamPartyMode reproduce aleatoriamente toda la música
+StreamPartyMode reproduce en modo aleatorio toda la música
+
+StreamPartyMode pon canciones
+StreamPartyMode pon canciones de forma aleatoria
+StreamPartyMode pon canciones aleatoriamente
+StreamPartyMode pon canciones en modo aleatorio
+StreamPartyMode pon de forma aleatoria
+StreamPartyMode pon aleatoriamente canciones
+StreamPartyMode pon en modo aleatorio canciones
+StreamPartyMode pon todas las canciones
+StreamPartyMode pon todas las canciones de forma aleatoria
+StreamPartyMode pon todas las canciones aleatoriamente
+StreamPartyMode pon todas las canciones en modo aleatorio
+StreamPartyMode pon de forma aleatoria todas las canciones
+StreamPartyMode pon aleatoriamente todas las canciones
+StreamPartyMode pon en modo aleatorio todas las canciones
+StreamPartyMode pon música
+StreamPartyMode pon música de forma aleatoria
+StreamPartyMode pon música aleatoriamente
+StreamPartyMode pon música en modo aleatorio
+StreamPartyMode pon de forma aleatoria música
+StreamPartyMode pon aleatoriamente música
+StreamPartyMode pon en modo aleatorio música
+StreamPartyMode pon toda la música
+StreamPartyMode pon toda la música de forma aleatoria
+StreamPartyMode pon toda la música aleatoriamente
+StreamPartyMode pon toda la música en modo aleatorio
+StreamPartyMode pon de forma aleatoria toda la música
+StreamPartyMode pon aleatoriamente toda la música
+StreamPartyMode pon en modo aleatorio toda la música
+
+StreamPartyMode quiero oir canciones
+StreamPartyMode quiero oir canciones de forma aleatoria
+StreamPartyMode quiero oir canciones aleatoriamente
+StreamPartyMode quiero oir canciones en modo aleatorio
+StreamPartyMode quiero oir de forma aleatoria
+StreamPartyMode quiero oir aleatoriamente canciones
+StreamPartyMode quiero oir en modo aleatorio canciones
+StreamPartyMode quiero oir todas las canciones
+StreamPartyMode quiero oir todas las canciones de forma aleatoria
+StreamPartyMode quiero oir todas las canciones aleatoriamente
+StreamPartyMode quiero oir todas las canciones en modo aleatorio
+StreamPartyMode quiero oir de forma aleatoria todas las canciones
+StreamPartyMode quiero oir aleatoriamente todas las canciones
+StreamPartyMode quiero oir en modo aleatorio todas las canciones
+StreamPartyMode quiero oir música
+StreamPartyMode quiero oir música de forma aleatoria
+StreamPartyMode quiero oir música aleatoriamente
+StreamPartyMode quiero oir música en modo aleatorio
+StreamPartyMode quiero oir de forma aleatoria música
+StreamPartyMode quiero oir aleatoriamente música
+StreamPartyMode quiero oir en modo aleatorio música
+StreamPartyMode quiero oir toda la música
+StreamPartyMode quiero oir toda la música de forma aleatoria
+StreamPartyMode quiero oir toda la música aleatoriamente
+StreamPartyMode quiero oir toda la música en modo aleatorio
+StreamPartyMode quiero oir de forma aleatoria toda la música
+StreamPartyMode quiero oir aleatoriamente toda la música
+StreamPartyMode quiero oir en modo aleatorio toda la música
+
+StreamPartyMode quiero escuchar canciones
+StreamPartyMode quiero escuchar canciones de forma aleatoria
+StreamPartyMode quiero escuchar canciones aleatoriamente
+StreamPartyMode quiero escuchar canciones en modo aleatorio
+StreamPartyMode quiero escuchar de forma aleatoria
+StreamPartyMode quiero escuchar aleatoriamente canciones
+StreamPartyMode quiero escuchar en modo aleatorio canciones
+StreamPartyMode quiero escuchar todas las canciones
+StreamPartyMode quiero escuchar todas las canciones de forma aleatoria
+StreamPartyMode quiero escuchar todas las canciones aleatoriamente
+StreamPartyMode quiero escuchar todas las canciones en modo aleatorio
+StreamPartyMode quiero escuchar de forma aleatoria todas las canciones
+StreamPartyMode quiero escuchar aleatoriamente todas las canciones
+StreamPartyMode quiero escuchar en modo aleatorio todas las canciones
+StreamPartyMode quiero escuchar música
+StreamPartyMode quiero escuchar música de forma aleatoria
+StreamPartyMode quiero escuchar música aleatoriamente
+StreamPartyMode quiero escuchar música en modo aleatorio
+StreamPartyMode quiero escuchar de forma aleatoria música
+StreamPartyMode quiero escuchar aleatoriamente música
+StreamPartyMode quiero escuchar en modo aleatorio música
+StreamPartyMode quiero escuchar toda la música
+StreamPartyMode quiero escuchar toda la música de forma aleatoria
+StreamPartyMode quiero escuchar toda la música aleatoriamente
+StreamPartyMode quiero escuchar toda la música en modo aleatorio
+StreamPartyMode quiero escuchar de forma aleatoria toda la música
+StreamPartyMode quiero escuchar aleatoriamente toda la música
+StreamPartyMode quiero escuchar en modo aleatorio toda la música
+
+
+
+
+
+StreamPartyMode que reproduzca canciones
+StreamPartyMode que reproduzca canciones de forma aleatoria
+StreamPartyMode que reproduzca canciones aleatoriamente
+StreamPartyMode que reproduzca canciones en modo aleatorio
+StreamPartyMode que reproduzca de forma aleatoria
+StreamPartyMode que reproduzca aleatoriamente canciones
+StreamPartyMode que reproduzca en modo aleatorio canciones
+StreamPartyMode que reproduzca todas las canciones
+StreamPartyMode que reproduzca todas las canciones de forma aleatoria
+StreamPartyMode que reproduzca todas las canciones aleatoriamente
+StreamPartyMode que reproduzca todas las canciones en modo aleatorio
+StreamPartyMode que reproduzca de forma aleatoria todas las canciones
+StreamPartyMode que reproduzca aleatoriamente todas las canciones
+StreamPartyMode que reproduzca en modo aleatorio todas las canciones
+StreamPartyMode que reproduzca música
+StreamPartyMode que reproduzca música de forma aleatoria
+StreamPartyMode que reproduzca música aleatoriamente
+StreamPartyMode que reproduzca música en modo aleatorio
+StreamPartyMode que reproduzca de forma aleatoria música
+StreamPartyMode que reproduzca aleatoriamente música
+StreamPartyMode que reproduzca en modo aleatorio música
+StreamPartyMode que reproduzca toda la música
+StreamPartyMode que reproduzca toda la música de forma aleatoria
+StreamPartyMode que reproduzca toda la música aleatoriamente
+StreamPartyMode que reproduzca toda la música en modo aleatorio
+StreamPartyMode que reproduzca de forma aleatoria toda la música
+StreamPartyMode que reproduzca aleatoriamente toda la música
+StreamPartyMode que reproduzca en modo aleatorio toda la música
+
+StreamPartyMode de reproducir canciones
+StreamPartyMode de reproducir canciones de forma aleatoria
+StreamPartyMode de reproducir canciones aleatoriamente
+StreamPartyMode de reproducir canciones en modo aleatorio
+StreamPartyMode de reproducir de forma aleatoria
+StreamPartyMode de reproducir aleatoriamente canciones
+StreamPartyMode de reproducir en modo aleatorio canciones
+StreamPartyMode de reproducir todas las canciones
+StreamPartyMode de reproducir todas las canciones de forma aleatoria
+StreamPartyMode de reproducir todas las canciones aleatoriamente
+StreamPartyMode de reproducir todas las canciones en modo aleatorio
+StreamPartyMode de reproducir de forma aleatoria todas las canciones
+StreamPartyMode de reproducir aleatoriamente todas las canciones
+StreamPartyMode de reproducir en modo aleatorio todas las canciones
+StreamPartyMode de reproducir música
+StreamPartyMode de reproducir música de forma aleatoria
+StreamPartyMode de reproducir música aleatoriamente
+StreamPartyMode de reproducir música en modo aleatorio
+StreamPartyMode de reproducir de forma aleatoria música
+StreamPartyMode de reproducir aleatoriamente música
+StreamPartyMode de reproducir en modo aleatorio música
+StreamPartyMode de reproducir toda la música
+StreamPartyMode de reproducir toda la música de forma aleatoria
+StreamPartyMode de reproducir toda la música aleatoriamente
+StreamPartyMode de reproducir toda la música en modo aleatorio
+StreamPartyMode de reproducir de forma aleatoria toda la música
+StreamPartyMode de reproducir aleatoriamente toda la música
+StreamPartyMode de reproducir en modo aleatorio toda la música
+
+StreamPartyMode que ponga canciones
+StreamPartyMode que ponga canciones de forma aleatoria
+StreamPartyMode que ponga canciones aleatoriamente
+StreamPartyMode que ponga canciones en modo aleatorio
+StreamPartyMode que ponga de forma aleatoria
+StreamPartyMode que ponga aleatoriamente canciones
+StreamPartyMode que ponga en modo aleatorio canciones
+StreamPartyMode que ponga todas las canciones
+StreamPartyMode que ponga todas las canciones de forma aleatoria
+StreamPartyMode que ponga todas las canciones aleatoriamente
+StreamPartyMode que ponga todas las canciones en modo aleatorio
+StreamPartyMode que ponga de forma aleatoria todas las canciones
+StreamPartyMode que ponga aleatoriamente todas las canciones
+StreamPartyMode que ponga en modo aleatorio todas las canciones
+StreamPartyMode que ponga música
+StreamPartyMode que ponga música de forma aleatoria
+StreamPartyMode que ponga música aleatoriamente
+StreamPartyMode que ponga música en modo aleatorio
+StreamPartyMode que ponga de forma aleatoria música
+StreamPartyMode que ponga aleatoriamente música
+StreamPartyMode que ponga en modo aleatorio música
+StreamPartyMode que ponga toda la música
+StreamPartyMode que ponga toda la música de forma aleatoria
+StreamPartyMode que ponga toda la música aleatoriamente
+StreamPartyMode que ponga toda la música en modo aleatorio
+StreamPartyMode que ponga de forma aleatoria toda la música
+StreamPartyMode que ponga aleatoriamente toda la música
+StreamPartyMode que ponga en modo aleatorio toda la música
+
+StreamPartyMode de poner canciones
+StreamPartyMode de poner canciones de forma aleatoria
+StreamPartyMode de poner canciones aleatoriamente
+StreamPartyMode de poner canciones en modo aleatorio
+StreamPartyMode de poner de forma aleatoria
+StreamPartyMode de poner aleatoriamente canciones
+StreamPartyMode de poner en modo aleatorio canciones
+StreamPartyMode de poner todas las canciones
+StreamPartyMode de poner todas las canciones de forma aleatoria
+StreamPartyMode de poner todas las canciones aleatoriamente
+StreamPartyMode de poner todas las canciones en modo aleatorio
+StreamPartyMode de poner de forma aleatoria todas las canciones
+StreamPartyMode de poner aleatoriamente todas las canciones
+StreamPartyMode de poner en modo aleatorio todas las canciones
+StreamPartyMode de poner música
+StreamPartyMode de poner música de forma aleatoria
+StreamPartyMode de poner música aleatoriamente
+StreamPartyMode de poner música en modo aleatorio
+StreamPartyMode de poner de forma aleatoria música
+StreamPartyMode de poner aleatoriamente música
+StreamPartyMode de poner en modo aleatorio música
+StreamPartyMode de poner toda la música
+StreamPartyMode de poner toda la música de forma aleatoria
+StreamPartyMode de poner toda la música aleatoriamente
+StreamPartyMode de poner toda la música en modo aleatorio
+StreamPartyMode de poner de forma aleatoria toda la música
+StreamPartyMode de poner aleatoriamente toda la música
+StreamPartyMode de poner en modo aleatorio toda la música
+
+StreamPartyMode que quiero oir canciones
+StreamPartyMode que quiero oir canciones de forma aleatoria
+StreamPartyMode que quiero oir canciones aleatoriamente
+StreamPartyMode que quiero oir canciones en modo aleatorio
+StreamPartyMode que quiero oir de forma aleatoria
+StreamPartyMode que quiero oir aleatoriamente canciones
+StreamPartyMode que quiero oir en modo aleatorio canciones
+StreamPartyMode que quiero oir todas las canciones
+StreamPartyMode que quiero oir todas las canciones de forma aleatoria
+StreamPartyMode que quiero oir todas las canciones aleatoriamente
+StreamPartyMode que quiero oir todas las canciones en modo aleatorio
+StreamPartyMode que quiero oir de forma aleatoria todas las canciones
+StreamPartyMode que quiero oir aleatoriamente todas las canciones
+StreamPartyMode que quiero oir en modo aleatorio todas las canciones
+StreamPartyMode que quiero oir música
+StreamPartyMode que quiero oir música de forma aleatoria
+StreamPartyMode que quiero oir música aleatoriamente
+StreamPartyMode que quiero oir música en modo aleatorio
+StreamPartyMode que quiero oir de forma aleatoria música
+StreamPartyMode que quiero oir aleatoriamente música
+StreamPartyMode que quiero oir en modo aleatorio música
+StreamPartyMode que quiero oir toda la música
+StreamPartyMode que quiero oir toda la música de forma aleatoria
+StreamPartyMode que quiero oir toda la música aleatoriamente
+StreamPartyMode que quiero oir toda la música en modo aleatorio
+StreamPartyMode que quiero oir de forma aleatoria toda la música
+StreamPartyMode que quiero oir aleatoriamente toda la música
+StreamPartyMode que quiero oir en modo aleatorio toda la música
+
+StreamPartyMode que quiero escuchar canciones
+StreamPartyMode que quiero escuchar canciones de forma aleatoria
+StreamPartyMode que quiero escuchar canciones aleatoriamente
+StreamPartyMode que quiero escuchar canciones en modo aleatorio
+StreamPartyMode que quiero escuchar de forma aleatoria
+StreamPartyMode que quiero escuchar aleatoriamente canciones
+StreamPartyMode que quiero escuchar en modo aleatorio canciones
+StreamPartyMode que quiero escuchar todas las canciones
+StreamPartyMode que quiero escuchar todas las canciones de forma aleatoria
+StreamPartyMode que quiero escuchar todas las canciones aleatoriamente
+StreamPartyMode que quiero escuchar todas las canciones en modo aleatorio
+StreamPartyMode que quiero escuchar de forma aleatoria todas las canciones
+StreamPartyMode que quiero escuchar aleatoriamente todas las canciones
+StreamPartyMode que quiero escuchar en modo aleatorio todas las canciones
+StreamPartyMode que quiero escuchar música
+StreamPartyMode que quiero escuchar música de forma aleatoria
+StreamPartyMode que quiero escuchar música aleatoriamente
+StreamPartyMode que quiero escuchar música en modo aleatorio
+StreamPartyMode que quiero escuchar de forma aleatoria música
+StreamPartyMode que quiero escuchar aleatoriamente música
+StreamPartyMode que quiero escuchar en modo aleatorio música
+StreamPartyMode que quiero escuchar toda la música
+StreamPartyMode que quiero escuchar toda la música de forma aleatoria
+StreamPartyMode que quiero escuchar toda la música aleatoriamente
+StreamPartyMode que quiero escuchar toda la música en modo aleatorio
+StreamPartyMode que quiero escuchar de forma aleatoria toda la música
+StreamPartyMode que quiero escuchar aleatoriamente toda la música
+StreamPartyMode que quiero escuchar en modo aleatorio toda la música
+
+
+
+
+
 StreamSong reproduce {Song}
 StreamSong pon {Song}
 StreamSong quiero oir {Song}
