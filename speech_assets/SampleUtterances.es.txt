@@ -8,6 +8,16 @@ StreamAlbumOrSong play {Album} by {Artist}
 StreamAlbumOrSong play {Song} by {Artist}
 StreamArtist play artist {Artist}
 StreamArtist play music by {Artist}
+StreamAudioPlaylist reproduce la playlist {AudioPlaylist}
+StreamAudioPlaylist pon la playlist {AudioPlaylist}
+StreamAudioPlaylist quiero oir la playlist {AudioPlaylist}
+StreamAudioPlaylist quiero escuchar la playlist {AudioPlaylist}
+StreamAudioPlaylist que reproduzca la playlist {AudioPlaylist}
+StreamAudioPlaylist de reproducir la playlist {AudioPlaylist}
+StreamAudioPlaylist que ponga la playlist {AudioPlaylist}
+StreamAudioPlaylist de poner la playlist {AudioPlaylist}
+StreamAudioPlaylist quer quiero oir la playlist {AudioPlaylist}
+StreamAudioPlaylist quer quiero escuchar la playlist {AudioPlaylist}
 StreamAudioPlaylist play audio playlist {AudioPlaylist}
 StreamAudioPlaylist play music playlist {AudioPlaylist}
 StreamAudioPlaylist play playlist {AudioPlaylist}
@@ -20,6 +30,9 @@ StreamAudioPlaylist play {AudioPlaylist} audio playlist
 StreamAudioPlaylist play {AudioPlaylist} music playlist
 StreamAudioPlaylist play {AudioPlaylist} playlist
 StreamAudioPlaylist play {AudioPlaylist} song playlist
+
+
+
 StreamAudioPlaylistRecent play recent albums
 StreamAudioPlaylistRecent play recent audio
 StreamAudioPlaylistRecent play recent music
@@ -31,9 +44,309 @@ StreamAudioPlaylistRecent play recently added songs
 StreamPartyMode play all music
 StreamPartyMode play music
 StreamPartyMode play random music
-StreamSong play song {Song}
-StreamSong play song {Song} by {Artist}
-StreamSong play the song {Song}
-StreamSong play the song {Song} by {Artist}
+StreamSong reproduce {Song}
+StreamSong pon {Song}
+StreamSong quiero oir {Song}
+StreamSong quiero escuchar {Song}
+StreamSong reproduce la canción {Song}
+StreamSong pon la canción {Song}
+StreamSong quiero oir la canción {Song}
+StreamSong quiero escuchar la canción {Song}
+StreamSong que reproduzca {Song}
+StreamSong de reproducir {Song}
+StreamSong que ponga {Song}
+StreamSong de poner {Song}
+StreamSong que quiero oir {Song}
+StreamSong que quiero escuchar {Song}
+StreamSong que reproduzca la canción {Song}
+StreamSong de reproducir la canción {Song}
+StreamSong que ponga la canción {Song}
+StreamSong de poner la canción {Song}
+StreamSong que quiero oir la canción {Song}
+StreamSong que quiero escuchar la canción {Song}
+StreamSong reproduce {Song} de {Artist}
+StreamSong reproduce {Song} del {Artist}
+StreamSong reproduce {Song} del grupo {Artist}
+StreamSong reproduce {Song} del grupo musical {Artist}
+StreamSong reproduce {Song} de la banda {Artist}
+StreamSong reproduce {Song} de la banda musical {Artist}
+StreamSong reproduce {Song} de los {Artist}
+StreamSong reproduce {Song} de las {Artist}
+StreamSong reproduce {Song} del artista {Artist}
+StreamSong reproduce {Song} de la artista {Artist}
+StreamSong reproduce {Song} del cantante {Artist}
+StreamSong reproduce {Song} de la cantante {Artist}
+StreamSong reproduce {Song} de los cantantes {Artist}
+StreamSong reproduce {Song} de las cantantes {Artist}
+StreamSong pon {Song} de {Artist}
+StreamSong pon {Song} del {Artist}
+StreamSong pon {Song} del grupo {Artist}
+StreamSong pon {Song} del grupo musical {Artist}
+StreamSong pon {Song} de la banda {Artist}
+StreamSong pon {Song} de la banda musical {Artist}
+StreamSong pon {Song} de los {Artist}
+StreamSong pon {Song} de las {Artist}
+StreamSong pon {Song} del artista {Artist}
+StreamSong pon {Song} de la artista {Artist}
+StreamSong pon {Song} del cantante {Artist}
+StreamSong pon {Song} de la cantante {Artist}
+StreamSong pon {Song} de los cantantes {Artist}
+StreamSong pon {Song} de las cantantes {Artist}
+StreamSong quiero oir {Song} de {Artist}
+StreamSong quiero oir {Song} del {Artist}
+StreamSong quiero oir {Song} del grupo {Artist}
+StreamSong quiero oir {Song} del grupo musical {Artist}
+StreamSong quiero oir {Song} de la banda {Artist}
+StreamSong quiero oir {Song} de la banda musical {Artist}
+StreamSong quiero oir {Song} de los {Artist}
+StreamSong quiero oir {Song} de las {Artist}
+StreamSong quiero oir {Song} del artista {Artist}
+StreamSong quiero oir {Song} de la artista {Artist}
+StreamSong quiero oir {Song} del cantante {Artist}
+StreamSong quiero oir {Song} de la cantante {Artist}
+StreamSong quiero oir {Song} de los cantantes {Artist}
+StreamSong quiero oir {Song} de las cantantes {Artist}
+StreamSong quiero escuchar {Song} de {Artist}
+StreamSong quiero escuchar {Song} del {Artist}
+StreamSong quiero escuchar {Song} del grupo {Artist}
+StreamSong quiero escuchar {Song} del grupo musical {Artist}
+StreamSong quiero escuchar {Song} de la banda {Artist}
+StreamSong quiero escuchar {Song} de la banda musical {Artist}
+StreamSong quiero escuchar {Song} de los {Artist}
+StreamSong quiero escuchar {Song} de las {Artist}
+StreamSong quiero escuchar {Song} del artista {Artist}
+StreamSong quiero escuchar {Song} de la artista {Artist}
+StreamSong quiero escuchar {Song} del cantante {Artist}
+StreamSong quiero escuchar {Song} de la cantante {Artist}
+StreamSong quiero escuchar {Song} de los cantantes {Artist}
+StreamSong quiero escuchar {Song} de las cantantes {Artist}
+StreamSong reproduce la canción {Song} de {Artist}
+StreamSong reproduce la canción {Song} del {Artist}
+StreamSong reproduce la canción {Song} del grupo {Artist}
+StreamSong reproduce la canción {Song} del grupo musical {Artist}
+StreamSong reproduce la canción {Song} de la banda {Artist}
+StreamSong reproduce la canción {Song} de la banda musical {Artist}
+StreamSong reproduce la canción {Song} de los {Artist}
+StreamSong reproduce la canción {Song} de las {Artist}
+StreamSong reproduce la canción {Song} del artista {Artist}
+StreamSong reproduce la canción {Song} de la artista {Artist}
+StreamSong reproduce la canción {Song} del cantante {Artist}
+StreamSong reproduce la canción {Song} de la cantante {Artist}
+StreamSong reproduce la canción {Song} de los cantantes {Artist}
+StreamSong reproduce la canción {Song} de las cantantes {Artist}
+StreamSong pon la canción {Song} de {Artist}
+StreamSong pon la canción {Song} del {Artist}
+StreamSong pon la canción {Song} del grupo {Artist}
+StreamSong pon la canción {Song} del grupo musical {Artist}
+StreamSong pon la canción {Song} de la banda {Artist}
+StreamSong pon la canción {Song} de la banda musical {Artist}
+StreamSong pon la canción {Song} de los {Artist}
+StreamSong pon la canción {Song} de las {Artist}
+StreamSong pon la canción {Song} del artista {Artist}
+StreamSong pon la canción {Song} de la artista {Artist}
+StreamSong pon la canción {Song} del cantante {Artist}
+StreamSong pon la canción {Song} de la cantante {Artist}
+StreamSong pon la canción {Song} de los cantantes {Artist}
+StreamSong pon la canción {Song} de las cantantes {Artist}
+StreamSong quiero oir la canción {Song} de {Artist}
+StreamSong quiero oir la canción {Song} del {Artist}
+StreamSong quiero oir la canción {Song} del grupo {Artist}
+StreamSong quiero oir la canción {Song} del grupo musical {Artist}
+StreamSong quiero oir la canción {Song} de la banda {Artist}
+StreamSong quiero oir la canción {Song} de la banda musical {Artist}
+StreamSong quiero oir la canción {Song} de los {Artist}
+StreamSong quiero oir la canción {Song} de las {Artist}
+StreamSong quiero oir la canción {Song} del artista {Artist}
+StreamSong quiero oir la canción {Song} de la artista {Artist}
+StreamSong quiero oir la canción {Song} del cantante {Artist}
+StreamSong quiero oir la canción {Song} de la cantante {Artist}
+StreamSong quiero oir la canción {Song} de los cantantes {Artist}
+StreamSong quiero oir la canción {Song} de las cantantes {Artist}
+StreamSong quiero escuchar la canción {Song} de {Artist}
+StreamSong quiero escuchar la canción {Song} del {Artist}
+StreamSong quiero escuchar la canción {Song} del grupo {Artist}
+StreamSong quiero escuchar la canción {Song} del grupo musical {Artist}
+StreamSong quiero escuchar la canción {Song} de la banda {Artist}
+StreamSong quiero escuchar la canción {Song} de la banda musical {Artist}
+StreamSong quiero escuchar la canción {Song} de los {Artist}
+StreamSong quiero escuchar la canción {Song} de las {Artist}
+StreamSong quiero escuchar la canción {Song} del artista {Artist}
+StreamSong quiero escuchar la canción {Song} de la artista {Artist}
+StreamSong quiero escuchar la canción {Song} del cantante {Artist}
+StreamSong quiero escuchar la canción {Song} de la cantante {Artist}
+StreamSong quiero escuchar la canción {Song} de los cantantes {Artist}
+StreamSong quiero escuchar la canción {Song} de las cantantes {Artist}
+StreamSong que reproduzca {Song} de {Artist}
+StreamSong que reproduzca {Song} del {Artist}
+StreamSong que reproduzca {Song} del grupo {Artist}
+StreamSong que reproduzca {Song} del grupo musical {Artist}
+StreamSong que reproduzca {Song} de la banda {Artist}
+StreamSong que reproduzca {Song} de la banda musical {Artist}
+StreamSong que reproduzca {Song} de los {Artist}
+StreamSong que reproduzca {Song} de las {Artist}
+StreamSong que reproduzca {Song} del artista {Artist}
+StreamSong que reproduzca {Song} de la artista {Artist}
+StreamSong que reproduzca {Song} del cantante {Artist}
+StreamSong que reproduzca {Song} de la cantante {Artist}
+StreamSong que reproduzca {Song} de los cantantes {Artist}
+StreamSong que reproduzca {Song} de las cantantes {Artist}
+StreamSong de reproducir {Song} de {Artist}
+StreamSong de reproducir {Song} del {Artist}
+StreamSong de reproducir {Song} del grupo {Artist}
+StreamSong de reproducir {Song} del grupo musical {Artist}
+StreamSong de reproducir {Song} de la banda {Artist}
+StreamSong de reproducir {Song} de la banda musical {Artist}
+StreamSong de reproducir {Song} de los {Artist}
+StreamSong de reproducir {Song} de las {Artist}
+StreamSong de reproducir {Song} del artista {Artist}
+StreamSong de reproducir {Song} de la artista {Artist}
+StreamSong de reproducir {Song} del cantante {Artist}
+StreamSong de reproducir {Song} de la cantante {Artist}
+StreamSong de reproducir {Song} de los cantantes {Artist}
+StreamSong de reproducir {Song} de las cantantes {Artist}
+StreamSong que ponga {Song} de {Artist}
+StreamSong que ponga {Song} del {Artist}
+StreamSong que ponga {Song} del grupo {Artist}
+StreamSong que ponga {Song} del grupo musical {Artist}
+StreamSong que ponga {Song} de la banda {Artist}
+StreamSong que ponga {Song} de la banda musical {Artist}
+StreamSong que ponga {Song} de los {Artist}
+StreamSong que ponga {Song} de las {Artist}
+StreamSong que ponga {Song} del artista {Artist}
+StreamSong que ponga {Song} de la artista {Artist}
+StreamSong que ponga {Song} del cantante {Artist}
+StreamSong que ponga {Song} de la cantante {Artist}
+StreamSong que ponga {Song} de los cantantes {Artist}
+StreamSong que ponga {Song} de las cantantes {Artist}
+StreamSong de poner {Song} de {Artist}
+StreamSong de poner {Song} del {Artist}
+StreamSong de poner {Song} del grupo {Artist}
+StreamSong de poner {Song} del grupo musical {Artist}
+StreamSong de poner {Song} de la banda {Artist}
+StreamSong de poner {Song} de la banda musical {Artist}
+StreamSong de poner {Song} de los {Artist}
+StreamSong de poner {Song} de las {Artist}
+StreamSong de poner {Song} del artista {Artist}
+StreamSong de poner {Song} de la artista {Artist}
+StreamSong de poner {Song} del cantante {Artist}
+StreamSong de poner {Song} de la cantante {Artist}
+StreamSong de poner {Song} de los cantantes {Artist}
+StreamSong de poner {Song} de las cantantes {Artist}
+StreamSong que quiero oir {Song} de {Artist}
+StreamSong que quiero oir {Song} del {Artist}
+StreamSong que quiero oir {Song} del grupo {Artist}
+StreamSong que quiero oir {Song} del grupo musical {Artist}
+StreamSong que quiero oir {Song} de la banda {Artist}
+StreamSong que quiero oir {Song} de la banda musical {Artist}
+StreamSong que quiero oir {Song} de los {Artist}
+StreamSong que quiero oir {Song} de las {Artist}
+StreamSong que quiero oir {Song} del artista {Artist}
+StreamSong que quiero oir {Song} de la artista {Artist}
+StreamSong que quiero oir {Song} del cantante {Artist}
+StreamSong que quiero oir {Song} de la cantante {Artist}
+StreamSong que quiero oir {Song} de los cantantes {Artist}
+StreamSong que quiero oir {Song} de las cantantes {Artist}
+StreamSong que quiero escuchar {Song} de {Artist}
+StreamSong que quiero escuchar {Song} del {Artist}
+StreamSong que quiero escuchar {Song} del grupo {Artist}
+StreamSong que quiero escuchar {Song} del grupo musical {Artist}
+StreamSong que quiero escuchar {Song} de la banda {Artist}
+StreamSong que quiero escuchar {Song} de la banda musical {Artist}
+StreamSong que quiero escuchar {Song} de los {Artist}
+StreamSong que quiero escuchar {Song} de las {Artist}
+StreamSong que quiero escuchar {Song} del artista {Artist}
+StreamSong que quiero escuchar {Song} de la artista {Artist}
+StreamSong que quiero escuchar {Song} del cantante {Artist}
+StreamSong que quiero escuchar {Song} de la cantante {Artist}
+StreamSong que quiero escuchar {Song} de los cantantes {Artist}
+StreamSong que quiero escuchar {Song} de las cantantes {Artist}
+StreamSong que reproduzca la canción {Song} de {Artist}
+StreamSong que reproduzca la canción {Song} del {Artist}
+StreamSong que reproduzca la canción {Song} del grupo {Artist}
+StreamSong que reproduzca la canción {Song} del grupo musical {Artist}
+StreamSong que reproduzca la canción {Song} de la banda {Artist}
+StreamSong que reproduzca la canción {Song} de la banda musical {Artist}
+StreamSong que reproduzca la canción {Song} de los {Artist}
+StreamSong que reproduzca la canción {Song} de las {Artist}
+StreamSong que reproduzca la canción {Song} del artista {Artist}
+StreamSong que reproduzca la canción {Song} de la artista {Artist}
+StreamSong que reproduzca la canción {Song} del cantante {Artist}
+StreamSong que reproduzca la canción {Song} de la cantante {Artist}
+StreamSong que reproduzca la canción {Song} de los cantantes {Artist}
+StreamSong que reproduzca la canción {Song} de las cantantes {Artist}
+StreamSong de reproducir la canción {Song} de {Artist}
+StreamSong de reproducir la canción {Song} del {Artist}
+StreamSong de reproducir la canción {Song} del grupo {Artist}
+StreamSong de reproducir la canción {Song} del grupo musical {Artist}
+StreamSong de reproducir la canción {Song} de la banda {Artist}
+StreamSong de reproducir la canción {Song} de la banda musical {Artist}
+StreamSong de reproducir la canción {Song} de los {Artist}
+StreamSong de reproducir la canción {Song} de las {Artist}
+StreamSong de reproducir la canción {Song} del artista {Artist}
+StreamSong de reproducir la canción {Song} de la artista {Artist}
+StreamSong de reproducir la canción {Song} del cantante {Artist}
+StreamSong de reproducir la canción {Song} de la cantante {Artist}
+StreamSong de reproducir la canción {Song} de los cantantes {Artist}
+StreamSong de reproducir la canción {Song} de las cantantes {Artist}
+StreamSong que ponga la canción {Song} de {Artist}
+StreamSong que ponga la canción {Song} del {Artist}
+StreamSong que ponga la canción {Song} del grupo {Artist}
+StreamSong que ponga la canción {Song} del grupo musical {Artist}
+StreamSong que ponga la canción {Song} de la banda {Artist}
+StreamSong que ponga la canción {Song} de la banda musical {Artist}
+StreamSong que ponga la canción {Song} de los {Artist}
+StreamSong que ponga la canción {Song} de las {Artist}
+StreamSong que ponga la canción {Song} del artista {Artist}
+StreamSong que ponga la canción {Song} de la artista {Artist}
+StreamSong que ponga la canción {Song} del cantante {Artist}
+StreamSong que ponga la canción {Song} de la cantante {Artist}
+StreamSong que ponga la canción {Song} de los cantantes {Artist}
+StreamSong que ponga la canción {Song} de las cantantes {Artist}
+StreamSong de poner la canción {Song} de {Artist}
+StreamSong de poner la canción {Song} del {Artist}
+StreamSong de poner la canción {Song} del grupo {Artist}
+StreamSong de poner la canción {Song} del grupo musical {Artist}
+StreamSong de poner la canción {Song} de la banda {Artist}
+StreamSong de poner la canción {Song} de la banda musical {Artist}
+StreamSong de poner la canción {Song} de los {Artist}
+StreamSong de poner la canción {Song} de las {Artist}
+StreamSong de poner la canción {Song} del artista {Artist}
+StreamSong de poner la canción {Song} de la artista {Artist}
+StreamSong de poner la canción {Song} del cantante {Artist}
+StreamSong de poner la canción {Song} de la cantante {Artist}
+StreamSong de poner la canción {Song} de los cantantes {Artist}
+StreamSong de poner la canción {Song} de las cantantes {Artist}
+StreamSong que quiero oir la canción {Song} de {Artist}
+StreamSong que quiero oir la canción {Song} del {Artist}
+StreamSong que quiero oir la canción {Song} del grupo {Artist}
+StreamSong que quiero oir la canción {Song} del grupo musical {Artist}
+StreamSong que quiero oir la canción {Song} de la banda {Artist}
+StreamSong que quiero oir la canción {Song} de la banda musical {Artist}
+StreamSong que quiero oir la canción {Song} de los {Artist}
+StreamSong que quiero oir la canción {Song} de las {Artist}
+StreamSong que quiero oir la canción {Song} del artista {Artist}
+StreamSong que quiero oir la canción {Song} de la artista {Artist}
+StreamSong que quiero oir la canción {Song} del cantante {Artist}
+StreamSong que quiero oir la canción {Song} de la cantante {Artist}
+StreamSong que quiero oir la canción {Song} de los cantantes {Artist}
+StreamSong que quiero oir la canción {Song} de las cantantes {Artist}
+StreamSong que quiero escuchar la canción {Song} de {Artist}
+StreamSong que quiero escuchar la canción {Song} del {Artist}
+StreamSong que quiero escuchar la canción {Song} del grupo {Artist}
+StreamSong que quiero escuchar la canción {Song} del grupo musical {Artist}
+StreamSong que quiero escuchar la canción {Song} de la banda {Artist}
+StreamSong que quiero escuchar la canción {Song} de la banda musical {Artist}
+StreamSong que quiero escuchar la canción {Song} de los {Artist}
+StreamSong que quiero escuchar la canción {Song} de las {Artist}
+StreamSong que quiero escuchar la canción {Song} del artista {Artist}
+StreamSong que quiero escuchar la canción {Song} de la artista {Artist}
+StreamSong que quiero escuchar la canción {Song} del cantante {Artist}
+StreamSong que quiero escuchar la canción {Song} de la cantante {Artist}
+StreamSong que quiero escuchar la canción {Song} de los cantantes {Artist}
+StreamSong que quiero escuchar la canción {Song} de las cantantes {Artist}
+
+
+
+
 StreamThis play current playlist
 StreamThis play this
