@@ -1,18 +1,18 @@
 Addon YouTube
-MovieGenre Comedy
+MovieGenre Comedia
 Movie Tropic Thunder
 Artist Sia
 Album One Thousand Forms of Fear
 MusicGenre Pop
-AudioPlaylist Holiday
+AudioPlaylist Vacaciones
 Song Elastic Heart
 Show Farscape
-VideoPlaylist HD videos
-ShowGenre Science Fiction
+VideoPlaylist vídeos HD
+ShowGenre Ciencia Ficción
 MusicVideoGenre Pop
 MusicVideo Chandelier
-Volume seventy five
-Season two
-Episode eight
-ForwardDur one minute
-BackwardDur thirty seconds
+Volume setenta y cinco
+Season dos
+Episode ocho
+ForwardDur un minuto
+BackwardDur treinta segundos
