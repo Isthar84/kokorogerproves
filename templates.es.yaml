@@ -2,59 +2,59 @@
 ##   Response Templates   ##
 ############################
 
-streaming_recent_songs: "Playing recent songs"
+streaming_recent_songs: "Reproduciendo canciones recientes"
 
-config_missing: "Could not find all the connection information I need. Please check your kodi.config file"
+config_missing: "No he podido encontrar tota la información que necesito de la conexión. Por favor comprueba tu archivo kodi.config"
 
-streaming: "Playing songs by {{ heard_name }}"
+streaming: "Reproduciendo canciones de {{ heard_name }}"
 
-could_not_find: "Could not find {{ heard_name }}"
+could_not_find: "No he podido encontrar {{ heard_name }}"
 
-streaming_album_artist: "Playing {{ album_name }} album by {{ artist }}"
+streaming_album_artist: "Reproduciendo el álbum {{ album_name }} de {{ artist }}"
 
-could_not_find_album_artist: "Could not find {{ album_name }} album by {{ artist }}"
+could_not_find_album_artist: "No he podido encontrar el álbum {{ album_name }} de {{ artist }}"
 
-streaming_album: "Playing {{ album_name }} album"
+streaming_album: "Reproduciendo el álbum {{ album_name }}"
 
-could_not_find_album: "Could not find {{ album_name }} album"
+could_not_find_album: "No he podido encontrar el álbum {{ album_name }}"
 
-streaming_song_artist: "Playing {{ song_name }} by {{ artist }}"
+streaming_song_artist: "Reproduciendo la canción {{ song_name }} de {{ artist }}"
 
-could_not_find_song_artist: "Could not find {{ song_name }} by {{ artist }}"
+could_not_find_song_artist: "No he podido encontrar la canción {{ song_name }} de {{ artist }}"
 
-streaming_song: "Playing {{ song_name }}"
+streaming_song: "Reproduciendo la canción {{ song_name }}"
 
-could_not_find_song: "Could not find {{ song_name }}"
+could_not_find_song: "No he podido encontrar la canción {{ song_name }}"
 
-no_recent_songs: "There are no recent songs"
+no_recent_songs: "No hay canciones recientes"
 
-shuffling_empty: "Shuffling"
+shuffling_empty: "Activando el modo mezclado aleatorio"
 
-action_audio_playlist: "{{ action }} audio playlist"
+action_audio_playlist: "{{ action }} la playlist de audio"
 
-playing_playlist_audio: "{{ action }} the audio playlist {{ playlist_name }}"
+playing_playlist_audio: "{{ action }} la playlist de audio {{ playlist_name }}"
 
-could_not_find_playlist: "I could not find a playlist named {{ heard_name }}"
+could_not_find_playlist: "No he podido encontrar ninguna playlist llamada {{ heard_name }}"
 
-streaming_party: "Playing party mode"
+streaming_party: "Reproduciendo toda la música en modo aleatorio"
 
-error_parsing_results: "Error parsing results"
+error_parsing_results: "Error analizando los resultados"
 
-transferring_stream: "Transferring stream to Alexa"
+transferring_stream: "Transferiendo el stream a Alexa"
 
-nothing_currently_playing: "Kodi isn't playing any music right now"
+nothing_currently_playing: "Kodi no está reproduciendo música en este momento"
 
-help: "What would you like to do? Try something like, {{ example }}"
+help: "Que te gustaría hacer? Prueba por ejemplo con: {{ example }}"
 
-help_short: "Try something like, {{ example }}"
+help_short: "Prueba por ejemplo con: {{ example }}"
 
-help_text: "Koko allows you to stream music from your Kodi server. Here are some examples of things you can say:\n
+help_text: "Kodi Música te permite emitir música en streaming desde Kodi. Aquí tienes algunos ejemplos de cosas que puedes decir::\n
 \xa0\n
 {{ examples }}
 \xa0\n
-For a complete list of supported requests, please see the README file on Github (https://github.com/m0ngr31/koko/README.md)."
+Para ver una lista de todas la peticiones admitidas, por favor comprueba el archivo LÉEME (Readme) en Github (https://github.com/m0ngr31/koko/README.md)."
 
-welcome: "Welcome to Koko"
+welcome: "Hola soy Kodi Música"
 
 
 
@@ -62,33 +62,33 @@ welcome: "Welcome to Koko"
 ##  Card Title Templates  ##
 ############################
 
-streaming_album_card: "Playing album"
+streaming_album_card: "Reproduciendo el álbum"
 
-card_config_missing: "Invalid configuration"
+card_config_missing: "Configuración no válida"
 
-stream_artist: "Playing songs by {{ heard_artist }}"
+stream_artist: "Reproduciendo canciones de {{ heard_artist }}"
 
-streaming_album_card: "Playing album"
+streaming_album_card: "Reproduciendo el álbum"
 
-streaming_song_card: "Playing song"
+streaming_song_card: "Reproduciendo la canción"
 
-streaming_album_or_song: "Playing album or song"
+streaming_album_or_song: "Reproduciendo la canción o el álbum"
 
-streaming_party_mode: "Party Mode"
+streaming_party_mode: "Reproduciendo toda la música en modo aleatorio"
 
-streaming_current_playlist: "Playing current playlist"
+streaming_current_playlist: "Reproduciendo la playlist actual"
 
-help_card: "Help"
+help_card: "Ayuda"
 
 
 ############################
 ##   General Templates    ##
 ############################
 
-no_more_songs: "There are no more songs in the queue"
+no_more_songs: "No hay más canciones en lista"
 
-no_songs_history: "There are no songs in your playlist history"
+no_songs_history: "No hay canciones en tu historial de playlists"
 
-no_current_song: "There is no current song"
+no_current_song: "No hay ninguna canción en reproducción actualmente"
 
-playing: "playing"
+playing: "Reproduciendo"
