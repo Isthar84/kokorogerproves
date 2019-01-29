@@ -1,14 +1,1443 @@
-StreamAlbum play album {Album}
-StreamAlbum play album {Album} by {Artist}
-StreamAlbum play the album {Album}
-StreamAlbum play the album {Album} by {Artist}
-StreamAlbumOrSong play the {Album} by {Artist}
-StreamAlbumOrSong play the {Song} by {Artist}
-StreamAlbumOrSong play {Album} by {Artist}
-StreamAlbumOrSong play {Song} by {Artist}
-
-
-
+StreamAlbum reproduce {Album}
+StreamAlbum reproduce el álbum {Album}
+StreamAlbum reproduce el disco {Album}
+StreamAlbum reproduce las canciones del álbum {Album}
+StreamAlbum pon {Album}
+StreamAlbum pon el álbum {Album}
+StreamAlbum pon el disco {Album}
+StreamAlbum pon las canciones del álbum {Album}
+StreamAlbum quiero oir {Album}
+StreamAlbum quiero oir el álbum {Album}
+StreamAlbum quiero oir el disco {Album}
+StreamAlbum quiero oir las canciones del álbum {Album}
+StreamAlbum quiero escuchar {Album}
+StreamAlbum quiero escuchar el álbum {Album}
+StreamAlbum quiero escuchar el disco {Album}
+StreamAlbum quiero escuchar las canciones del álbum {Album}
+StreamAlbum que reproduzca {Album}
+StreamAlbum que reproduzca el álbum {Album}
+StreamAlbum que reproduzca el disco {Album}
+StreamAlbum que reproduzca las canciones del álbum {Album}
+StreamAlbum de reproducir {Album}
+StreamAlbum de reproducir el álbum {Album}
+StreamAlbum de reproducir el disco {Album}
+StreamAlbum de reproducir las canciones del álbum {Album}
+StreamAlbum que ponga {Album}
+StreamAlbum que ponga el álbum {Album}
+StreamAlbum que ponga el disco {Album}
+StreamAlbum que ponga las canciones del álbum {Album}
+StreamAlbum de poner {Album}
+StreamAlbum de poner el álbum {Album}
+StreamAlbum de poner el disco {Album}
+StreamAlbum de poner las canciones del álbum {Album}
+StreamAlbum que quiero oir {Album}
+StreamAlbum que quiero oir el álbum {Album}
+StreamAlbum que quiero oir el disco {Album}
+StreamAlbum que quiero oir las canciones del álbum {Album}
+StreamAlbum que quiero escuchar {Album}
+StreamAlbum que quiero escuchar el álbum {Album}
+StreamAlbum que quiero escuchar el disco {Album}
+StreamAlbum que quiero escuchar las canciones del álbum {Album}
+StreamAlbum reproduce {Album} de {Artist}
+StreamAlbum reproduce el álbum {Album} de {Artist}
+StreamAlbum reproduce el disco {Album} de {Artist}
+StreamAlbum reproduce las canciones del álbum {Album} de {Artist}
+StreamAlbum pon {Album} de {Artist}
+StreamAlbum pon el álbum {Album} de {Artist}
+StreamAlbum pon el disco {Album} de {Artist}
+StreamAlbum pon las canciones del álbum {Album} de {Artist}
+StreamAlbum quiero oir {Album} de {Artist}
+StreamAlbum quiero oir el álbum {Album} de {Artist}
+StreamAlbum quiero oir el disco {Album} de {Artist}
+StreamAlbum quiero oir las canciones del álbum {Album} de {Artist}
+StreamAlbum quiero escuchar {Album} de {Artist}
+StreamAlbum quiero escuchar el álbum {Album} de {Artist}
+StreamAlbum quiero escuchar el disco {Album} de {Artist}
+StreamAlbum quiero escuchar las canciones del álbum {Album} de {Artist}
+StreamAlbum reproduce {Album} del {Artist}
+StreamAlbum reproduce el álbum {Album} del {Artist}
+StreamAlbum reproduce el disco {Album} del {Artist}
+StreamAlbum reproduce las canciones del álbum {Album} del {Artist}
+StreamAlbum pon {Album} del {Artist}
+StreamAlbum pon el álbum {Album} del {Artist}
+StreamAlbum pon el disco {Album} del {Artist}
+StreamAlbum pon las canciones del álbum {Album} del {Artist}
+StreamAlbum quiero oir {Album} del {Artist}
+StreamAlbum quiero oir el álbum {Album} del {Artist}
+StreamAlbum quiero oir el disco {Album} del {Artist}
+StreamAlbum quiero oir las canciones del álbum {Album} del {Artist}
+StreamAlbum quiero escuchar {Album} del {Artist}
+StreamAlbum quiero escuchar el álbum {Album} del {Artist}
+StreamAlbum quiero escuchar el disco {Album} del {Artist}
+StreamAlbum quiero escuchar las canciones del álbum {Album} del {Artist}
+StreamAlbum reproduce {Album} del grupo {Artist}
+StreamAlbum reproduce el álbum {Album} del grupo {Artist}
+StreamAlbum reproduce el disco {Album} del grupo {Artist}
+StreamAlbum reproduce las canciones del álbum {Album} del grupo {Artist}
+StreamAlbum pon {Album} del grupo {Artist}
+StreamAlbum pon el álbum {Album} del grupo {Artist}
+StreamAlbum pon el disco {Album} del grupo {Artist}
+StreamAlbum pon las canciones del álbum {Album} del grupo {Artist}
+StreamAlbum quiero oir {Album} del grupo {Artist}
+StreamAlbum quiero oir el álbum {Album} del grupo {Artist}
+StreamAlbum quiero oir el disco {Album} del grupo {Artist}
+StreamAlbum quiero oir las canciones del álbum {Album} del grupo {Artist}
+StreamAlbum quiero escuchar {Album} del grupo {Artist}
+StreamAlbum quiero escuchar el álbum {Album} del grupo {Artist}
+StreamAlbum quiero escuchar el disco {Album} del grupo {Artist}
+StreamAlbum quiero escuchar las canciones del álbum {Album} del grupo {Artist}
+StreamAlbum reproduce {Album} del grupo musical {Artist}
+StreamAlbum reproduce el álbum {Album} del grupo musical {Artist}
+StreamAlbum reproduce el disco {Album} del grupo musical {Artist}
+StreamAlbum reproduce las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbum pon {Album} del grupo musical {Artist}
+StreamAlbum pon el álbum {Album} del grupo musical {Artist}
+StreamAlbum pon el disco {Album} del grupo musical {Artist}
+StreamAlbum pon las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbum quiero oir {Album} del grupo musical {Artist}
+StreamAlbum quiero oir el álbum {Album} del grupo musical {Artist}
+StreamAlbum quiero oir el disco {Album} del grupo musical {Artist}
+StreamAlbum quiero oir las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbum quiero escuchar {Album} del grupo musical {Artist}
+StreamAlbum quiero escuchar el álbum {Album} del grupo musical {Artist}
+StreamAlbum quiero escuchar el disco {Album} del grupo musical {Artist}
+StreamAlbum quiero escuchar las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbum reproduce {Album} de la banda {Artist}
+StreamAlbum reproduce el álbum {Album} de la banda {Artist}
+StreamAlbum reproduce el disco {Album} de la banda {Artist}
+StreamAlbum reproduce las canciones del álbum {Album} de la banda {Artist}
+StreamAlbum pon {Album} de la banda {Artist}
+StreamAlbum pon el álbum {Album} de la banda {Artist}
+StreamAlbum pon el disco {Album} de la banda {Artist}
+StreamAlbum pon las canciones del álbum {Album} de la banda {Artist}
+StreamAlbum quiero oir {Album} de la banda {Artist}
+StreamAlbum quiero oir el álbum {Album} de la banda {Artist}
+StreamAlbum quiero oir el disco {Album} de la banda {Artist}
+StreamAlbum quiero oir las canciones del álbum {Album} de la banda {Artist}
+StreamAlbum quiero escuchar {Album} de la banda {Artist}
+StreamAlbum quiero escuchar el álbum {Album} de la banda {Artist}
+StreamAlbum quiero escuchar el disco {Album} de la banda {Artist}
+StreamAlbum quiero escuchar las canciones del álbum {Album} de la banda {Artist}
+StreamAlbum reproduce {Album} de la banda musical {Artist}
+StreamAlbum reproduce el álbum {Album} de la banda musical {Artist}
+StreamAlbum reproduce el disco {Album} de la banda musical {Artist}
+StreamAlbum reproduce las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbum pon {Album} de la banda musical {Artist}
+StreamAlbum pon el álbum {Album} de la banda musical {Artist}
+StreamAlbum pon el disco {Album} de la banda musical {Artist}
+StreamAlbum pon las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbum quiero oir {Album} de la banda musical {Artist}
+StreamAlbum quiero oir el álbum {Album} de la banda musical {Artist}
+StreamAlbum quiero oir el disco {Album} de la banda musical {Artist}
+StreamAlbum quiero oir las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbum quiero escuchar {Album} de la banda musical {Artist}
+StreamAlbum quiero escuchar el álbum {Album} de la banda musical {Artist}
+StreamAlbum quiero escuchar el disco {Album} de la banda musical {Artist}
+StreamAlbum quiero escuchar las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbum reproduce {Album} de los {Artist}
+StreamAlbum reproduce el álbum {Album} de los {Artist}
+StreamAlbum reproduce el disco {Album} de los {Artist}
+StreamAlbum reproduce las canciones del álbum {Album} de los {Artist}
+StreamAlbum pon {Album} de los {Artist}
+StreamAlbum pon el álbum {Album} de los {Artist}
+StreamAlbum pon el disco {Album} de los {Artist}
+StreamAlbum pon las canciones del álbum {Album} de los {Artist}
+StreamAlbum quiero oir {Album} de los {Artist}
+StreamAlbum quiero oir el álbum {Album} de los {Artist}
+StreamAlbum quiero oir el disco {Album} de los {Artist}
+StreamAlbum quiero oir las canciones del álbum {Album} de los {Artist}
+StreamAlbum quiero escuchar {Album} de los {Artist}
+StreamAlbum quiero escuchar el álbum {Album} de los {Artist}
+StreamAlbum quiero escuchar el disco {Album} de los {Artist}
+StreamAlbum quiero escuchar las canciones del álbum {Album} de los {Artist}
+StreamAlbum reproduce {Album} de las {Artist}
+StreamAlbum reproduce el álbum {Album} de las {Artist}
+StreamAlbum reproduce el disco {Album} de las {Artist}
+StreamAlbum reproduce las canciones del álbum {Album} de las {Artist}
+StreamAlbum pon {Album} de las {Artist}
+StreamAlbum pon el álbum {Album} de las {Artist}
+StreamAlbum pon el disco {Album} de las {Artist}
+StreamAlbum pon las canciones del álbum {Album} de las {Artist}
+StreamAlbum quiero oir {Album} de las {Artist}
+StreamAlbum quiero oir el álbum {Album} de las {Artist}
+StreamAlbum quiero oir el disco {Album} de las {Artist}
+StreamAlbum quiero oir las canciones del álbum {Album} de las {Artist}
+StreamAlbum quiero escuchar {Album} de las {Artist}
+StreamAlbum quiero escuchar el álbum {Album} de las {Artist}
+StreamAlbum quiero escuchar el disco {Album} de las {Artist}
+StreamAlbum quiero escuchar las canciones del álbum {Album} de las {Artist}
+StreamAlbum reproduce {Album} del artista {Artist}
+StreamAlbum reproduce el álbum {Album} del artista {Artist}
+StreamAlbum reproduce el disco {Album} del artista {Artist}
+StreamAlbum reproduce las canciones del álbum {Album} del artista {Artist}
+StreamAlbum pon {Album} del artista {Artist}
+StreamAlbum pon el álbum {Album} del artista {Artist}
+StreamAlbum pon el disco {Album} del artista {Artist}
+StreamAlbum pon las canciones del álbum {Album} del artista {Artist}
+StreamAlbum quiero oir {Album} del artista {Artist}
+StreamAlbum quiero oir el álbum {Album} del artista {Artist}
+StreamAlbum quiero oir el disco {Album} del artista {Artist}
+StreamAlbum quiero oir las canciones del álbum {Album} del artista {Artist}
+StreamAlbum quiero escuchar {Album} del artista {Artist}
+StreamAlbum quiero escuchar el álbum {Album} del artista {Artist}
+StreamAlbum quiero escuchar el disco {Album} del artista {Artist}
+StreamAlbum quiero escuchar las canciones del álbum {Album} del artista {Artist}
+StreamAlbum reproduce {Album} de la artista {Artist}
+StreamAlbum reproduce el álbum {Album} de la artista {Artist}
+StreamAlbum reproduce el disco {Album} de la artista {Artist}
+StreamAlbum reproduce las canciones del álbum {Album} de la artista {Artist}
+StreamAlbum pon {Album} de la artista {Artist}
+StreamAlbum pon el álbum {Album} de la artista {Artist}
+StreamAlbum pon el disco {Album} de la artista {Artist}
+StreamAlbum pon las canciones del álbum {Album} de la artista {Artist}
+StreamAlbum quiero oir {Album} de la artista {Artist}
+StreamAlbum quiero oir el álbum {Album} de la artista {Artist}
+StreamAlbum quiero oir el disco {Album} de la artista {Artist}
+StreamAlbum quiero oir las canciones del álbum {Album} de la artista {Artist}
+StreamAlbum quiero escuchar {Album} de la artista {Artist}
+StreamAlbum quiero escuchar el álbum {Album} de la artista {Artist}
+StreamAlbum quiero escuchar el disco {Album} de la artista {Artist}
+StreamAlbum quiero escuchar las canciones del álbum {Album} de la artista {Artist}
+StreamAlbum reproduce {Album} del cantante {Artist}
+StreamAlbum reproduce el álbum {Album} del cantante {Artist}
+StreamAlbum reproduce el disco {Album} del cantante {Artist}
+StreamAlbum reproduce las canciones del álbum {Album} del cantante {Artist}
+StreamAlbum pon {Album} del cantante {Artist}
+StreamAlbum pon el álbum {Album} del cantante {Artist}
+StreamAlbum pon el disco {Album} del cantante {Artist}
+StreamAlbum pon las canciones del álbum {Album} del cantante {Artist}
+StreamAlbum quiero oir {Album} del cantante {Artist}
+StreamAlbum quiero oir el álbum {Album} del cantante {Artist}
+StreamAlbum quiero oir el disco {Album} del cantante {Artist}
+StreamAlbum quiero oir las canciones del álbum {Album} del cantante {Artist}
+StreamAlbum quiero escuchar {Album} del cantante {Artist}
+StreamAlbum quiero escuchar el álbum {Album} del cantante {Artist}
+StreamAlbum quiero escuchar el disco {Album} del cantante {Artist}
+StreamAlbum quiero escuchar las canciones del álbum {Album} del cantante {Artist}
+StreamAlbum reproduce {Album} de la cantante {Artist}
+StreamAlbum reproduce el álbum {Album} de la cantante {Artist}
+StreamAlbum reproduce el disco {Album} de la cantante {Artist}
+StreamAlbum reproduce las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbum pon {Album} de la cantante {Artist}
+StreamAlbum pon el álbum {Album} de la cantante {Artist}
+StreamAlbum pon el disco {Album} de la cantante {Artist}
+StreamAlbum pon las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbum quiero oir {Album} de la cantante {Artist}
+StreamAlbum quiero oir el álbum {Album} de la cantante {Artist}
+StreamAlbum quiero oir el disco {Album} de la cantante {Artist}
+StreamAlbum quiero oir las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbum quiero escuchar {Album} de la cantante {Artist}
+StreamAlbum quiero escuchar el álbum {Album} de la cantante {Artist}
+StreamAlbum quiero escuchar el disco {Album} de la cantante {Artist}
+StreamAlbum quiero escuchar las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbum reproduce {Album} de los cantantes {Artist}
+StreamAlbum reproduce el álbum {Album} de los cantantes {Artist}
+StreamAlbum reproduce el disco {Album} de los cantantes {Artist}
+StreamAlbum reproduce las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbum pon {Album} de los cantantes {Artist}
+StreamAlbum pon el álbum {Album} de los cantantes {Artist}
+StreamAlbum pon el disco {Album} de los cantantes {Artist}
+StreamAlbum pon las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbum quiero oir {Album} de los cantantes {Artist}
+StreamAlbum quiero oir el álbum {Album} de los cantantes {Artist}
+StreamAlbum quiero oir el disco {Album} de los cantantes {Artist}
+StreamAlbum quiero oir las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbum quiero escuchar {Album} de los cantantes {Artist}
+StreamAlbum quiero escuchar el álbum {Album} de los cantantes {Artist}
+StreamAlbum quiero escuchar el disco {Album} de los cantantes {Artist}
+StreamAlbum quiero escuchar las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbum reproduce {Album} de las cantantes {Artist}
+StreamAlbum reproduce el álbum {Album} de las cantantes {Artist}
+StreamAlbum reproduce el disco {Album} de las cantantes {Artist}
+StreamAlbum reproduce las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbum pon {Album} de las cantantes {Artist}
+StreamAlbum pon el álbum {Album} de las cantantes {Artist}
+StreamAlbum pon el disco {Album} de las cantantes {Artist}
+StreamAlbum pon las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbum quiero oir {Album} de las cantantes {Artist}
+StreamAlbum quiero oir el álbum {Album} de las cantantes {Artist}
+StreamAlbum quiero oir el disco {Album} de las cantantes {Artist}
+StreamAlbum quiero oir las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbum quiero escuchar {Album} de las cantantes {Artist}
+StreamAlbum quiero escuchar el álbum {Album} de las cantantes {Artist}
+StreamAlbum quiero escuchar el disco {Album} de las cantantes {Artist}
+StreamAlbum quiero escuchar las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbum que reproduzca {Album} de {Artist}
+StreamAlbum que reproduzca el álbum {Album} de {Artist}
+StreamAlbum que reproduzca el disco {Album} de {Artist}
+StreamAlbum que reproduzca las canciones del álbum {Album} de {Artist}
+StreamAlbum de reproducir {Album} de {Artist}
+StreamAlbum de reproducir el álbum {Album} de {Artist}
+StreamAlbum de reproducir el disco {Album} de {Artist}
+StreamAlbum de reproducir las canciones del álbum {Album} de {Artist}
+StreamAlbum que ponga {Album} de {Artist}
+StreamAlbum que ponga el álbum {Album} de {Artist}
+StreamAlbum que ponga el disco {Album} de {Artist}
+StreamAlbum que ponga las canciones del álbum {Album} de {Artist}
+StreamAlbum de poner {Album} de {Artist}
+StreamAlbum de poner el álbum {Album} de {Artist}
+StreamAlbum de poner el disco {Album} de {Artist}
+StreamAlbum de poner las canciones del álbum {Album} de {Artist}
+StreamAlbum que quiero oir {Album} de {Artist}
+StreamAlbum que quiero oir el álbum {Album} de {Artist}
+StreamAlbum que quiero oir el disco {Album} de {Artist}
+StreamAlbum que quiero oir las canciones del álbum {Album} de {Artist}
+StreamAlbum que quiero escuchar {Album} de {Artist}
+StreamAlbum que quiero escuchar el álbum {Album} de {Artist}
+StreamAlbum que quiero escuchar el disco {Album} de {Artist}
+StreamAlbum que quiero escuchar las canciones del álbum {Album} de {Artist}
+StreamAlbum que reproduzca {Album} del {Artist}
+StreamAlbum que reproduzca el álbum {Album} del {Artist}
+StreamAlbum que reproduzca el disco {Album} del {Artist}
+StreamAlbum que reproduzca las canciones del álbum {Album} del {Artist}
+StreamAlbum de reproducir {Album} del {Artist}
+StreamAlbum de reproducir el álbum {Album} del {Artist}
+StreamAlbum de reproducir el disco {Album} del {Artist}
+StreamAlbum de reproducir las canciones del álbum {Album} del {Artist}
+StreamAlbum que ponga {Album} del {Artist}
+StreamAlbum que ponga el álbum {Album} del {Artist}
+StreamAlbum que ponga el disco {Album} del {Artist}
+StreamAlbum que ponga las canciones del álbum {Album} del {Artist}
+StreamAlbum de poner {Album} del {Artist}
+StreamAlbum de poner el álbum {Album} del {Artist}
+StreamAlbum de poner el disco {Album} del {Artist}
+StreamAlbum de poner las canciones del álbum {Album} del {Artist}
+StreamAlbum que quiero oir {Album} del {Artist}
+StreamAlbum que quiero oir el álbum {Album} del {Artist}
+StreamAlbum que quiero oir el disco {Album} del {Artist}
+StreamAlbum que quiero oir las canciones del álbum {Album} del {Artist}
+StreamAlbum que quiero escuchar {Album} del {Artist}
+StreamAlbum que quiero escuchar el álbum {Album} del {Artist}
+StreamAlbum que quiero escuchar el disco {Album} del {Artist}
+StreamAlbum que quiero escuchar las canciones del álbum {Album} del {Artist}
+StreamAlbum que reproduzca {Album} del grupo {Artist}
+StreamAlbum que reproduzca el álbum {Album} del grupo {Artist}
+StreamAlbum que reproduzca el disco {Album} del grupo {Artist}
+StreamAlbum que reproduzca las canciones del álbum {Album} del grupo {Artist}
+StreamAlbum de reproducir {Album} del grupo {Artist}
+StreamAlbum de reproducir el álbum {Album} del grupo {Artist}
+StreamAlbum de reproducir el disco {Album} del grupo {Artist}
+StreamAlbum de reproducir las canciones del álbum {Album} del grupo {Artist}
+StreamAlbum que ponga {Album} del grupo {Artist}
+StreamAlbum que ponga el álbum {Album} del grupo {Artist}
+StreamAlbum que ponga el disco {Album} del grupo {Artist}
+StreamAlbum que ponga las canciones del álbum {Album} del grupo {Artist}
+StreamAlbum de poner {Album} del grupo {Artist}
+StreamAlbum de poner el álbum {Album} del grupo {Artist}
+StreamAlbum de poner el disco {Album} del grupo {Artist}
+StreamAlbum de poner las canciones del álbum {Album} del grupo {Artist}
+StreamAlbum que quiero oir {Album} del grupo {Artist}
+StreamAlbum que quiero oir el álbum {Album} del grupo {Artist}
+StreamAlbum que quiero oir el disco {Album} del grupo {Artist}
+StreamAlbum que quiero oir las canciones del álbum {Album} del grupo {Artist}
+StreamAlbum que quiero escuchar {Album} del grupo {Artist}
+StreamAlbum que quiero escuchar el álbum {Album} del grupo {Artist}
+StreamAlbum que quiero escuchar el disco {Album} del grupo {Artist}
+StreamAlbum que quiero escuchar las canciones del álbum {Album} del grupo {Artist}
+StreamAlbum que reproduzca {Album} del grupo musical {Artist}
+StreamAlbum que reproduzca el álbum {Album} del grupo musical {Artist}
+StreamAlbum que reproduzca el disco {Album} del grupo musical {Artist}
+StreamAlbum que reproduzca las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbum de reproducir {Album} del grupo musical {Artist}
+StreamAlbum de reproducir el álbum {Album} del grupo musical {Artist}
+StreamAlbum de reproducir el disco {Album} del grupo musical {Artist}
+StreamAlbum de reproducir las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbum que ponga {Album} del grupo musical {Artist}
+StreamAlbum que ponga el álbum {Album} del grupo musical {Artist}
+StreamAlbum que ponga el disco {Album} del grupo musical {Artist}
+StreamAlbum que ponga las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbum de poner {Album} del grupo musical {Artist}
+StreamAlbum de poner el álbum {Album} del grupo musical {Artist}
+StreamAlbum de poner el disco {Album} del grupo musical {Artist}
+StreamAlbum de poner las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbum que quiero oir {Album} del grupo musical {Artist}
+StreamAlbum que quiero oir el álbum {Album} del grupo musical {Artist}
+StreamAlbum que quiero oir el disco {Album} del grupo musical {Artist}
+StreamAlbum que quiero oir las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbum que quiero escuchar {Album} del grupo musical {Artist}
+StreamAlbum que quiero escuchar el álbum {Album} del grupo musical {Artist}
+StreamAlbum que quiero escuchar el disco {Album} del grupo musical {Artist}
+StreamAlbum que quiero escuchar las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbum que reproduzca {Album} de la banda {Artist}
+StreamAlbum que reproduzca el álbum {Album} de la banda {Artist}
+StreamAlbum que reproduzca el disco {Album} de la banda {Artist}
+StreamAlbum que reproduzca las canciones del álbum {Album} de la banda {Artist}
+StreamAlbum de reproducir {Album} de la banda {Artist}
+StreamAlbum de reproducir el álbum {Album} de la banda {Artist}
+StreamAlbum de reproducir el disco {Album} de la banda {Artist}
+StreamAlbum de reproducir las canciones del álbum {Album} de la banda {Artist}
+StreamAlbum que ponga {Album} de la banda {Artist}
+StreamAlbum que ponga el álbum {Album} de la banda {Artist}
+StreamAlbum que ponga el disco {Album} de la banda {Artist}
+StreamAlbum que ponga las canciones del álbum {Album} de la banda {Artist}
+StreamAlbum de poner {Album} de la banda {Artist}
+StreamAlbum de poner el álbum {Album} de la banda {Artist}
+StreamAlbum de poner el disco {Album} de la banda {Artist}
+StreamAlbum de poner las canciones del álbum {Album} de la banda {Artist}
+StreamAlbum que quiero oir {Album} de la banda {Artist}
+StreamAlbum que quiero oir el álbum {Album} de la banda {Artist}
+StreamAlbum que quiero oir el disco {Album} de la banda {Artist}
+StreamAlbum que quiero oir las canciones del álbum {Album} de la banda {Artist}
+StreamAlbum que quiero escuchar {Album} de la banda {Artist}
+StreamAlbum que quiero escuchar el álbum {Album} de la banda {Artist}
+StreamAlbum que quiero escuchar el disco {Album} de la banda {Artist}
+StreamAlbum que quiero escuchar las canciones del álbum {Album} de la banda {Artist}
+StreamAlbum que reproduzca {Album} de la banda musical {Artist}
+StreamAlbum que reproduzca el álbum {Album} de la banda musical {Artist}
+StreamAlbum que reproduzca el disco {Album} de la banda musical {Artist}
+StreamAlbum que reproduzca las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbum de reproducir {Album} de la banda musical {Artist}
+StreamAlbum de reproducir el álbum {Album} de la banda musical {Artist}
+StreamAlbum de reproducir el disco {Album} de la banda musical {Artist}
+StreamAlbum de reproducir las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbum que ponga {Album} de la banda musical {Artist}
+StreamAlbum que ponga el álbum {Album} de la banda musical {Artist}
+StreamAlbum que ponga el disco {Album} de la banda musical {Artist}
+StreamAlbum que ponga las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbum de poner {Album} de la banda musical {Artist}
+StreamAlbum de poner el álbum {Album} de la banda musical {Artist}
+StreamAlbum de poner el disco {Album} de la banda musical {Artist}
+StreamAlbum de poner las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbum que quiero oir {Album} de la banda musical {Artist}
+StreamAlbum que quiero oir el álbum {Album} de la banda musical {Artist}
+StreamAlbum que quiero oir el disco {Album} de la banda musical {Artist}
+StreamAlbum que quiero oir las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbum que quiero escuchar {Album} de la banda musical {Artist}
+StreamAlbum que quiero escuchar el álbum {Album} de la banda musical {Artist}
+StreamAlbum que quiero escuchar el disco {Album} de la banda musical {Artist}
+StreamAlbum que quiero escuchar las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbum que reproduzca {Album} de los {Artist}
+StreamAlbum que reproduzca el álbum {Album} de los {Artist}
+StreamAlbum que reproduzca el disco {Album} de los {Artist}
+StreamAlbum que reproduzca las canciones del álbum {Album} de los {Artist}
+StreamAlbum de reproducir {Album} de los {Artist}
+StreamAlbum de reproducir el álbum {Album} de los {Artist}
+StreamAlbum de reproducir el disco {Album} de los {Artist}
+StreamAlbum de reproducir las canciones del álbum {Album} de los {Artist}
+StreamAlbum que ponga {Album} de los {Artist}
+StreamAlbum que ponga el álbum {Album} de los {Artist}
+StreamAlbum que ponga el disco {Album} de los {Artist}
+StreamAlbum que ponga las canciones del álbum {Album} de los {Artist}
+StreamAlbum de poner {Album} de los {Artist}
+StreamAlbum de poner el álbum {Album} de los {Artist}
+StreamAlbum de poner el disco {Album} de los {Artist}
+StreamAlbum de poner las canciones del álbum {Album} de los {Artist}
+StreamAlbum que quiero oir {Album} de los {Artist}
+StreamAlbum que quiero oir el álbum {Album} de los {Artist}
+StreamAlbum que quiero oir el disco {Album} de los {Artist}
+StreamAlbum que quiero oir las canciones del álbum {Album} de los {Artist}
+StreamAlbum que quiero escuchar {Album} de los {Artist}
+StreamAlbum que quiero escuchar el álbum {Album} de los {Artist}
+StreamAlbum que quiero escuchar el disco {Album} de los {Artist}
+StreamAlbum que quiero escuchar las canciones del álbum {Album} de los {Artist}
+StreamAlbum que reproduzca {Album} de las {Artist}
+StreamAlbum que reproduzca el álbum {Album} de las {Artist}
+StreamAlbum que reproduzca el disco {Album} de las {Artist}
+StreamAlbum que reproduzca las canciones del álbum {Album} de las {Artist}
+StreamAlbum de reproducir {Album} de las {Artist}
+StreamAlbum de reproducir el álbum {Album} de las {Artist}
+StreamAlbum de reproducir el disco {Album} de las {Artist}
+StreamAlbum de reproducir las canciones del álbum {Album} de las {Artist}
+StreamAlbum que ponga {Album} de las {Artist}
+StreamAlbum que ponga el álbum {Album} de las {Artist}
+StreamAlbum que ponga el disco {Album} de las {Artist}
+StreamAlbum que ponga las canciones del álbum {Album} de las {Artist}
+StreamAlbum de poner {Album} de las {Artist}
+StreamAlbum de poner el álbum {Album} de las {Artist}
+StreamAlbum de poner el disco {Album} de las {Artist}
+StreamAlbum de poner las canciones del álbum {Album} de las {Artist}
+StreamAlbum que quiero oir {Album} de las {Artist}
+StreamAlbum que quiero oir el álbum {Album} de las {Artist}
+StreamAlbum que quiero oir el disco {Album} de las {Artist}
+StreamAlbum que quiero oir las canciones del álbum {Album} de las {Artist}
+StreamAlbum que quiero escuchar {Album} de las {Artist}
+StreamAlbum que quiero escuchar el álbum {Album} de las {Artist}
+StreamAlbum que quiero escuchar el disco {Album} de las {Artist}
+StreamAlbum que quiero escuchar las canciones del álbum {Album} de las {Artist}
+StreamAlbum que reproduzca {Album} del artista {Artist}
+StreamAlbum que reproduzca el álbum {Album} del artista {Artist}
+StreamAlbum que reproduzca el disco {Album} del artista {Artist}
+StreamAlbum que reproduzca las canciones del álbum {Album} del artista {Artist}
+StreamAlbum de reproducir {Album} del artista {Artist}
+StreamAlbum de reproducir el álbum {Album} del artista {Artist}
+StreamAlbum de reproducir el disco {Album} del artista {Artist}
+StreamAlbum de reproducir las canciones del álbum {Album} del artista {Artist}
+StreamAlbum que ponga {Album} del artista {Artist}
+StreamAlbum que ponga el álbum {Album} del artista {Artist}
+StreamAlbum que ponga el disco {Album} del artista {Artist}
+StreamAlbum que ponga las canciones del álbum {Album} del artista {Artist}
+StreamAlbum de poner {Album} del artista {Artist}
+StreamAlbum de poner el álbum {Album} del artista {Artist}
+StreamAlbum de poner el disco {Album} del artista {Artist}
+StreamAlbum de poner las canciones del álbum {Album} del artista {Artist}
+StreamAlbum que quiero oir {Album} del artista {Artist}
+StreamAlbum que quiero oir el álbum {Album} del artista {Artist}
+StreamAlbum que quiero oir el disco {Album} del artista {Artist}
+StreamAlbum que quiero oir las canciones del álbum {Album} del artista {Artist}
+StreamAlbum que quiero escuchar {Album} del artista {Artist}
+StreamAlbum que quiero escuchar el álbum {Album} del artista {Artist}
+StreamAlbum que quiero escuchar el disco {Album} del artista {Artist}
+StreamAlbum que quiero escuchar las canciones del álbum {Album} del artista {Artist}
+StreamAlbum que reproduzca {Album} de la artista {Artist}
+StreamAlbum que reproduzca el álbum {Album} de la artista {Artist}
+StreamAlbum que reproduzca el disco {Album} de la artista {Artist}
+StreamAlbum que reproduzca las canciones del álbum {Album} de la artista {Artist}
+StreamAlbum de reproducir {Album} de la artista {Artist}
+StreamAlbum de reproducir el álbum {Album} de la artista {Artist}
+StreamAlbum de reproducir el disco {Album} de la artista {Artist}
+StreamAlbum de reproducir las canciones del álbum {Album} de la artista {Artist}
+StreamAlbum que ponga {Album} de la artista {Artist}
+StreamAlbum que ponga el álbum {Album} de la artista {Artist}
+StreamAlbum que ponga el disco {Album} de la artista {Artist}
+StreamAlbum que ponga las canciones del álbum {Album} de la artista {Artist}
+StreamAlbum de poner {Album} de la artista {Artist}
+StreamAlbum de poner el álbum {Album} de la artista {Artist}
+StreamAlbum de poner el disco {Album} de la artista {Artist}
+StreamAlbum de poner las canciones del álbum {Album} de la artista {Artist}
+StreamAlbum que quiero oir {Album} de la artista {Artist}
+StreamAlbum que quiero oir el álbum {Album} de la artista {Artist}
+StreamAlbum que quiero oir el disco {Album} de la artista {Artist}
+StreamAlbum que quiero oir las canciones del álbum {Album} de la artista {Artist}
+StreamAlbum que quiero escuchar {Album} de la artista {Artist}
+StreamAlbum que quiero escuchar el álbum {Album} de la artista {Artist}
+StreamAlbum que quiero escuchar el disco {Album} de la artista {Artist}
+StreamAlbum que quiero escuchar las canciones del álbum {Album} de la artista {Artist}
+StreamAlbum que reproduzca {Album} del cantante {Artist}
+StreamAlbum que reproduzca el álbum {Album} del cantante {Artist}
+StreamAlbum que reproduzca el disco {Album} del cantante {Artist}
+StreamAlbum que reproduzca las canciones del álbum {Album} del cantante {Artist}
+StreamAlbum de reproducir {Album} del cantante {Artist}
+StreamAlbum de reproducir el álbum {Album} del cantante {Artist}
+StreamAlbum de reproducir el disco {Album} del cantante {Artist}
+StreamAlbum de reproducir las canciones del álbum {Album} del cantante {Artist}
+StreamAlbum que ponga {Album} del cantante {Artist}
+StreamAlbum que ponga el álbum {Album} del cantante {Artist}
+StreamAlbum que ponga el disco {Album} del cantante {Artist}
+StreamAlbum que ponga las canciones del álbum {Album} del cantante {Artist}
+StreamAlbum de poner {Album} del cantante {Artist}
+StreamAlbum de poner el álbum {Album} del cantante {Artist}
+StreamAlbum de poner el disco {Album} del cantante {Artist}
+StreamAlbum de poner las canciones del álbum {Album} del cantante {Artist}
+StreamAlbum que quiero oir {Album} del cantante {Artist}
+StreamAlbum que quiero oir el álbum {Album} del cantante {Artist}
+StreamAlbum que quiero oir el disco {Album} del cantante {Artist}
+StreamAlbum que quiero oir las canciones del álbum {Album} del cantante {Artist}
+StreamAlbum que quiero escuchar {Album} del cantante {Artist}
+StreamAlbum que quiero escuchar el álbum {Album} del cantante {Artist}
+StreamAlbum que quiero escuchar el disco {Album} del cantante {Artist}
+StreamAlbum que quiero escuchar las canciones del álbum {Album} del cantante {Artist}
+StreamAlbum que reproduzca {Album} de la cantante {Artist}
+StreamAlbum que reproduzca el álbum {Album} de la cantante {Artist}
+StreamAlbum que reproduzca el disco {Album} de la cantante {Artist}
+StreamAlbum que reproduzca las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbum de reproducir {Album} de la cantante {Artist}
+StreamAlbum de reproducir el álbum {Album} de la cantante {Artist}
+StreamAlbum de reproducir el disco {Album} de la cantante {Artist}
+StreamAlbum de reproducir las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbum que ponga {Album} de la cantante {Artist}
+StreamAlbum que ponga el álbum {Album} de la cantante {Artist}
+StreamAlbum que ponga el disco {Album} de la cantante {Artist}
+StreamAlbum que ponga las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbum de poner {Album} de la cantante {Artist}
+StreamAlbum de poner el álbum {Album} de la cantante {Artist}
+StreamAlbum de poner el disco {Album} de la cantante {Artist}
+StreamAlbum de poner las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbum que quiero oir {Album} de la cantante {Artist}
+StreamAlbum que quiero oir el álbum {Album} de la cantante {Artist}
+StreamAlbum que quiero oir el disco {Album} de la cantante {Artist}
+StreamAlbum que quiero oir las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbum que quiero escuchar {Album} de la cantante {Artist}
+StreamAlbum que quiero escuchar el álbum {Album} de la cantante {Artist}
+StreamAlbum que quiero escuchar el disco {Album} de la cantante {Artist}
+StreamAlbum que quiero escuchar las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbum que reproduzca {Album} de los cantantes {Artist}
+StreamAlbum que reproduzca el álbum {Album} de los cantantes {Artist}
+StreamAlbum que reproduzca el disco {Album} de los cantantes {Artist}
+StreamAlbum que reproduzca las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbum de reproducir {Album} de los cantantes {Artist}
+StreamAlbum de reproducir el álbum {Album} de los cantantes {Artist}
+StreamAlbum de reproducir el disco {Album} de los cantantes {Artist}
+StreamAlbum de reproducir las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbum que ponga {Album} de los cantantes {Artist}
+StreamAlbum que ponga el álbum {Album} de los cantantes {Artist}
+StreamAlbum que ponga el disco {Album} de los cantantes {Artist}
+StreamAlbum que ponga las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbum de poner {Album} de los cantantes {Artist}
+StreamAlbum de poner el álbum {Album} de los cantantes {Artist}
+StreamAlbum de poner el disco {Album} de los cantantes {Artist}
+StreamAlbum de poner las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbum que quiero oir {Album} de los cantantes {Artist}
+StreamAlbum que quiero oir el álbum {Album} de los cantantes {Artist}
+StreamAlbum que quiero oir el disco {Album} de los cantantes {Artist}
+StreamAlbum que quiero oir las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbum que quiero escuchar {Album} de los cantantes {Artist}
+StreamAlbum que quiero escuchar el álbum {Album} de los cantantes {Artist}
+StreamAlbum que quiero escuchar el disco {Album} de los cantantes {Artist}
+StreamAlbum que quiero escuchar las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbum que reproduzca {Album} de las cantantes {Artist}
+StreamAlbum que reproduzca el álbum {Album} de las cantantes {Artist}
+StreamAlbum que reproduzca el disco {Album} de las cantantes {Artist}
+StreamAlbum que reproduzca las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbum de reproducir {Album} de las cantantes {Artist}
+StreamAlbum de reproducir el álbum {Album} de las cantantes {Artist}
+StreamAlbum de reproducir el disco {Album} de las cantantes {Artist}
+StreamAlbum de reproducir las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbum que ponga {Album} de las cantantes {Artist}
+StreamAlbum que ponga el álbum {Album} de las cantantes {Artist}
+StreamAlbum que ponga el disco {Album} de las cantantes {Artist}
+StreamAlbum que ponga las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbum de poner {Album} de las cantantes {Artist}
+StreamAlbum de poner el álbum {Album} de las cantantes {Artist}
+StreamAlbum de poner el disco {Album} de las cantantes {Artist}
+StreamAlbum de poner las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbum que quiero oir {Album} de las cantantes {Artist}
+StreamAlbum que quiero oir el álbum {Album} de las cantantes {Artist}
+StreamAlbum que quiero oir el disco {Album} de las cantantes {Artist}
+StreamAlbum que quiero oir las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbum que quiero escuchar {Album} de las cantantes {Artist}
+StreamAlbum que quiero escuchar el álbum {Album} de las cantantes {Artist}
+StreamAlbum que quiero escuchar el disco {Album} de las cantantes {Artist}
+StreamAlbum que quiero escuchar las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong reproduce {Album} de {Artist}
+StreamAlbumOrSong reproduce el álbum {Album} de {Artist}
+StreamAlbumOrSong reproduce el disco {Album} de {Artist}
+StreamAlbumOrSong reproduce las canciones del álbum {Album} de {Artist}
+StreamAlbumOrSong pon {Album} de {Artist}
+StreamAlbumOrSong pon el álbum {Album} de {Artist}
+StreamAlbumOrSong pon el disco {Album} de {Artist}
+StreamAlbumOrSong pon las canciones del álbum {Album} de {Artist}
+StreamAlbumOrSong quiero oir {Album} de {Artist}
+StreamAlbumOrSong quiero oir el álbum {Album} de {Artist}
+StreamAlbumOrSong quiero oir el disco {Album} de {Artist}
+StreamAlbumOrSong quiero oir las canciones del álbum {Album} de {Artist}
+StreamAlbumOrSong quiero escuchar {Album} de {Artist}
+StreamAlbumOrSong quiero escuchar el álbum {Album} de {Artist}
+StreamAlbumOrSong quiero escuchar el disco {Album} de {Artist}
+StreamAlbumOrSong quiero escuchar las canciones del álbum {Album} de {Artist}
+StreamAlbumOrSong reproduce {Album} del {Artist}
+StreamAlbumOrSong reproduce el álbum {Album} del {Artist}
+StreamAlbumOrSong reproduce el disco {Album} del {Artist}
+StreamAlbumOrSong reproduce las canciones del álbum {Album} del {Artist}
+StreamAlbumOrSong pon {Album} del {Artist}
+StreamAlbumOrSong pon el álbum {Album} del {Artist}
+StreamAlbumOrSong pon el disco {Album} del {Artist}
+StreamAlbumOrSong pon las canciones del álbum {Album} del {Artist}
+StreamAlbumOrSong quiero oir {Album} del {Artist}
+StreamAlbumOrSong quiero oir el álbum {Album} del {Artist}
+StreamAlbumOrSong quiero oir el disco {Album} del {Artist}
+StreamAlbumOrSong quiero oir las canciones del álbum {Album} del {Artist}
+StreamAlbumOrSong quiero escuchar {Album} del {Artist}
+StreamAlbumOrSong quiero escuchar el álbum {Album} del {Artist}
+StreamAlbumOrSong quiero escuchar el disco {Album} del {Artist}
+StreamAlbumOrSong quiero escuchar las canciones del álbum {Album} del {Artist}
+StreamAlbumOrSong reproduce {Album} del grupo {Artist}
+StreamAlbumOrSong reproduce el álbum {Album} del grupo {Artist}
+StreamAlbumOrSong reproduce el disco {Album} del grupo {Artist}
+StreamAlbumOrSong reproduce las canciones del álbum {Album} del grupo {Artist}
+StreamAlbumOrSong pon {Album} del grupo {Artist}
+StreamAlbumOrSong pon el álbum {Album} del grupo {Artist}
+StreamAlbumOrSong pon el disco {Album} del grupo {Artist}
+StreamAlbumOrSong pon las canciones del álbum {Album} del grupo {Artist}
+StreamAlbumOrSong quiero oir {Album} del grupo {Artist}
+StreamAlbumOrSong quiero oir el álbum {Album} del grupo {Artist}
+StreamAlbumOrSong quiero oir el disco {Album} del grupo {Artist}
+StreamAlbumOrSong quiero oir las canciones del álbum {Album} del grupo {Artist}
+StreamAlbumOrSong quiero escuchar {Album} del grupo {Artist}
+StreamAlbumOrSong quiero escuchar el álbum {Album} del grupo {Artist}
+StreamAlbumOrSong quiero escuchar el disco {Album} del grupo {Artist}
+StreamAlbumOrSong quiero escuchar las canciones del álbum {Album} del grupo {Artist}
+StreamAlbumOrSong reproduce {Album} del grupo musical {Artist}
+StreamAlbumOrSong reproduce el álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong reproduce el disco {Album} del grupo musical {Artist}
+StreamAlbumOrSong reproduce las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong pon {Album} del grupo musical {Artist}
+StreamAlbumOrSong pon el álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong pon el disco {Album} del grupo musical {Artist}
+StreamAlbumOrSong pon las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong quiero oir {Album} del grupo musical {Artist}
+StreamAlbumOrSong quiero oir el álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong quiero oir el disco {Album} del grupo musical {Artist}
+StreamAlbumOrSong quiero oir las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong quiero escuchar {Album} del grupo musical {Artist}
+StreamAlbumOrSong quiero escuchar el álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong quiero escuchar el disco {Album} del grupo musical {Artist}
+StreamAlbumOrSong quiero escuchar las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong reproduce {Album} de la banda {Artist}
+StreamAlbumOrSong reproduce el álbum {Album} de la banda {Artist}
+StreamAlbumOrSong reproduce el disco {Album} de la banda {Artist}
+StreamAlbumOrSong reproduce las canciones del álbum {Album} de la banda {Artist}
+StreamAlbumOrSong pon {Album} de la banda {Artist}
+StreamAlbumOrSong pon el álbum {Album} de la banda {Artist}
+StreamAlbumOrSong pon el disco {Album} de la banda {Artist}
+StreamAlbumOrSong pon las canciones del álbum {Album} de la banda {Artist}
+StreamAlbumOrSong quiero oir {Album} de la banda {Artist}
+StreamAlbumOrSong quiero oir el álbum {Album} de la banda {Artist}
+StreamAlbumOrSong quiero oir el disco {Album} de la banda {Artist}
+StreamAlbumOrSong quiero oir las canciones del álbum {Album} de la banda {Artist}
+StreamAlbumOrSong quiero escuchar {Album} de la banda {Artist}
+StreamAlbumOrSong quiero escuchar el álbum {Album} de la banda {Artist}
+StreamAlbumOrSong quiero escuchar el disco {Album} de la banda {Artist}
+StreamAlbumOrSong quiero escuchar las canciones del álbum {Album} de la banda {Artist}
+StreamAlbumOrSong reproduce {Album} de la banda musical {Artist}
+StreamAlbumOrSong reproduce el álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong reproduce el disco {Album} de la banda musical {Artist}
+StreamAlbumOrSong reproduce las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong pon {Album} de la banda musical {Artist}
+StreamAlbumOrSong pon el álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong pon el disco {Album} de la banda musical {Artist}
+StreamAlbumOrSong pon las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong quiero oir {Album} de la banda musical {Artist}
+StreamAlbumOrSong quiero oir el álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong quiero oir el disco {Album} de la banda musical {Artist}
+StreamAlbumOrSong quiero oir las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong quiero escuchar {Album} de la banda musical {Artist}
+StreamAlbumOrSong quiero escuchar el álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong quiero escuchar el disco {Album} de la banda musical {Artist}
+StreamAlbumOrSong quiero escuchar las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong reproduce {Album} de los {Artist}
+StreamAlbumOrSong reproduce el álbum {Album} de los {Artist}
+StreamAlbumOrSong reproduce el disco {Album} de los {Artist}
+StreamAlbumOrSong reproduce las canciones del álbum {Album} de los {Artist}
+StreamAlbumOrSong pon {Album} de los {Artist}
+StreamAlbumOrSong pon el álbum {Album} de los {Artist}
+StreamAlbumOrSong pon el disco {Album} de los {Artist}
+StreamAlbumOrSong pon las canciones del álbum {Album} de los {Artist}
+StreamAlbumOrSong quiero oir {Album} de los {Artist}
+StreamAlbumOrSong quiero oir el álbum {Album} de los {Artist}
+StreamAlbumOrSong quiero oir el disco {Album} de los {Artist}
+StreamAlbumOrSong quiero oir las canciones del álbum {Album} de los {Artist}
+StreamAlbumOrSong quiero escuchar {Album} de los {Artist}
+StreamAlbumOrSong quiero escuchar el álbum {Album} de los {Artist}
+StreamAlbumOrSong quiero escuchar el disco {Album} de los {Artist}
+StreamAlbumOrSong quiero escuchar las canciones del álbum {Album} de los {Artist}
+StreamAlbumOrSong reproduce {Album} de las {Artist}
+StreamAlbumOrSong reproduce el álbum {Album} de las {Artist}
+StreamAlbumOrSong reproduce el disco {Album} de las {Artist}
+StreamAlbumOrSong reproduce las canciones del álbum {Album} de las {Artist}
+StreamAlbumOrSong pon {Album} de las {Artist}
+StreamAlbumOrSong pon el álbum {Album} de las {Artist}
+StreamAlbumOrSong pon el disco {Album} de las {Artist}
+StreamAlbumOrSong pon las canciones del álbum {Album} de las {Artist}
+StreamAlbumOrSong quiero oir {Album} de las {Artist}
+StreamAlbumOrSong quiero oir el álbum {Album} de las {Artist}
+StreamAlbumOrSong quiero oir el disco {Album} de las {Artist}
+StreamAlbumOrSong quiero oir las canciones del álbum {Album} de las {Artist}
+StreamAlbumOrSong quiero escuchar {Album} de las {Artist}
+StreamAlbumOrSong quiero escuchar el álbum {Album} de las {Artist}
+StreamAlbumOrSong quiero escuchar el disco {Album} de las {Artist}
+StreamAlbumOrSong quiero escuchar las canciones del álbum {Album} de las {Artist}
+StreamAlbumOrSong reproduce {Album} del artista {Artist}
+StreamAlbumOrSong reproduce el álbum {Album} del artista {Artist}
+StreamAlbumOrSong reproduce el disco {Album} del artista {Artist}
+StreamAlbumOrSong reproduce las canciones del álbum {Album} del artista {Artist}
+StreamAlbumOrSong pon {Album} del artista {Artist}
+StreamAlbumOrSong pon el álbum {Album} del artista {Artist}
+StreamAlbumOrSong pon el disco {Album} del artista {Artist}
+StreamAlbumOrSong pon las canciones del álbum {Album} del artista {Artist}
+StreamAlbumOrSong quiero oir {Album} del artista {Artist}
+StreamAlbumOrSong quiero oir el álbum {Album} del artista {Artist}
+StreamAlbumOrSong quiero oir el disco {Album} del artista {Artist}
+StreamAlbumOrSong quiero oir las canciones del álbum {Album} del artista {Artist}
+StreamAlbumOrSong quiero escuchar {Album} del artista {Artist}
+StreamAlbumOrSong quiero escuchar el álbum {Album} del artista {Artist}
+StreamAlbumOrSong quiero escuchar el disco {Album} del artista {Artist}
+StreamAlbumOrSong quiero escuchar las canciones del álbum {Album} del artista {Artist}
+StreamAlbumOrSong reproduce {Album} de la artista {Artist}
+StreamAlbumOrSong reproduce el álbum {Album} de la artista {Artist}
+StreamAlbumOrSong reproduce el disco {Album} de la artista {Artist}
+StreamAlbumOrSong reproduce las canciones del álbum {Album} de la artista {Artist}
+StreamAlbumOrSong pon {Album} de la artista {Artist}
+StreamAlbumOrSong pon el álbum {Album} de la artista {Artist}
+StreamAlbumOrSong pon el disco {Album} de la artista {Artist}
+StreamAlbumOrSong pon las canciones del álbum {Album} de la artista {Artist}
+StreamAlbumOrSong quiero oir {Album} de la artista {Artist}
+StreamAlbumOrSong quiero oir el álbum {Album} de la artista {Artist}
+StreamAlbumOrSong quiero oir el disco {Album} de la artista {Artist}
+StreamAlbumOrSong quiero oir las canciones del álbum {Album} de la artista {Artist}
+StreamAlbumOrSong quiero escuchar {Album} de la artista {Artist}
+StreamAlbumOrSong quiero escuchar el álbum {Album} de la artista {Artist}
+StreamAlbumOrSong quiero escuchar el disco {Album} de la artista {Artist}
+StreamAlbumOrSong quiero escuchar las canciones del álbum {Album} de la artista {Artist}
+StreamAlbumOrSong reproduce {Album} del cantante {Artist}
+StreamAlbumOrSong reproduce el álbum {Album} del cantante {Artist}
+StreamAlbumOrSong reproduce el disco {Album} del cantante {Artist}
+StreamAlbumOrSong reproduce las canciones del álbum {Album} del cantante {Artist}
+StreamAlbumOrSong pon {Album} del cantante {Artist}
+StreamAlbumOrSong pon el álbum {Album} del cantante {Artist}
+StreamAlbumOrSong pon el disco {Album} del cantante {Artist}
+StreamAlbumOrSong pon las canciones del álbum {Album} del cantante {Artist}
+StreamAlbumOrSong quiero oir {Album} del cantante {Artist}
+StreamAlbumOrSong quiero oir el álbum {Album} del cantante {Artist}
+StreamAlbumOrSong quiero oir el disco {Album} del cantante {Artist}
+StreamAlbumOrSong quiero oir las canciones del álbum {Album} del cantante {Artist}
+StreamAlbumOrSong quiero escuchar {Album} del cantante {Artist}
+StreamAlbumOrSong quiero escuchar el álbum {Album} del cantante {Artist}
+StreamAlbumOrSong quiero escuchar el disco {Album} del cantante {Artist}
+StreamAlbumOrSong quiero escuchar las canciones del álbum {Album} del cantante {Artist}
+StreamAlbumOrSong reproduce {Album} de la cantante {Artist}
+StreamAlbumOrSong reproduce el álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong reproduce el disco {Album} de la cantante {Artist}
+StreamAlbumOrSong reproduce las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong pon {Album} de la cantante {Artist}
+StreamAlbumOrSong pon el álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong pon el disco {Album} de la cantante {Artist}
+StreamAlbumOrSong pon las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong quiero oir {Album} de la cantante {Artist}
+StreamAlbumOrSong quiero oir el álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong quiero oir el disco {Album} de la cantante {Artist}
+StreamAlbumOrSong quiero oir las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong quiero escuchar {Album} de la cantante {Artist}
+StreamAlbumOrSong quiero escuchar el álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong quiero escuchar el disco {Album} de la cantante {Artist}
+StreamAlbumOrSong quiero escuchar las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong reproduce {Album} de los cantantes {Artist}
+StreamAlbumOrSong reproduce el álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong reproduce el disco {Album} de los cantantes {Artist}
+StreamAlbumOrSong reproduce las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong pon {Album} de los cantantes {Artist}
+StreamAlbumOrSong pon el álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong pon el disco {Album} de los cantantes {Artist}
+StreamAlbumOrSong pon las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong quiero oir {Album} de los cantantes {Artist}
+StreamAlbumOrSong quiero oir el álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong quiero oir el disco {Album} de los cantantes {Artist}
+StreamAlbumOrSong quiero oir las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong quiero escuchar {Album} de los cantantes {Artist}
+StreamAlbumOrSong quiero escuchar el álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong quiero escuchar el disco {Album} de los cantantes {Artist}
+StreamAlbumOrSong quiero escuchar las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong reproduce {Album} de las cantantes {Artist}
+StreamAlbumOrSong reproduce el álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong reproduce el disco {Album} de las cantantes {Artist}
+StreamAlbumOrSong reproduce las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong pon {Album} de las cantantes {Artist}
+StreamAlbumOrSong pon el álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong pon el disco {Album} de las cantantes {Artist}
+StreamAlbumOrSong pon las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong quiero oir {Album} de las cantantes {Artist}
+StreamAlbumOrSong quiero oir el álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong quiero oir el disco {Album} de las cantantes {Artist}
+StreamAlbumOrSong quiero oir las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong quiero escuchar {Album} de las cantantes {Artist}
+StreamAlbumOrSong quiero escuchar el álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong quiero escuchar el disco {Album} de las cantantes {Artist}
+StreamAlbumOrSong quiero escuchar las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong que reproduzca {Album} de {Artist}
+StreamAlbumOrSong que reproduzca el álbum {Album} de {Artist}
+StreamAlbumOrSong que reproduzca el disco {Album} de {Artist}
+StreamAlbumOrSong que reproduzca las canciones del álbum {Album} de {Artist}
+StreamAlbumOrSong de reproducir {Album} de {Artist}
+StreamAlbumOrSong de reproducir el álbum {Album} de {Artist}
+StreamAlbumOrSong de reproducir el disco {Album} de {Artist}
+StreamAlbumOrSong de reproducir las canciones del álbum {Album} de {Artist}
+StreamAlbumOrSong que ponga {Album} de {Artist}
+StreamAlbumOrSong que ponga el álbum {Album} de {Artist}
+StreamAlbumOrSong que ponga el disco {Album} de {Artist}
+StreamAlbumOrSong que ponga las canciones del álbum {Album} de {Artist}
+StreamAlbumOrSong de poner {Album} de {Artist}
+StreamAlbumOrSong de poner el álbum {Album} de {Artist}
+StreamAlbumOrSong de poner el disco {Album} de {Artist}
+StreamAlbumOrSong de poner las canciones del álbum {Album} de {Artist}
+StreamAlbumOrSong que quiero oir {Album} de {Artist}
+StreamAlbumOrSong que quiero oir el álbum {Album} de {Artist}
+StreamAlbumOrSong que quiero oir el disco {Album} de {Artist}
+StreamAlbumOrSong que quiero oir las canciones del álbum {Album} de {Artist}
+StreamAlbumOrSong que quiero escuchar {Album} de {Artist}
+StreamAlbumOrSong que quiero escuchar el álbum {Album} de {Artist}
+StreamAlbumOrSong que quiero escuchar el disco {Album} de {Artist}
+StreamAlbumOrSong que quiero escuchar las canciones del álbum {Album} de {Artist}
+StreamAlbumOrSong que reproduzca {Album} del {Artist}
+StreamAlbumOrSong que reproduzca el álbum {Album} del {Artist}
+StreamAlbumOrSong que reproduzca el disco {Album} del {Artist}
+StreamAlbumOrSong que reproduzca las canciones del álbum {Album} del {Artist}
+StreamAlbumOrSong de reproducir {Album} del {Artist}
+StreamAlbumOrSong de reproducir el álbum {Album} del {Artist}
+StreamAlbumOrSong de reproducir el disco {Album} del {Artist}
+StreamAlbumOrSong de reproducir las canciones del álbum {Album} del {Artist}
+StreamAlbumOrSong que ponga {Album} del {Artist}
+StreamAlbumOrSong que ponga el álbum {Album} del {Artist}
+StreamAlbumOrSong que ponga el disco {Album} del {Artist}
+StreamAlbumOrSong que ponga las canciones del álbum {Album} del {Artist}
+StreamAlbumOrSong de poner {Album} del {Artist}
+StreamAlbumOrSong de poner el álbum {Album} del {Artist}
+StreamAlbumOrSong de poner el disco {Album} del {Artist}
+StreamAlbumOrSong de poner las canciones del álbum {Album} del {Artist}
+StreamAlbumOrSong que quiero oir {Album} del {Artist}
+StreamAlbumOrSong que quiero oir el álbum {Album} del {Artist}
+StreamAlbumOrSong que quiero oir el disco {Album} del {Artist}
+StreamAlbumOrSong que quiero oir las canciones del álbum {Album} del {Artist}
+StreamAlbumOrSong que quiero escuchar {Album} del {Artist}
+StreamAlbumOrSong que quiero escuchar el álbum {Album} del {Artist}
+StreamAlbumOrSong que quiero escuchar el disco {Album} del {Artist}
+StreamAlbumOrSong que quiero escuchar las canciones del álbum {Album} del {Artist}
+StreamAlbumOrSong que reproduzca {Album} del grupo {Artist}
+StreamAlbumOrSong que reproduzca el álbum {Album} del grupo {Artist}
+StreamAlbumOrSong que reproduzca el disco {Album} del grupo {Artist}
+StreamAlbumOrSong que reproduzca las canciones del álbum {Album} del grupo {Artist}
+StreamAlbumOrSong de reproducir {Album} del grupo {Artist}
+StreamAlbumOrSong de reproducir el álbum {Album} del grupo {Artist}
+StreamAlbumOrSong de reproducir el disco {Album} del grupo {Artist}
+StreamAlbumOrSong de reproducir las canciones del álbum {Album} del grupo {Artist}
+StreamAlbumOrSong que ponga {Album} del grupo {Artist}
+StreamAlbumOrSong que ponga el álbum {Album} del grupo {Artist}
+StreamAlbumOrSong que ponga el disco {Album} del grupo {Artist}
+StreamAlbumOrSong que ponga las canciones del álbum {Album} del grupo {Artist}
+StreamAlbumOrSong de poner {Album} del grupo {Artist}
+StreamAlbumOrSong de poner el álbum {Album} del grupo {Artist}
+StreamAlbumOrSong de poner el disco {Album} del grupo {Artist}
+StreamAlbumOrSong de poner las canciones del álbum {Album} del grupo {Artist}
+StreamAlbumOrSong que quiero oir {Album} del grupo {Artist}
+StreamAlbumOrSong que quiero oir el álbum {Album} del grupo {Artist}
+StreamAlbumOrSong que quiero oir el disco {Album} del grupo {Artist}
+StreamAlbumOrSong que quiero oir las canciones del álbum {Album} del grupo {Artist}
+StreamAlbumOrSong que quiero escuchar {Album} del grupo {Artist}
+StreamAlbumOrSong que quiero escuchar el álbum {Album} del grupo {Artist}
+StreamAlbumOrSong que quiero escuchar el disco {Album} del grupo {Artist}
+StreamAlbumOrSong que quiero escuchar las canciones del álbum {Album} del grupo {Artist}
+StreamAlbumOrSong que reproduzca {Album} del grupo musical {Artist}
+StreamAlbumOrSong que reproduzca el álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong que reproduzca el disco {Album} del grupo musical {Artist}
+StreamAlbumOrSong que reproduzca las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong de reproducir {Album} del grupo musical {Artist}
+StreamAlbumOrSong de reproducir el álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong de reproducir el disco {Album} del grupo musical {Artist}
+StreamAlbumOrSong de reproducir las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong que ponga {Album} del grupo musical {Artist}
+StreamAlbumOrSong que ponga el álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong que ponga el disco {Album} del grupo musical {Artist}
+StreamAlbumOrSong que ponga las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong de poner {Album} del grupo musical {Artist}
+StreamAlbumOrSong de poner el álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong de poner el disco {Album} del grupo musical {Artist}
+StreamAlbumOrSong de poner las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong que quiero oir {Album} del grupo musical {Artist}
+StreamAlbumOrSong que quiero oir el álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong que quiero oir el disco {Album} del grupo musical {Artist}
+StreamAlbumOrSong que quiero oir las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong que quiero escuchar {Album} del grupo musical {Artist}
+StreamAlbumOrSong que quiero escuchar el álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong que quiero escuchar el disco {Album} del grupo musical {Artist}
+StreamAlbumOrSong que quiero escuchar las canciones del álbum {Album} del grupo musical {Artist}
+StreamAlbumOrSong que reproduzca {Album} de la banda {Artist}
+StreamAlbumOrSong que reproduzca el álbum {Album} de la banda {Artist}
+StreamAlbumOrSong que reproduzca el disco {Album} de la banda {Artist}
+StreamAlbumOrSong que reproduzca las canciones del álbum {Album} de la banda {Artist}
+StreamAlbumOrSong de reproducir {Album} de la banda {Artist}
+StreamAlbumOrSong de reproducir el álbum {Album} de la banda {Artist}
+StreamAlbumOrSong de reproducir el disco {Album} de la banda {Artist}
+StreamAlbumOrSong de reproducir las canciones del álbum {Album} de la banda {Artist}
+StreamAlbumOrSong que ponga {Album} de la banda {Artist}
+StreamAlbumOrSong que ponga el álbum {Album} de la banda {Artist}
+StreamAlbumOrSong que ponga el disco {Album} de la banda {Artist}
+StreamAlbumOrSong que ponga las canciones del álbum {Album} de la banda {Artist}
+StreamAlbumOrSong de poner {Album} de la banda {Artist}
+StreamAlbumOrSong de poner el álbum {Album} de la banda {Artist}
+StreamAlbumOrSong de poner el disco {Album} de la banda {Artist}
+StreamAlbumOrSong de poner las canciones del álbum {Album} de la banda {Artist}
+StreamAlbumOrSong que quiero oir {Album} de la banda {Artist}
+StreamAlbumOrSong que quiero oir el álbum {Album} de la banda {Artist}
+StreamAlbumOrSong que quiero oir el disco {Album} de la banda {Artist}
+StreamAlbumOrSong que quiero oir las canciones del álbum {Album} de la banda {Artist}
+StreamAlbumOrSong que quiero escuchar {Album} de la banda {Artist}
+StreamAlbumOrSong que quiero escuchar el álbum {Album} de la banda {Artist}
+StreamAlbumOrSong que quiero escuchar el disco {Album} de la banda {Artist}
+StreamAlbumOrSong que quiero escuchar las canciones del álbum {Album} de la banda {Artist}
+StreamAlbumOrSong que reproduzca {Album} de la banda musical {Artist}
+StreamAlbumOrSong que reproduzca el álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong que reproduzca el disco {Album} de la banda musical {Artist}
+StreamAlbumOrSong que reproduzca las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong de reproducir {Album} de la banda musical {Artist}
+StreamAlbumOrSong de reproducir el álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong de reproducir el disco {Album} de la banda musical {Artist}
+StreamAlbumOrSong de reproducir las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong que ponga {Album} de la banda musical {Artist}
+StreamAlbumOrSong que ponga el álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong que ponga el disco {Album} de la banda musical {Artist}
+StreamAlbumOrSong que ponga las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong de poner {Album} de la banda musical {Artist}
+StreamAlbumOrSong de poner el álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong de poner el disco {Album} de la banda musical {Artist}
+StreamAlbumOrSong de poner las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong que quiero oir {Album} de la banda musical {Artist}
+StreamAlbumOrSong que quiero oir el álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong que quiero oir el disco {Album} de la banda musical {Artist}
+StreamAlbumOrSong que quiero oir las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong que quiero escuchar {Album} de la banda musical {Artist}
+StreamAlbumOrSong que quiero escuchar el álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong que quiero escuchar el disco {Album} de la banda musical {Artist}
+StreamAlbumOrSong que quiero escuchar las canciones del álbum {Album} de la banda musical {Artist}
+StreamAlbumOrSong que reproduzca {Album} de los {Artist}
+StreamAlbumOrSong que reproduzca el álbum {Album} de los {Artist}
+StreamAlbumOrSong que reproduzca el disco {Album} de los {Artist}
+StreamAlbumOrSong que reproduzca las canciones del álbum {Album} de los {Artist}
+StreamAlbumOrSong de reproducir {Album} de los {Artist}
+StreamAlbumOrSong de reproducir el álbum {Album} de los {Artist}
+StreamAlbumOrSong de reproducir el disco {Album} de los {Artist}
+StreamAlbumOrSong de reproducir las canciones del álbum {Album} de los {Artist}
+StreamAlbumOrSong que ponga {Album} de los {Artist}
+StreamAlbumOrSong que ponga el álbum {Album} de los {Artist}
+StreamAlbumOrSong que ponga el disco {Album} de los {Artist}
+StreamAlbumOrSong que ponga las canciones del álbum {Album} de los {Artist}
+StreamAlbumOrSong de poner {Album} de los {Artist}
+StreamAlbumOrSong de poner el álbum {Album} de los {Artist}
+StreamAlbumOrSong de poner el disco {Album} de los {Artist}
+StreamAlbumOrSong de poner las canciones del álbum {Album} de los {Artist}
+StreamAlbumOrSong que quiero oir {Album} de los {Artist}
+StreamAlbumOrSong que quiero oir el álbum {Album} de los {Artist}
+StreamAlbumOrSong que quiero oir el disco {Album} de los {Artist}
+StreamAlbumOrSong que quiero oir las canciones del álbum {Album} de los {Artist}
+StreamAlbumOrSong que quiero escuchar {Album} de los {Artist}
+StreamAlbumOrSong que quiero escuchar el álbum {Album} de los {Artist}
+StreamAlbumOrSong que quiero escuchar el disco {Album} de los {Artist}
+StreamAlbumOrSong que quiero escuchar las canciones del álbum {Album} de los {Artist}
+StreamAlbumOrSong que reproduzca {Album} de las {Artist}
+StreamAlbumOrSong que reproduzca el álbum {Album} de las {Artist}
+StreamAlbumOrSong que reproduzca el disco {Album} de las {Artist}
+StreamAlbumOrSong que reproduzca las canciones del álbum {Album} de las {Artist}
+StreamAlbumOrSong de reproducir {Album} de las {Artist}
+StreamAlbumOrSong de reproducir el álbum {Album} de las {Artist}
+StreamAlbumOrSong de reproducir el disco {Album} de las {Artist}
+StreamAlbumOrSong de reproducir las canciones del álbum {Album} de las {Artist}
+StreamAlbumOrSong que ponga {Album} de las {Artist}
+StreamAlbumOrSong que ponga el álbum {Album} de las {Artist}
+StreamAlbumOrSong que ponga el disco {Album} de las {Artist}
+StreamAlbumOrSong que ponga las canciones del álbum {Album} de las {Artist}
+StreamAlbumOrSong de poner {Album} de las {Artist}
+StreamAlbumOrSong de poner el álbum {Album} de las {Artist}
+StreamAlbumOrSong de poner el disco {Album} de las {Artist}
+StreamAlbumOrSong de poner las canciones del álbum {Album} de las {Artist}
+StreamAlbumOrSong que quiero oir {Album} de las {Artist}
+StreamAlbumOrSong que quiero oir el álbum {Album} de las {Artist}
+StreamAlbumOrSong que quiero oir el disco {Album} de las {Artist}
+StreamAlbumOrSong que quiero oir las canciones del álbum {Album} de las {Artist}
+StreamAlbumOrSong que quiero escuchar {Album} de las {Artist}
+StreamAlbumOrSong que quiero escuchar el álbum {Album} de las {Artist}
+StreamAlbumOrSong que quiero escuchar el disco {Album} de las {Artist}
+StreamAlbumOrSong que quiero escuchar las canciones del álbum {Album} de las {Artist}
+StreamAlbumOrSong que reproduzca {Album} del artista {Artist}
+StreamAlbumOrSong que reproduzca el álbum {Album} del artista {Artist}
+StreamAlbumOrSong que reproduzca el disco {Album} del artista {Artist}
+StreamAlbumOrSong que reproduzca las canciones del álbum {Album} del artista {Artist}
+StreamAlbumOrSong de reproducir {Album} del artista {Artist}
+StreamAlbumOrSong de reproducir el álbum {Album} del artista {Artist}
+StreamAlbumOrSong de reproducir el disco {Album} del artista {Artist}
+StreamAlbumOrSong de reproducir las canciones del álbum {Album} del artista {Artist}
+StreamAlbumOrSong que ponga {Album} del artista {Artist}
+StreamAlbumOrSong que ponga el álbum {Album} del artista {Artist}
+StreamAlbumOrSong que ponga el disco {Album} del artista {Artist}
+StreamAlbumOrSong que ponga las canciones del álbum {Album} del artista {Artist}
+StreamAlbumOrSong de poner {Album} del artista {Artist}
+StreamAlbumOrSong de poner el álbum {Album} del artista {Artist}
+StreamAlbumOrSong de poner el disco {Album} del artista {Artist}
+StreamAlbumOrSong de poner las canciones del álbum {Album} del artista {Artist}
+StreamAlbumOrSong que quiero oir {Album} del artista {Artist}
+StreamAlbumOrSong que quiero oir el álbum {Album} del artista {Artist}
+StreamAlbumOrSong que quiero oir el disco {Album} del artista {Artist}
+StreamAlbumOrSong que quiero oir las canciones del álbum {Album} del artista {Artist}
+StreamAlbumOrSong que quiero escuchar {Album} del artista {Artist}
+StreamAlbumOrSong que quiero escuchar el álbum {Album} del artista {Artist}
+StreamAlbumOrSong que quiero escuchar el disco {Album} del artista {Artist}
+StreamAlbumOrSong que quiero escuchar las canciones del álbum {Album} del artista {Artist}
+StreamAlbumOrSong que reproduzca {Album} de la artista {Artist}
+StreamAlbumOrSong que reproduzca el álbum {Album} de la artista {Artist}
+StreamAlbumOrSong que reproduzca el disco {Album} de la artista {Artist}
+StreamAlbumOrSong que reproduzca las canciones del álbum {Album} de la artista {Artist}
+StreamAlbumOrSong de reproducir {Album} de la artista {Artist}
+StreamAlbumOrSong de reproducir el álbum {Album} de la artista {Artist}
+StreamAlbumOrSong de reproducir el disco {Album} de la artista {Artist}
+StreamAlbumOrSong de reproducir las canciones del álbum {Album} de la artista {Artist}
+StreamAlbumOrSong que ponga {Album} de la artista {Artist}
+StreamAlbumOrSong que ponga el álbum {Album} de la artista {Artist}
+StreamAlbumOrSong que ponga el disco {Album} de la artista {Artist}
+StreamAlbumOrSong que ponga las canciones del álbum {Album} de la artista {Artist}
+StreamAlbumOrSong de poner {Album} de la artista {Artist}
+StreamAlbumOrSong de poner el álbum {Album} de la artista {Artist}
+StreamAlbumOrSong de poner el disco {Album} de la artista {Artist}
+StreamAlbumOrSong de poner las canciones del álbum {Album} de la artista {Artist}
+StreamAlbumOrSong que quiero oir {Album} de la artista {Artist}
+StreamAlbumOrSong que quiero oir el álbum {Album} de la artista {Artist}
+StreamAlbumOrSong que quiero oir el disco {Album} de la artista {Artist}
+StreamAlbumOrSong que quiero oir las canciones del álbum {Album} de la artista {Artist}
+StreamAlbumOrSong que quiero escuchar {Album} de la artista {Artist}
+StreamAlbumOrSong que quiero escuchar el álbum {Album} de la artista {Artist}
+StreamAlbumOrSong que quiero escuchar el disco {Album} de la artista {Artist}
+StreamAlbumOrSong que quiero escuchar las canciones del álbum {Album} de la artista {Artist}
+StreamAlbumOrSong que reproduzca {Album} del cantante {Artist}
+StreamAlbumOrSong que reproduzca el álbum {Album} del cantante {Artist}
+StreamAlbumOrSong que reproduzca el disco {Album} del cantante {Artist}
+StreamAlbumOrSong que reproduzca las canciones del álbum {Album} del cantante {Artist}
+StreamAlbumOrSong de reproducir {Album} del cantante {Artist}
+StreamAlbumOrSong de reproducir el álbum {Album} del cantante {Artist}
+StreamAlbumOrSong de reproducir el disco {Album} del cantante {Artist}
+StreamAlbumOrSong de reproducir las canciones del álbum {Album} del cantante {Artist}
+StreamAlbumOrSong que ponga {Album} del cantante {Artist}
+StreamAlbumOrSong que ponga el álbum {Album} del cantante {Artist}
+StreamAlbumOrSong que ponga el disco {Album} del cantante {Artist}
+StreamAlbumOrSong que ponga las canciones del álbum {Album} del cantante {Artist}
+StreamAlbumOrSong de poner {Album} del cantante {Artist}
+StreamAlbumOrSong de poner el álbum {Album} del cantante {Artist}
+StreamAlbumOrSong de poner el disco {Album} del cantante {Artist}
+StreamAlbumOrSong de poner las canciones del álbum {Album} del cantante {Artist}
+StreamAlbumOrSong que quiero oir {Album} del cantante {Artist}
+StreamAlbumOrSong que quiero oir el álbum {Album} del cantante {Artist}
+StreamAlbumOrSong que quiero oir el disco {Album} del cantante {Artist}
+StreamAlbumOrSong que quiero oir las canciones del álbum {Album} del cantante {Artist}
+StreamAlbumOrSong que quiero escuchar {Album} del cantante {Artist}
+StreamAlbumOrSong que quiero escuchar el álbum {Album} del cantante {Artist}
+StreamAlbumOrSong que quiero escuchar el disco {Album} del cantante {Artist}
+StreamAlbumOrSong que quiero escuchar las canciones del álbum {Album} del cantante {Artist}
+StreamAlbumOrSong que reproduzca {Album} de la cantante {Artist}
+StreamAlbumOrSong que reproduzca el álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong que reproduzca el disco {Album} de la cantante {Artist}
+StreamAlbumOrSong que reproduzca las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong de reproducir {Album} de la cantante {Artist}
+StreamAlbumOrSong de reproducir el álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong de reproducir el disco {Album} de la cantante {Artist}
+StreamAlbumOrSong de reproducir las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong que ponga {Album} de la cantante {Artist}
+StreamAlbumOrSong que ponga el álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong que ponga el disco {Album} de la cantante {Artist}
+StreamAlbumOrSong que ponga las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong de poner {Album} de la cantante {Artist}
+StreamAlbumOrSong de poner el álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong de poner el disco {Album} de la cantante {Artist}
+StreamAlbumOrSong de poner las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong que quiero oir {Album} de la cantante {Artist}
+StreamAlbumOrSong que quiero oir el álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong que quiero oir el disco {Album} de la cantante {Artist}
+StreamAlbumOrSong que quiero oir las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong que quiero escuchar {Album} de la cantante {Artist}
+StreamAlbumOrSong que quiero escuchar el álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong que quiero escuchar el disco {Album} de la cantante {Artist}
+StreamAlbumOrSong que quiero escuchar las canciones del álbum {Album} de la cantante {Artist}
+StreamAlbumOrSong que reproduzca {Album} de los cantantes {Artist}
+StreamAlbumOrSong que reproduzca el álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong que reproduzca el disco {Album} de los cantantes {Artist}
+StreamAlbumOrSong que reproduzca las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong de reproducir {Album} de los cantantes {Artist}
+StreamAlbumOrSong de reproducir el álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong de reproducir el disco {Album} de los cantantes {Artist}
+StreamAlbumOrSong de reproducir las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong que ponga {Album} de los cantantes {Artist}
+StreamAlbumOrSong que ponga el álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong que ponga el disco {Album} de los cantantes {Artist}
+StreamAlbumOrSong que ponga las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong de poner {Album} de los cantantes {Artist}
+StreamAlbumOrSong de poner el álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong de poner el disco {Album} de los cantantes {Artist}
+StreamAlbumOrSong de poner las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong que quiero oir {Album} de los cantantes {Artist}
+StreamAlbumOrSong que quiero oir el álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong que quiero oir el disco {Album} de los cantantes {Artist}
+StreamAlbumOrSong que quiero oir las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong que quiero escuchar {Album} de los cantantes {Artist}
+StreamAlbumOrSong que quiero escuchar el álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong que quiero escuchar el disco {Album} de los cantantes {Artist}
+StreamAlbumOrSong que quiero escuchar las canciones del álbum {Album} de los cantantes {Artist}
+StreamAlbumOrSong que reproduzca {Album} de las cantantes {Artist}
+StreamAlbumOrSong que reproduzca el álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong que reproduzca el disco {Album} de las cantantes {Artist}
+StreamAlbumOrSong que reproduzca las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong de reproducir {Album} de las cantantes {Artist}
+StreamAlbumOrSong de reproducir el álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong de reproducir el disco {Album} de las cantantes {Artist}
+StreamAlbumOrSong de reproducir las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong que ponga {Album} de las cantantes {Artist}
+StreamAlbumOrSong que ponga el álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong que ponga el disco {Album} de las cantantes {Artist}
+StreamAlbumOrSong que ponga las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong de poner {Album} de las cantantes {Artist}
+StreamAlbumOrSong de poner el álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong de poner el disco {Album} de las cantantes {Artist}
+StreamAlbumOrSong de poner las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong que quiero oir {Album} de las cantantes {Artist}
+StreamAlbumOrSong que quiero oir el álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong que quiero oir el disco {Album} de las cantantes {Artist}
+StreamAlbumOrSong que quiero oir las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong que quiero escuchar {Album} de las cantantes {Artist}
+StreamAlbumOrSong que quiero escuchar el álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong que quiero escuchar el disco {Album} de las cantantes {Artist}
+StreamAlbumOrSong que quiero escuchar las canciones del álbum {Album} de las cantantes {Artist}
+StreamAlbumOrSong reproduce {Song} de {Artist}
+StreamAlbumOrSong reproduce {Song} del {Artist}
+StreamAlbumOrSong reproduce {Song} del grupo {Artist}
+StreamAlbumOrSong reproduce {Song} del grupo musical {Artist}
+StreamAlbumOrSong reproduce {Song} de la banda {Artist}
+StreamAlbumOrSong reproduce {Song} de la banda musical {Artist}
+StreamAlbumOrSong reproduce {Song} de los {Artist}
+StreamAlbumOrSong reproduce {Song} de las {Artist}
+StreamAlbumOrSong reproduce {Song} del artista {Artist}
+StreamAlbumOrSong reproduce {Song} de la artista {Artist}
+StreamAlbumOrSong reproduce {Song} del cantante {Artist}
+StreamAlbumOrSong reproduce {Song} de la cantante {Artist}
+StreamAlbumOrSong reproduce {Song} de los cantantes {Artist}
+StreamAlbumOrSong reproduce {Song} de las cantantes {Artist}
+StreamAlbumOrSong pon {Song} de {Artist}
+StreamAlbumOrSong pon {Song} del {Artist}
+StreamAlbumOrSong pon {Song} del grupo {Artist}
+StreamAlbumOrSong pon {Song} del grupo musical {Artist}
+StreamAlbumOrSong pon {Song} de la banda {Artist}
+StreamAlbumOrSong pon {Song} de la banda musical {Artist}
+StreamAlbumOrSong pon {Song} de los {Artist}
+StreamAlbumOrSong pon {Song} de las {Artist}
+StreamAlbumOrSong pon {Song} del artista {Artist}
+StreamAlbumOrSong pon {Song} de la artista {Artist}
+StreamAlbumOrSong pon {Song} del cantante {Artist}
+StreamAlbumOrSong pon {Song} de la cantante {Artist}
+StreamAlbumOrSong pon {Song} de los cantantes {Artist}
+StreamAlbumOrSong pon {Song} de las cantantes {Artist}
+StreamAlbumOrSong quiero oir {Song} de {Artist}
+StreamAlbumOrSong quiero oir {Song} del {Artist}
+StreamAlbumOrSong quiero oir {Song} del grupo {Artist}
+StreamAlbumOrSong quiero oir {Song} del grupo musical {Artist}
+StreamAlbumOrSong quiero oir {Song} de la banda {Artist}
+StreamAlbumOrSong quiero oir {Song} de la banda musical {Artist}
+StreamAlbumOrSong quiero oir {Song} de los {Artist}
+StreamAlbumOrSong quiero oir {Song} de las {Artist}
+StreamAlbumOrSong quiero oir {Song} del artista {Artist}
+StreamAlbumOrSong quiero oir {Song} de la artista {Artist}
+StreamAlbumOrSong quiero oir {Song} del cantante {Artist}
+StreamAlbumOrSong quiero oir {Song} de la cantante {Artist}
+StreamAlbumOrSong quiero oir {Song} de los cantantes {Artist}
+StreamAlbumOrSong quiero oir {Song} de las cantantes {Artist}
+StreamAlbumOrSong quiero escuchar {Song} de {Artist}
+StreamAlbumOrSong quiero escuchar {Song} del {Artist}
+StreamAlbumOrSong quiero escuchar {Song} del grupo {Artist}
+StreamAlbumOrSong quiero escuchar {Song} del grupo musical {Artist}
+StreamAlbumOrSong quiero escuchar {Song} de la banda {Artist}
+StreamAlbumOrSong quiero escuchar {Song} de la banda musical {Artist}
+StreamAlbumOrSong quiero escuchar {Song} de los {Artist}
+StreamAlbumOrSong quiero escuchar {Song} de las {Artist}
+StreamAlbumOrSong quiero escuchar {Song} del artista {Artist}
+StreamAlbumOrSong quiero escuchar {Song} de la artista {Artist}
+StreamAlbumOrSong quiero escuchar {Song} del cantante {Artist}
+StreamAlbumOrSong quiero escuchar {Song} de la cantante {Artist}
+StreamAlbumOrSong quiero escuchar {Song} de los cantantes {Artist}
+StreamAlbumOrSong quiero escuchar {Song} de las cantantes {Artist}
+StreamAlbumOrSong reproduce la canción {Song} de {Artist}
+StreamAlbumOrSong reproduce la canción {Song} del {Artist}
+StreamAlbumOrSong reproduce la canción {Song} del grupo {Artist}
+StreamAlbumOrSong reproduce la canción {Song} del grupo musical {Artist}
+StreamAlbumOrSong reproduce la canción {Song} de la banda {Artist}
+StreamAlbumOrSong reproduce la canción {Song} de la banda musical {Artist}
+StreamAlbumOrSong reproduce la canción {Song} de los {Artist}
+StreamAlbumOrSong reproduce la canción {Song} de las {Artist}
+StreamAlbumOrSong reproduce la canción {Song} del artista {Artist}
+StreamAlbumOrSong reproduce la canción {Song} de la artista {Artist}
+StreamAlbumOrSong reproduce la canción {Song} del cantante {Artist}
+StreamAlbumOrSong reproduce la canción {Song} de la cantante {Artist}
+StreamAlbumOrSong reproduce la canción {Song} de los cantantes {Artist}
+StreamAlbumOrSong reproduce la canción {Song} de las cantantes {Artist}
+StreamAlbumOrSong pon la canción {Song} de {Artist}
+StreamAlbumOrSong pon la canción {Song} del {Artist}
+StreamAlbumOrSong pon la canción {Song} del grupo {Artist}
+StreamAlbumOrSong pon la canción {Song} del grupo musical {Artist}
+StreamAlbumOrSong pon la canción {Song} de la banda {Artist}
+StreamAlbumOrSong pon la canción {Song} de la banda musical {Artist}
+StreamAlbumOrSong pon la canción {Song} de los {Artist}
+StreamAlbumOrSong pon la canción {Song} de las {Artist}
+StreamAlbumOrSong pon la canción {Song} del artista {Artist}
+StreamAlbumOrSong pon la canción {Song} de la artista {Artist}
+StreamAlbumOrSong pon la canción {Song} del cantante {Artist}
+StreamAlbumOrSong pon la canción {Song} de la cantante {Artist}
+StreamAlbumOrSong pon la canción {Song} de los cantantes {Artist}
+StreamAlbumOrSong pon la canción {Song} de las cantantes {Artist}
+StreamAlbumOrSong quiero oir la canción {Song} de {Artist}
+StreamAlbumOrSong quiero oir la canción {Song} del {Artist}
+StreamAlbumOrSong quiero oir la canción {Song} del grupo {Artist}
+StreamAlbumOrSong quiero oir la canción {Song} del grupo musical {Artist}
+StreamAlbumOrSong quiero oir la canción {Song} de la banda {Artist}
+StreamAlbumOrSong quiero oir la canción {Song} de la banda musical {Artist}
+StreamAlbumOrSong quiero oir la canción {Song} de los {Artist}
+StreamAlbumOrSong quiero oir la canción {Song} de las {Artist}
+StreamAlbumOrSong quiero oir la canción {Song} del artista {Artist}
+StreamAlbumOrSong quiero oir la canción {Song} de la artista {Artist}
+StreamAlbumOrSong quiero oir la canción {Song} del cantante {Artist}
+StreamAlbumOrSong quiero oir la canción {Song} de la cantante {Artist}
+StreamAlbumOrSong quiero oir la canción {Song} de los cantantes {Artist}
+StreamAlbumOrSong quiero oir la canción {Song} de las cantantes {Artist}
+StreamAlbumOrSong quiero escuchar la canción {Song} de {Artist}
+StreamAlbumOrSong quiero escuchar la canción {Song} del {Artist}
+StreamAlbumOrSong quiero escuchar la canción {Song} del grupo {Artist}
+StreamAlbumOrSong quiero escuchar la canción {Song} del grupo musical {Artist}
+StreamAlbumOrSong quiero escuchar la canción {Song} de la banda {Artist}
+StreamAlbumOrSong quiero escuchar la canción {Song} de la banda musical {Artist}
+StreamAlbumOrSong quiero escuchar la canción {Song} de los {Artist}
+StreamAlbumOrSong quiero escuchar la canción {Song} de las {Artist}
+StreamAlbumOrSong quiero escuchar la canción {Song} del artista {Artist}
+StreamAlbumOrSong quiero escuchar la canción {Song} de la artista {Artist}
+StreamAlbumOrSong quiero escuchar la canción {Song} del cantante {Artist}
+StreamAlbumOrSong quiero escuchar la canción {Song} de la cantante {Artist}
+StreamAlbumOrSong quiero escuchar la canción {Song} de los cantantes {Artist}
+StreamAlbumOrSong quiero escuchar la canción {Song} de las cantantes {Artist}
+StreamAlbumOrSong que reproduzca {Song} de {Artist}
+StreamAlbumOrSong que reproduzca {Song} del {Artist}
+StreamAlbumOrSong que reproduzca {Song} del grupo {Artist}
+StreamAlbumOrSong que reproduzca {Song} del grupo musical {Artist}
+StreamAlbumOrSong que reproduzca {Song} de la banda {Artist}
+StreamAlbumOrSong que reproduzca {Song} de la banda musical {Artist}
+StreamAlbumOrSong que reproduzca {Song} de los {Artist}
+StreamAlbumOrSong que reproduzca {Song} de las {Artist}
+StreamAlbumOrSong que reproduzca {Song} del artista {Artist}
+StreamAlbumOrSong que reproduzca {Song} de la artista {Artist}
+StreamAlbumOrSong que reproduzca {Song} del cantante {Artist}
+StreamAlbumOrSong que reproduzca {Song} de la cantante {Artist}
+StreamAlbumOrSong que reproduzca {Song} de los cantantes {Artist}
+StreamAlbumOrSong que reproduzca {Song} de las cantantes {Artist}
+StreamAlbumOrSong de reproducir {Song} de {Artist}
+StreamAlbumOrSong de reproducir {Song} del {Artist}
+StreamAlbumOrSong de reproducir {Song} del grupo {Artist}
+StreamAlbumOrSong de reproducir {Song} del grupo musical {Artist}
+StreamAlbumOrSong de reproducir {Song} de la banda {Artist}
+StreamAlbumOrSong de reproducir {Song} de la banda musical {Artist}
+StreamAlbumOrSong de reproducir {Song} de los {Artist}
+StreamAlbumOrSong de reproducir {Song} de las {Artist}
+StreamAlbumOrSong de reproducir {Song} del artista {Artist}
+StreamAlbumOrSong de reproducir {Song} de la artista {Artist}
+StreamAlbumOrSong de reproducir {Song} del cantante {Artist}
+StreamAlbumOrSong de reproducir {Song} de la cantante {Artist}
+StreamAlbumOrSong de reproducir {Song} de los cantantes {Artist}
+StreamAlbumOrSong de reproducir {Song} de las cantantes {Artist}
+StreamAlbumOrSong que ponga {Song} de {Artist}
+StreamAlbumOrSong que ponga {Song} del {Artist}
+StreamAlbumOrSong que ponga {Song} del grupo {Artist}
+StreamAlbumOrSong que ponga {Song} del grupo musical {Artist}
+StreamAlbumOrSong que ponga {Song} de la banda {Artist}
+StreamAlbumOrSong que ponga {Song} de la banda musical {Artist}
+StreamAlbumOrSong que ponga {Song} de los {Artist}
+StreamAlbumOrSong que ponga {Song} de las {Artist}
+StreamAlbumOrSong que ponga {Song} del artista {Artist}
+StreamAlbumOrSong que ponga {Song} de la artista {Artist}
+StreamAlbumOrSong que ponga {Song} del cantante {Artist}
+StreamAlbumOrSong que ponga {Song} de la cantante {Artist}
+StreamAlbumOrSong que ponga {Song} de los cantantes {Artist}
+StreamAlbumOrSong que ponga {Song} de las cantantes {Artist}
+StreamAlbumOrSong de poner {Song} de {Artist}
+StreamAlbumOrSong de poner {Song} del {Artist}
+StreamAlbumOrSong de poner {Song} del grupo {Artist}
+StreamAlbumOrSong de poner {Song} del grupo musical {Artist}
+StreamAlbumOrSong de poner {Song} de la banda {Artist}
+StreamAlbumOrSong de poner {Song} de la banda musical {Artist}
+StreamAlbumOrSong de poner {Song} de los {Artist}
+StreamAlbumOrSong de poner {Song} de las {Artist}
+StreamAlbumOrSong de poner {Song} del artista {Artist}
+StreamAlbumOrSong de poner {Song} de la artista {Artist}
+StreamAlbumOrSong de poner {Song} del cantante {Artist}
+StreamAlbumOrSong de poner {Song} de la cantante {Artist}
+StreamAlbumOrSong de poner {Song} de los cantantes {Artist}
+StreamAlbumOrSong de poner {Song} de las cantantes {Artist}
+StreamAlbumOrSong que quiero oir {Song} de {Artist}
+StreamAlbumOrSong que quiero oir {Song} del {Artist}
+StreamAlbumOrSong que quiero oir {Song} del grupo {Artist}
+StreamAlbumOrSong que quiero oir {Song} del grupo musical {Artist}
+StreamAlbumOrSong que quiero oir {Song} de la banda {Artist}
+StreamAlbumOrSong que quiero oir {Song} de la banda musical {Artist}
+StreamAlbumOrSong que quiero oir {Song} de los {Artist}
+StreamAlbumOrSong que quiero oir {Song} de las {Artist}
+StreamAlbumOrSong que quiero oir {Song} del artista {Artist}
+StreamAlbumOrSong que quiero oir {Song} de la artista {Artist}
+StreamAlbumOrSong que quiero oir {Song} del cantante {Artist}
+StreamAlbumOrSong que quiero oir {Song} de la cantante {Artist}
+StreamAlbumOrSong que quiero oir {Song} de los cantantes {Artist}
+StreamAlbumOrSong que quiero oir {Song} de las cantantes {Artist}
+StreamAlbumOrSong que quiero escuchar {Song} de {Artist}
+StreamAlbumOrSong que quiero escuchar {Song} del {Artist}
+StreamAlbumOrSong que quiero escuchar {Song} del grupo {Artist}
+StreamAlbumOrSong que quiero escuchar {Song} del grupo musical {Artist}
+StreamAlbumOrSong que quiero escuchar {Song} de la banda {Artist}
+StreamAlbumOrSong que quiero escuchar {Song} de la banda musical {Artist}
+StreamAlbumOrSong que quiero escuchar {Song} de los {Artist}
+StreamAlbumOrSong que quiero escuchar {Song} de las {Artist}
+StreamAlbumOrSong que quiero escuchar {Song} del artista {Artist}
+StreamAlbumOrSong que quiero escuchar {Song} de la artista {Artist}
+StreamAlbumOrSong que quiero escuchar {Song} del cantante {Artist}
+StreamAlbumOrSong que quiero escuchar {Song} de la cantante {Artist}
+StreamAlbumOrSong que quiero escuchar {Song} de los cantantes {Artist}
+StreamAlbumOrSong que quiero escuchar {Song} de las cantantes {Artist}
+StreamAlbumOrSong que reproduzca la canción {Song} de {Artist}
+StreamAlbumOrSong que reproduzca la canción {Song} del {Artist}
+StreamAlbumOrSong que reproduzca la canción {Song} del grupo {Artist}
+StreamAlbumOrSong que reproduzca la canción {Song} del grupo musical {Artist}
+StreamAlbumOrSong que reproduzca la canción {Song} de la banda {Artist}
+StreamAlbumOrSong que reproduzca la canción {Song} de la banda musical {Artist}
+StreamAlbumOrSong que reproduzca la canción {Song} de los {Artist}
+StreamAlbumOrSong que reproduzca la canción {Song} de las {Artist}
+StreamAlbumOrSong que reproduzca la canción {Song} del artista {Artist}
+StreamAlbumOrSong que reproduzca la canción {Song} de la artista {Artist}
+StreamAlbumOrSong que reproduzca la canción {Song} del cantante {Artist}
+StreamAlbumOrSong que reproduzca la canción {Song} de la cantante {Artist}
+StreamAlbumOrSong que reproduzca la canción {Song} de los cantantes {Artist}
+StreamAlbumOrSong que reproduzca la canción {Song} de las cantantes {Artist}
+StreamAlbumOrSong de reproducir la canción {Song} de {Artist}
+StreamAlbumOrSong de reproducir la canción {Song} del {Artist}
+StreamAlbumOrSong de reproducir la canción {Song} del grupo {Artist}
+StreamAlbumOrSong de reproducir la canción {Song} del grupo musical {Artist}
+StreamAlbumOrSong de reproducir la canción {Song} de la banda {Artist}
+StreamAlbumOrSong de reproducir la canción {Song} de la banda musical {Artist}
+StreamAlbumOrSong de reproducir la canción {Song} de los {Artist}
+StreamAlbumOrSong de reproducir la canción {Song} de las {Artist}
+StreamAlbumOrSong de reproducir la canción {Song} del artista {Artist}
+StreamAlbumOrSong de reproducir la canción {Song} de la artista {Artist}
+StreamAlbumOrSong de reproducir la canción {Song} del cantante {Artist}
+StreamAlbumOrSong de reproducir la canción {Song} de la cantante {Artist}
+StreamAlbumOrSong de reproducir la canción {Song} de los cantantes {Artist}
+StreamAlbumOrSong de reproducir la canción {Song} de las cantantes {Artist}
+StreamAlbumOrSong que ponga la canción {Song} de {Artist}
+StreamAlbumOrSong que ponga la canción {Song} del {Artist}
+StreamAlbumOrSong que ponga la canción {Song} del grupo {Artist}
+StreamAlbumOrSong que ponga la canción {Song} del grupo musical {Artist}
+StreamAlbumOrSong que ponga la canción {Song} de la banda {Artist}
+StreamAlbumOrSong que ponga la canción {Song} de la banda musical {Artist}
+StreamAlbumOrSong que ponga la canción {Song} de los {Artist}
+StreamAlbumOrSong que ponga la canción {Song} de las {Artist}
+StreamAlbumOrSong que ponga la canción {Song} del artista {Artist}
+StreamAlbumOrSong que ponga la canción {Song} de la artista {Artist}
+StreamAlbumOrSong que ponga la canción {Song} del cantante {Artist}
+StreamAlbumOrSong que ponga la canción {Song} de la cantante {Artist}
+StreamAlbumOrSong que ponga la canción {Song} de los cantantes {Artist}
+StreamAlbumOrSong que ponga la canción {Song} de las cantantes {Artist}
+StreamAlbumOrSong de poner la canción {Song} de {Artist}
+StreamAlbumOrSong de poner la canción {Song} del {Artist}
+StreamAlbumOrSong de poner la canción {Song} del grupo {Artist}
+StreamAlbumOrSong de poner la canción {Song} del grupo musical {Artist}
+StreamAlbumOrSong de poner la canción {Song} de la banda {Artist}
+StreamAlbumOrSong de poner la canción {Song} de la banda musical {Artist}
+StreamAlbumOrSong de poner la canción {Song} de los {Artist}
+StreamAlbumOrSong de poner la canción {Song} de las {Artist}
+StreamAlbumOrSong de poner la canción {Song} del artista {Artist}
+StreamAlbumOrSong de poner la canción {Song} de la artista {Artist}
+StreamAlbumOrSong de poner la canción {Song} del cantante {Artist}
+StreamAlbumOrSong de poner la canción {Song} de la cantante {Artist}
+StreamAlbumOrSong de poner la canción {Song} de los cantantes {Artist}
+StreamAlbumOrSong de poner la canción {Song} de las cantantes {Artist}
+StreamAlbumOrSong que quiero oir la canción {Song} de {Artist}
+StreamAlbumOrSong que quiero oir la canción {Song} del {Artist}
+StreamAlbumOrSong que quiero oir la canción {Song} del grupo {Artist}
+StreamAlbumOrSong que quiero oir la canción {Song} del grupo musical {Artist}
+StreamAlbumOrSong que quiero oir la canción {Song} de la banda {Artist}
+StreamAlbumOrSong que quiero oir la canción {Song} de la banda musical {Artist}
+StreamAlbumOrSong que quiero oir la canción {Song} de los {Artist}
+StreamAlbumOrSong que quiero oir la canción {Song} de las {Artist}
+StreamAlbumOrSong que quiero oir la canción {Song} del artista {Artist}
+StreamAlbumOrSong que quiero oir la canción {Song} de la artista {Artist}
+StreamAlbumOrSong que quiero oir la canción {Song} del cantante {Artist}
+StreamAlbumOrSong que quiero oir la canción {Song} de la cantante {Artist}
+StreamAlbumOrSong que quiero oir la canción {Song} de los cantantes {Artist}
+StreamAlbumOrSong que quiero oir la canción {Song} de las cantantes {Artist}
+StreamAlbumOrSong que quiero escuchar la canción {Song} de {Artist}
+StreamAlbumOrSong que quiero escuchar la canción {Song} del {Artist}
+StreamAlbumOrSong que quiero escuchar la canción {Song} del grupo {Artist}
+StreamAlbumOrSong que quiero escuchar la canción {Song} del grupo musical {Artist}
+StreamAlbumOrSong que quiero escuchar la canción {Song} de la banda {Artist}
+StreamAlbumOrSong que quiero escuchar la canción {Song} de la banda musical {Artist}
+StreamAlbumOrSong que quiero escuchar la canción {Song} de los {Artist}
+StreamAlbumOrSong que quiero escuchar la canción {Song} de las {Artist}
+StreamAlbumOrSong que quiero escuchar la canción {Song} del artista {Artist}
+StreamAlbumOrSong que quiero escuchar la canción {Song} de la artista {Artist}
+StreamAlbumOrSong que quiero escuchar la canción {Song} del cantante {Artist}
+StreamAlbumOrSong que quiero escuchar la canción {Song} de la cantante {Artist}
+StreamAlbumOrSong que quiero escuchar la canción {Song} de los cantantes {Artist}
+StreamAlbumOrSong que quiero escuchar la canción {Song} de las cantantes {Artist}
 StreamArtist reproduce {Artist}
 StreamArtist reproduce a {Artist}
 StreamArtist reproduce música de {Artist}
@@ -79,25 +1508,86 @@ StreamAudioPlaylist que ponga la playlist {AudioPlaylist}
 StreamAudioPlaylist de poner la playlist {AudioPlaylist}
 StreamAudioPlaylist que quiero oir la playlist {AudioPlaylist}
 StreamAudioPlaylist que quiero escuchar la playlist {AudioPlaylist}
-
-
-
-StreamAudioPlaylistRecent play recent albums
-StreamAudioPlaylistRecent play recent audio
-StreamAudioPlaylistRecent play recent music
-StreamAudioPlaylistRecent play recent songs
-StreamAudioPlaylistRecent play recently added albums
-StreamAudioPlaylistRecent play recently added audio
-StreamAudioPlaylistRecent play recently added music
-StreamAudioPlaylistRecent play recently added songs
-
-
-
-StreamPartyMode play all music
-StreamPartyMode play music
-StreamPartyMode play random music
-
-
+StreamAudioPlaylistRecent reproduce canciones recientes
+StreamAudioPlaylistRecent reproduce música reciente
+StreamAudioPlaylistRecent reproduce álbumes recientes
+StreamAudioPlaylistRecent reproduce discos recientes
+StreamAudioPlaylistRecent pon canciones recientes
+StreamAudioPlaylistRecent pon música reciente
+StreamAudioPlaylistRecent pon álbumes recientes
+StreamAudioPlaylistRecent pon discos recientes
+StreamAudioPlaylistRecent quiero oir canciones recientes
+StreamAudioPlaylistRecent quiero oir música reciente
+StreamAudioPlaylistRecent quiero oir álbumes recientes
+StreamAudioPlaylistRecent quiero oir discos recientes
+StreamAudioPlaylistRecent quiero escuchar canciones recientes
+StreamAudioPlaylistRecent quiero escuchar música reciente
+StreamAudioPlaylistRecent quiero escuchar álbumes recientes
+StreamAudioPlaylistRecent quiero escuchar discos recientes
+StreamAudioPlaylistRecent que reproduzca canciones recientes
+StreamAudioPlaylistRecent que reproduzca música reciente
+StreamAudioPlaylistRecent que reproduzca álbumes recientes
+StreamAudioPlaylistRecent que reproduzca discos recientes
+StreamAudioPlaylistRecent de reproducir canciones recientes
+StreamAudioPlaylistRecent de reproducir música reciente
+StreamAudioPlaylistRecent de reproducir álbumes recientes
+StreamAudioPlaylistRecent de reproducir discos recientes
+StreamAudioPlaylistRecent que ponga canciones recientes
+StreamAudioPlaylistRecent que ponga música reciente
+StreamAudioPlaylistRecent que ponga álbumes recientes
+StreamAudioPlaylistRecent que ponga discos recientes
+StreamAudioPlaylistRecent de poner canciones recientes
+StreamAudioPlaylistRecent de poner música reciente
+StreamAudioPlaylistRecent de poner álbumes recientes
+StreamAudioPlaylistRecent de poner discos recientes
+StreamAudioPlaylistRecent que quiero oir canciones recientes
+StreamAudioPlaylistRecent que quiero oir música reciente
+StreamAudioPlaylistRecent que quiero oir álbumes recientes
+StreamAudioPlaylistRecent que quiero oir discos recientes
+StreamAudioPlaylistRecent que quiero escuchar canciones recientes
+StreamAudioPlaylistRecent que quiero escuchar música reciente
+StreamAudioPlaylistRecent que quiero escuchar álbumes recientes
+StreamAudioPlaylistRecent que quiero escuchar discos recientes
+StreamAudioPlaylistRecent reproduce canciones añadidas recientemente
+StreamAudioPlaylistRecent reproduce música añadida recientemente
+StreamAudioPlaylistRecent reproduce álbumes añadidos recientemente
+StreamAudioPlaylistRecent reproduce discos añadidos recientemente
+StreamAudioPlaylistRecent pon canciones añadidas recientemente
+StreamAudioPlaylistRecent pon música añadida recientemente
+StreamAudioPlaylistRecent pon álbumes añadidos recientemente
+StreamAudioPlaylistRecent pon discos añadidos recientemente
+StreamAudioPlaylistRecent quiero oir canciones añadidas recientemente
+StreamAudioPlaylistRecent quiero oir música añadida recientemente
+StreamAudioPlaylistRecent quiero oir álbumes añadidos recientemente
+StreamAudioPlaylistRecent quiero oir discos añadidos recientemente
+StreamAudioPlaylistRecent quiero escuchar canciones añadidas recientemente
+StreamAudioPlaylistRecent quiero escuchar música añadida recientemente
+StreamAudioPlaylistRecent quiero escuchar álbumes añadidos recientemente
+StreamAudioPlaylistRecent quiero escuchar discos añadidos recientemente
+StreamAudioPlaylistRecent que reproduzca canciones añadidas recientemente
+StreamAudioPlaylistRecent que reproduzca música añadida recientemente
+StreamAudioPlaylistRecent que reproduzca álbumes añadidos recientemente
+StreamAudioPlaylistRecent que reproduzca discos añadidos recientemente
+StreamAudioPlaylistRecent de reproducir canciones añadidas recientemente
+StreamAudioPlaylistRecent de reproducir música añadida recientemente
+StreamAudioPlaylistRecent de reproducir álbumes añadidos recientemente
+StreamAudioPlaylistRecent de reproducir discos añadidos recientemente
+StreamAudioPlaylistRecent que ponga canciones añadidas recientemente
+StreamAudioPlaylistRecent que ponga música añadida recientemente
+StreamAudioPlaylistRecent que ponga álbumes añadidos recientemente
+StreamAudioPlaylistRecent que ponga discos añadidos recientemente
+StreamAudioPlaylistRecent de poner canciones añadidas recientemente
+StreamAudioPlaylistRecent de poner música añadida recientemente
+StreamAudioPlaylistRecent de poner álbumes añadidos recientemente
+StreamAudioPlaylistRecent de poner discos añadidos recientemente
+StreamAudioPlaylistRecent que quiero oir canciones añadidas recientemente
+StreamAudioPlaylistRecent que quiero oir música añadida recientemente
+StreamAudioPlaylistRecent que quiero oir álbumes añadidos recientemente
+StreamAudioPlaylistRecent que quiero oir discos añadidos recientemente
+StreamAudioPlaylistRecent que quiero escuchar canciones añadidas recientemente
+StreamAudioPlaylistRecent que quiero escuchar música añadida recientemente
+StreamAudioPlaylistRecent que quiero escuchar álbumes añadidos recientemente
+StreamAudioPlaylistRecent que quiero escuchar discos añadidos recientemente
 StreamPartyMode reproduce canciones
 StreamPartyMode reproduce canciones de forma aleatoria
 StreamPartyMode reproduce canciones aleatoriamente
@@ -126,7 +1616,6 @@ StreamPartyMode reproduce toda la música en modo aleatorio
 StreamPartyMode reproduce de forma aleatoria toda la música
 StreamPartyMode reproduce aleatoriamente toda la música
 StreamPartyMode reproduce en modo aleatorio toda la música
-
 StreamPartyMode pon canciones
 StreamPartyMode pon canciones de forma aleatoria
 StreamPartyMode pon canciones aleatoriamente
@@ -155,7 +1644,6 @@ StreamPartyMode pon toda la música en modo aleatorio
 StreamPartyMode pon de forma aleatoria toda la música
 StreamPartyMode pon aleatoriamente toda la música
 StreamPartyMode pon en modo aleatorio toda la música
-
 StreamPartyMode quiero oir canciones
 StreamPartyMode quiero oir canciones de forma aleatoria
 StreamPartyMode quiero oir canciones aleatoriamente
@@ -184,7 +1672,6 @@ StreamPartyMode quiero oir toda la música en modo aleatorio
 StreamPartyMode quiero oir de forma aleatoria toda la música
 StreamPartyMode quiero oir aleatoriamente toda la música
 StreamPartyMode quiero oir en modo aleatorio toda la música
-
 StreamPartyMode quiero escuchar canciones
 StreamPartyMode quiero escuchar canciones de forma aleatoria
 StreamPartyMode quiero escuchar canciones aleatoriamente
@@ -213,11 +1700,6 @@ StreamPartyMode quiero escuchar toda la música en modo aleatorio
 StreamPartyMode quiero escuchar de forma aleatoria toda la música
 StreamPartyMode quiero escuchar aleatoriamente toda la música
 StreamPartyMode quiero escuchar en modo aleatorio toda la música
-
-
-
-
-
 StreamPartyMode que reproduzca canciones
 StreamPartyMode que reproduzca canciones de forma aleatoria
 StreamPartyMode que reproduzca canciones aleatoriamente
@@ -246,7 +1728,6 @@ StreamPartyMode que reproduzca toda la música en modo aleatorio
 StreamPartyMode que reproduzca de forma aleatoria toda la música
 StreamPartyMode que reproduzca aleatoriamente toda la música
 StreamPartyMode que reproduzca en modo aleatorio toda la música
-
 StreamPartyMode de reproducir canciones
 StreamPartyMode de reproducir canciones de forma aleatoria
 StreamPartyMode de reproducir canciones aleatoriamente
@@ -275,7 +1756,6 @@ StreamPartyMode de reproducir toda la música en modo aleatorio
 StreamPartyMode de reproducir de forma aleatoria toda la música
 StreamPartyMode de reproducir aleatoriamente toda la música
 StreamPartyMode de reproducir en modo aleatorio toda la música
-
 StreamPartyMode que ponga canciones
 StreamPartyMode que ponga canciones de forma aleatoria
 StreamPartyMode que ponga canciones aleatoriamente
@@ -304,7 +1784,6 @@ StreamPartyMode que ponga toda la música en modo aleatorio
 StreamPartyMode que ponga de forma aleatoria toda la música
 StreamPartyMode que ponga aleatoriamente toda la música
 StreamPartyMode que ponga en modo aleatorio toda la música
-
 StreamPartyMode de poner canciones
 StreamPartyMode de poner canciones de forma aleatoria
 StreamPartyMode de poner canciones aleatoriamente
@@ -333,7 +1812,6 @@ StreamPartyMode de poner toda la música en modo aleatorio
 StreamPartyMode de poner de forma aleatoria toda la música
 StreamPartyMode de poner aleatoriamente toda la música
 StreamPartyMode de poner en modo aleatorio toda la música
-
 StreamPartyMode que quiero oir canciones
 StreamPartyMode que quiero oir canciones de forma aleatoria
 StreamPartyMode que quiero oir canciones aleatoriamente
@@ -362,7 +1840,6 @@ StreamPartyMode que quiero oir toda la música en modo aleatorio
 StreamPartyMode que quiero oir de forma aleatoria toda la música
 StreamPartyMode que quiero oir aleatoriamente toda la música
 StreamPartyMode que quiero oir en modo aleatorio toda la música
-
 StreamPartyMode que quiero escuchar canciones
 StreamPartyMode que quiero escuchar canciones de forma aleatoria
 StreamPartyMode que quiero escuchar canciones aleatoriamente
@@ -391,11 +1868,6 @@ StreamPartyMode que quiero escuchar toda la música en modo aleatorio
 StreamPartyMode que quiero escuchar de forma aleatoria toda la música
 StreamPartyMode que quiero escuchar aleatoriamente toda la música
 StreamPartyMode que quiero escuchar en modo aleatorio toda la música
-
-
-
-
-
 StreamSong reproduce {Song}
 StreamSong pon {Song}
 StreamSong quiero oir {Song}
@@ -696,9 +2168,303 @@ StreamSong que quiero escuchar la canción {Song} del cantante {Artist}
 StreamSong que quiero escuchar la canción {Song} de la cantante {Artist}
 StreamSong que quiero escuchar la canción {Song} de los cantantes {Artist}
 StreamSong que quiero escuchar la canción {Song} de las cantantes {Artist}
-
-
-
-
-StreamThis play current playlist
-StreamThis play this
+StreamThis reproduce esto
+StreamThis reproduce esta canción
+StreamThis reproduce este álbum
+StreamThis reproduce este disco
+StreamThis reproduce esta playlist
+StreamThis reproduce la playlist actual
+StreamThis pon esto
+StreamThis pon esta canción
+StreamThis pon este álbum
+StreamThis pon este disco
+StreamThis pon esta playlist
+StreamThis pon la playlist actual
+StreamThis quiero oir esto
+StreamThis quiero oir esta canción
+StreamThis quiero oir este álbum
+StreamThis quiero oir este disco
+StreamThis quiero oir esta playlist
+StreamThis quiero oir la playlist actual
+StreamThis quiero escuchar esto
+StreamThis quiero escuchar esta canción
+StreamThis quiero escuchar este álbum
+StreamThis quiero escuchar este disco
+StreamThis quiero escuchar esta playlist
+StreamThis quiero escuchar la playlist actual
+StreamThis que reproduzca esto
+StreamThis que reproduzca esta canción
+StreamThis que reproduzca este álbum
+StreamThis que reproduzca este disco
+StreamThis que reproduzca esta playlist
+StreamThis que reproduzca la playlist actual
+StreamThis de reproducir esto
+StreamThis de reproducir esta canción
+StreamThis de reproducir este álbum
+StreamThis de reproducir este disco
+StreamThis de reproducir esta playlist
+StreamThis de reproducir la playlist actual
+StreamThis que ponga esto
+StreamThis que ponga esta canción
+StreamThis que ponga este álbum
+StreamThis que ponga este disco
+StreamThis que ponga esta playlist
+StreamThis que ponga la playlist actual
+StreamThis de poner esto
+StreamThis de poner esta canción
+StreamThis de poner este álbum
+StreamThis de poner este disco
+StreamThis de poner esta playlist
+StreamThis de poner la playlist actual
+StreamThis que quiero oir esto
+StreamThis que quiero oir esta canción
+StreamThis que quiero oir este álbum
+StreamThis que quiero oir este disco
+StreamThis que quiero oir esta playlist
+StreamThis que quiero oir la playlist actual
+StreamThis que quiero escuchar esto
+StreamThis que quiero escuchar esta canción
+StreamThis que quiero escuchar este álbum
+StreamThis que quiero escuchar este disco
+StreamThis que quiero escuchar esta playlist
+StreamThis que quiero escuchar la playlist actual
+StreamThis reproduce la canción
+StreamThis reproduce la canción actual
+StreamThis reproduce la canción que está sonando
+StreamThis reproduce la canción que está sonando ahora
+StreamThis reproduce la canción que está en reproducción
+StreamThis reproduce la canción que está reproduciéndose
+StreamThis reproduce el álbum
+StreamThis reproduce el álbum actual
+StreamThis reproduce el álbum que está sonando
+StreamThis reproduce el álbum que está sonando ahora
+StreamThis reproduce el álbum que está en reproducción
+StreamThis reproduce el álbum que está reproduciéndose
+StreamThis reproduce el disco
+StreamThis reproduce el disco actual
+StreamThis reproduce el disco que está sonando
+StreamThis reproduce el disco que está sonando ahora
+StreamThis reproduce el disco que está en reproducción
+StreamThis reproduce el disco que está reproduciéndose
+StreamThis reproduce la playlist
+StreamThis reproduce la playlist actual
+StreamThis reproduce la playlist que está sonando
+StreamThis reproduce la playlist que está sonando ahora
+StreamThis reproduce la playlist que está en reproducción
+StreamThis reproduce la playlist que está reproduciéndose
+StreamThis pon la canción
+StreamThis pon la canción actual
+StreamThis pon la canción que está sonando
+StreamThis pon la canción que está sonando ahora
+StreamThis pon la canción que está en reproducción
+StreamThis pon la canción que está reproduciéndose
+StreamThis pon el álbum
+StreamThis pon el álbum actual
+StreamThis pon el álbum que está sonando
+StreamThis pon el álbum que está sonando ahora
+StreamThis pon el álbum que está en reproducción
+StreamThis pon el álbum que está reproduciéndose
+StreamThis pon el disco
+StreamThis pon el disco actual
+StreamThis pon el disco que está sonando
+StreamThis pon el disco que está sonando ahora
+StreamThis pon el disco que está en reproducción
+StreamThis pon el disco que está reproduciéndose
+StreamThis pon la playlist
+StreamThis pon la playlist actual
+StreamThis pon la playlist que está sonando
+StreamThis pon la playlist que está sonando ahora
+StreamThis pon la playlist que está en reproducción
+StreamThis pon la playlist que está reproduciéndose
+StreamThis quiero oir la canción
+StreamThis quiero oir la canción actual
+StreamThis quiero oir la canción que está sonando
+StreamThis quiero oir la canción que está sonando ahora
+StreamThis quiero oir la canción que está en reproducción
+StreamThis quiero oir la canción que está reproduciéndose
+StreamThis quiero oir el álbum
+StreamThis quiero oir el álbum actual
+StreamThis quiero oir el álbum que está sonando
+StreamThis quiero oir el álbum que está sonando ahora
+StreamThis quiero oir el álbum que está en reproducción
+StreamThis quiero oir el álbum que está reproduciéndose
+StreamThis quiero oir el disco
+StreamThis quiero oir el disco actual
+StreamThis quiero oir el disco que está sonando
+StreamThis quiero oir el disco que está sonando ahora
+StreamThis quiero oir el disco que está en reproducción
+StreamThis quiero oir el disco que está reproduciéndose
+StreamThis quiero oir la playlist
+StreamThis quiero oir la playlist actual
+StreamThis quiero oir la playlist que está sonando
+StreamThis quiero oir la playlist que está sonando ahora
+StreamThis quiero oir la playlist que está en reproducción
+StreamThis quiero oir la playlist que está reproduciéndose
+StreamThis quiero escuchar la canción
+StreamThis quiero escuchar la canción actual
+StreamThis quiero escuchar la canción que está sonando
+StreamThis quiero escuchar la canción que está sonando ahora
+StreamThis quiero escuchar la canción que está en reproducción
+StreamThis quiero escuchar la canción que está reproduciéndose
+StreamThis quiero escuchar el álbum
+StreamThis quiero escuchar el álbum actual
+StreamThis quiero escuchar el álbum que está sonando
+StreamThis quiero escuchar el álbum que está sonando ahora
+StreamThis quiero escuchar el álbum que está en reproducción
+StreamThis quiero escuchar el álbum que está reproduciéndose
+StreamThis quiero escuchar el disco
+StreamThis quiero escuchar el disco actual
+StreamThis quiero escuchar el disco que está sonando
+StreamThis quiero escuchar el disco que está sonando ahora
+StreamThis quiero escuchar el disco que está en reproducción
+StreamThis quiero escuchar el disco que está reproduciéndose
+StreamThis quiero escuchar la playlist
+StreamThis quiero escuchar la playlist actual
+StreamThis quiero escuchar la playlist que está sonando
+StreamThis quiero escuchar la playlist que está sonando ahora
+StreamThis quiero escuchar la playlist que está en reproducción
+StreamThis quiero escuchar la playlist que está reproduciéndose
+StreamThis que reproduzca la canción
+StreamThis que reproduzca la canción actual
+StreamThis que reproduzca la canción que está sonando
+StreamThis que reproduzca la canción que está sonando ahora
+StreamThis que reproduzca la canción que está en reproducción
+StreamThis que reproduzca la canción que está reproduciéndose
+StreamThis que reproduzca el álbum
+StreamThis que reproduzca el álbum actual
+StreamThis que reproduzca el álbum que está sonando
+StreamThis que reproduzca el álbum que está sonando ahora
+StreamThis que reproduzca el álbum que está en reproducción
+StreamThis que reproduzca el álbum que está reproduciéndose
+StreamThis que reproduzca el disco
+StreamThis que reproduzca el disco actual
+StreamThis que reproduzca el disco que está sonando
+StreamThis que reproduzca el disco que está sonando ahora
+StreamThis que reproduzca el disco que está en reproducción
+StreamThis que reproduzca el disco que está reproduciéndose
+StreamThis que reproduzca la playlist
+StreamThis que reproduzca la playlist actual
+StreamThis que reproduzca la playlist que está sonando
+StreamThis que reproduzca la playlist que está sonando ahora
+StreamThis que reproduzca la playlist que está en reproducción
+StreamThis que reproduzca la playlist que está reproduciéndose
+StreamThis de reproducir la canción
+StreamThis de reproducir la canción actual
+StreamThis de reproducir la canción que está sonando
+StreamThis de reproducir la canción que está sonando ahora
+StreamThis de reproducir la canción que está en reproducción
+StreamThis de reproducir la canción que está reproduciéndose
+StreamThis de reproducir el álbum
+StreamThis de reproducir el álbum actual
+StreamThis de reproducir el álbum que está sonando
+StreamThis de reproducir el álbum que está sonando ahora
+StreamThis de reproducir el álbum que está en reproducción
+StreamThis de reproducir el álbum que está reproduciéndose
+StreamThis de reproducir el disco
+StreamThis de reproducir el disco actual
+StreamThis de reproducir el disco que está sonando
+StreamThis de reproducir el disco que está sonando ahora
+StreamThis de reproducir el disco que está en reproducción
+StreamThis de reproducir el disco que está reproduciéndose
+StreamThis de reproducir la playlist
+StreamThis de reproducir la playlist actual
+StreamThis de reproducir la playlist que está sonando
+StreamThis de reproducir la playlist que está sonando ahora
+StreamThis de reproducir la playlist que está en reproducción
+StreamThis de reproducir la playlist que está reproduciéndose
+StreamThis que ponga la canción
+StreamThis que ponga la canción actual
+StreamThis que ponga la canción que está sonando
+StreamThis que ponga la canción que está sonando ahora
+StreamThis que ponga la canción que está en reproducción
+StreamThis que ponga la canción que está reproduciéndose
+StreamThis que ponga el álbum
+StreamThis que ponga el álbum actual
+StreamThis que ponga el álbum que está sonando
+StreamThis que ponga el álbum que está sonando ahora
+StreamThis que ponga el álbum que está en reproducción
+StreamThis que ponga el álbum que está reproduciéndose
+StreamThis que ponga el disco
+StreamThis que ponga el disco actual
+StreamThis que ponga el disco que está sonando
+StreamThis que ponga el disco que está sonando ahora
+StreamThis que ponga el disco que está en reproducción
+StreamThis que ponga el disco que está reproduciéndose
+StreamThis que ponga la playlist
+StreamThis que ponga la playlist actual
+StreamThis que ponga la playlist que está sonando
+StreamThis que ponga la playlist que está sonando ahora
+StreamThis que ponga la playlist que está en reproducción
+StreamThis que ponga la playlist que está reproduciéndose
+StreamThis de poner la canción
+StreamThis de poner la canción actual
+StreamThis de poner la canción que está sonando
+StreamThis de poner la canción que está sonando ahora
+StreamThis de poner la canción que está en reproducción
+StreamThis de poner la canción que está reproduciéndose
+StreamThis de poner el álbum
+StreamThis de poner el álbum actual
+StreamThis de poner el álbum que está sonando
+StreamThis de poner el álbum que está sonando ahora
+StreamThis de poner el álbum que está en reproducción
+StreamThis de poner el álbum que está reproduciéndose
+StreamThis de poner el disco
+StreamThis de poner el disco actual
+StreamThis de poner el disco que está sonando
+StreamThis de poner el disco que está sonando ahora
+StreamThis de poner el disco que está en reproducción
+StreamThis de poner el disco que está reproduciéndose
+StreamThis de poner la playlist
+StreamThis de poner la playlist actual
+StreamThis de poner la playlist que está sonando
+StreamThis de poner la playlist que está sonando ahora
+StreamThis de poner la playlist que está en reproducción
+StreamThis de poner la playlist que está reproduciéndose
+StreamThis que quiero oir la canción
+StreamThis que quiero oir la canción actual
+StreamThis que quiero oir la canción que está sonando
+StreamThis que quiero oir la canción que está sonando ahora
+StreamThis que quiero oir la canción que está en reproducción
+StreamThis que quiero oir la canción que está reproduciéndose
+StreamThis que quiero oir el álbum
+StreamThis que quiero oir el álbum actual
+StreamThis que quiero oir el álbum que está sonando
+StreamThis que quiero oir el álbum que está sonando ahora
+StreamThis que quiero oir el álbum que está en reproducción
+StreamThis que quiero oir el álbum que está reproduciéndose
+StreamThis que quiero oir el disco
+StreamThis que quiero oir el disco actual
+StreamThis que quiero oir el disco que está sonando
+StreamThis que quiero oir el disco que está sonando ahora
+StreamThis que quiero oir el disco que está en reproducción
+StreamThis que quiero oir el disco que está reproduciéndose
+StreamThis que quiero oir la playlist
+StreamThis que quiero oir la playlist actual
+StreamThis que quiero oir la playlist que está sonando
+StreamThis que quiero oir la playlist que está sonando ahora
+StreamThis que quiero oir la playlist que está en reproducción
+StreamThis que quiero oir la playlist que está reproduciéndose
+StreamThis que quiero escuchar la canción
+StreamThis que quiero escuchar la canción actual
+StreamThis que quiero escuchar la canción que está sonando
+StreamThis que quiero escuchar la canción que está sonando ahora
+StreamThis que quiero escuchar la canción que está en reproducción
+StreamThis que quiero escuchar la canción que está reproduciéndose
+StreamThis que quiero escuchar el álbum
+StreamThis que quiero escuchar el álbum actual
+StreamThis que quiero escuchar el álbum que está sonando
+StreamThis que quiero escuchar el álbum que está sonando ahora
+StreamThis que quiero escuchar el álbum que está en reproducción
+StreamThis que quiero escuchar el álbum que está reproduciéndose
+StreamThis que quiero escuchar el disco
+StreamThis que quiero escuchar el disco actual
+StreamThis que quiero escuchar el disco que está sonando
+StreamThis que quiero escuchar el disco que está sonando ahora
+StreamThis que quiero escuchar el disco que está en reproducción
+StreamThis que quiero escuchar el disco que está reproduciéndose
+StreamThis que quiero escuchar la playlist
+StreamThis que quiero escuchar la playlist actual
+StreamThis que quiero escuchar la playlist que está sonando
+StreamThis que quiero escuchar la playlist que está sonando ahora
+StreamThis que quiero escuchar la playlist que está en reproducción
+StreamThis que quiero escuchar la playlist que está reproduciéndose
