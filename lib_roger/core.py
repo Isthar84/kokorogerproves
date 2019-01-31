@@ -20,10 +20,10 @@ import collections
 
 def find_ask():
     """
-    Find our instance of AskRoger, navigating Local's and possible blueprints.
+    Find our instance of Ask, navigating Local's and possible blueprints.
 
     Note: This only supports returning a reference to the first instance
-    of AskRoger found.
+    of Ask found.
     """
     if hasattr(current_app, 'ask'):
         return getattr(current_app, 'ask')
@@ -58,10 +58,10 @@ from . import models
 _converters = {'date': to_date, 'time': to_time, 'timedelta': to_timedelta}
 
 
-class AskRoger(object):
-    """The AskRoger object provides the central interface for interacting with the Alexa service.
+class Ask(object):
+    """The Ask object provides the central interface for interacting with the Alexa service.
 
-    AskRoger object maps Alexa Requests to flask view functions and handles Alexa sessions.
+    Ask object maps Alexa Requests to flask view functions and handles Alexa sessions.
     The constructor is passed a Flask App instance, and URL endpoint.
     The Flask instance allows the convienient API of endpoints and their view functions,
     so that Alexa requests may be mapped with syntax similar to a typical Flask server.
@@ -101,7 +101,7 @@ class AskRoger(object):
     def init_app(self, app, path='templates.yaml'):
         """Initializes Ask app by setting configuration variables, loading templates, and maps Ask route to a flask view.
 
-        The AskRoger instance is given the following configuration variables by calling on Flask's configuration:
+        The Ask instance is given the following configuration variables by calling on Flask's configuration:
 
         `ASK_APPLICATION_ID`:
 
@@ -137,7 +137,7 @@ class AskRoger(object):
         app.ask = self
 
         app.add_url_rule(self._route, view_func=self._flask_view_func, methods=['POST'])
-        app.jinja_loader = ChoiceLoader([app.jinja_loader, YamlLoaderRoger(app, path)])
+        app.jinja_loader = ChoiceLoader([app.jinja_loader, YamlLoader(app, path)])
 
     def init_blueprint(self, blueprint, path='templates.yaml'):
         """Initialize a Flask Blueprint, similar to init_app, but without the access
@@ -150,7 +150,7 @@ class AskRoger(object):
         if self._route is not None:
             raise TypeError("route cannot be set when using blueprints!")
 
-        # we need to tuck our reference to this AskRoger instance into the blueprint object and find it later!
+        # we need to tuck our reference to this Ask instance into the blueprint object and find it later!
         blueprint.ask = self
 
         # BlueprintSetupState.add_url_rule gets called underneath the covers and
@@ -158,7 +158,7 @@ class AskRoger(object):
         # Blueprint('blueprint_api', __name__, url_prefix="/ask") to result in
         # exposing the rule at "/ask" and not "/ask/".
         blueprint.add_url_rule("", view_func=self._flask_view_func, methods=['POST'])
-        blueprint.jinja_loader = ChoiceLoader([YamlLoaderRoger(blueprint, path)])
+        blueprint.jinja_loader = ChoiceLoader([YamlLoader(blueprint, path)])
 
     @property
     def ask_verify_requests(self):
@@ -499,7 +499,7 @@ class AskRoger(object):
 
     @property
     def session(self):
-        return getattr(_app_ctx_stack.top, '_ask_session', models._FieldRoger())
+        return getattr(_app_ctx_stack.top, '_ask_session', models._Field())
 
     @session.setter
     def session(self, value):
@@ -531,19 +531,19 @@ class AskRoger(object):
 
     @property
     def current_stream(self):
-        #return getattr(_app_ctx_stack.top, '_ask_current_stream', models._FieldRoger())
+        #return getattr(_app_ctx_stack.top, '_ask_current_stream', models._Field())
         user = self._get_user()
         if user:
             stream = top_stream(self.stream_cache, user)
             if stream:
-                current = models._FieldRoger()
+                current = models._Field()
                 current.__dict__.update(stream)
                 return current
-        return models._FieldRoger()
+        return models._Field()
 
     @current_stream.setter
     def current_stream(self, value):
-        # assumption 1 is we get a models._FieldRoger as value
+        # assumption 1 is we get a models._Field as value
         # assumption 2 is if someone sets a value, it's resetting the stack
         user = self._get_user()
         if user:
@@ -702,7 +702,7 @@ class AskRoger(object):
 
 
     def _update_stream(self):
-        fresh_stream = models._FieldRoger()
+        fresh_stream = models._Field()
         fresh_stream.__dict__.update(self.current_stream.__dict__)  # keeps url attribute after stopping stream
         fresh_stream.__dict__.update(self._from_directive())
 
@@ -727,17 +727,17 @@ class AskRoger(object):
     def _flask_view_func(self, *args, **kwargs):
         ask_payload = self._alexa_request(verify=self.ask_verify_requests)
         dbgdump(ask_payload)
-        request_body = models._FieldRoger(ask_payload)
+        request_body = models._Field(ask_payload)
 
         self.request = request_body.request
         self.version = request_body.version
-        self.context = getattr(request_body, 'context', models._FieldRoger())
+        self.context = getattr(request_body, 'context', models._Field())
         self.session = getattr(request_body, 'session', self.session) # to keep old session.attributes through AudioRequests
 
         if not self.session:
-            self.session = models._FieldRoger()
+            self.session = models._Field()
         if not self.session.attributes:
-            self.session.attributes = models._FieldRoger()
+            self.session.attributes = models._Field()
 
         self._update_stream()
 
@@ -773,7 +773,7 @@ class AskRoger(object):
             # user can also access state of content.AudioPlayer with current_stream
 
         if result is not None:
-            if isinstance(result, models._ResponseRoger):
+            if isinstance(result, models._Response):
                 return result.render_response()
             return result
         return "", 400
@@ -850,7 +850,7 @@ class AskRoger(object):
         return arg_values
 
 
-class YamlLoaderRoger(BaseLoader):
+class YamlLoader(BaseLoader):
 
     def __init__(self, app, path):
         self.path = app.root_path + os.path.sep + path

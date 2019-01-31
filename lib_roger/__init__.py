@@ -7,7 +7,7 @@ if logger.level == logging.NOTSET:
 
 
 from .core import (
-    AskRoger,
+    Ask,
     request,
     session,
     version,
@@ -17,11 +17,11 @@ from .core import (
 )
 
 from .models import (
-    questionRoger,
-    statementRoger,
-    audioRoger,
-    delegateRoger,
-    elicit_slotRoger,
-    confirm_slotRoger,
-    confirm_intentRoger
+    question,
+    statement,
+    audio,
+    delegate,
+    elicit_slot,
+    confirm_slot,
+    confirm_intent
 )

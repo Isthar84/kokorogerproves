@@ -10,16 +10,16 @@ from OpenSSL import crypto
 from . import logger
 
 
-class VerificationErrorRoger(Exception): pass
+class VerificationError(Exception): pass
 
 
 def load_certificate(cert_url):
     if not _valid_certificate_url(cert_url):
-        raise VerificationErrorRoger("Certificate URL verification failed")
+        raise VerificationError("Certificate URL verification failed")
     cert_data = urlopen(cert_url).read()
     cert = crypto.load_certificate(crypto.FILETYPE_PEM, cert_data)
     if not _valid_certificate(cert):
-        raise VerificationErrorRoger("Certificate verification failed")
+        raise VerificationError("Certificate verification failed")
     return cert
 
 
@@ -28,18 +28,18 @@ def verify_signature(cert, signature, signed_data):
         signature = base64.b64decode(signature)
         crypto.verify(cert, signature, signed_data, 'sha1')
     except crypto.Error as e:
-        raise VerificationErrorRoger(e)
+        raise VerificationError(e)
 
 
 def verify_timestamp(timestamp):
     dt = datetime.utcnow() - timestamp.replace(tzinfo=None)
     if abs(dt.total_seconds()) > 150:
-        raise VerificationErrorRoger("Timestamp verification failed")
+        raise VerificationError("Timestamp verification failed")
 
 
 def verify_application_id(candidate, records):
     if candidate not in records:
-        raise VerificationErrorRoger("Application ID verification failed")
+        raise VerificationError("Application ID verification failed")
 
 
 def _valid_certificate_url(cert_url):

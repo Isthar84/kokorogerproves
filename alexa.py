@@ -13,8 +13,8 @@ import logging
 import music
 from flask import Flask, json, render_template
 from functools import wraps
-from flask_ask import Ask, session, question, statement, audio, request, context
-from lib_roger import AskRoger, session, questionRoger, statementRoger, audioRoger, context
+#from flask_ask import Ask, session, question, statement, audio, request, context
+from lib_roger import Ask, session, question, statement, audio, request, context
 from shutil import copyfile
 
 from kodi_voice import KodiConfigParser, Kodi
@@ -256,8 +256,8 @@ def alexa_stream_song(kodi, Song, Artist):
               playlist_queue = music.MusicPlayer(kodi, songs_array)
 
               response_text = render_template('streaming_song_artist', song_name=heard_song, artist=heard_artist).encode("utf-8")
-              audioRoger('').clear_queue(stop=True)
-              return audioRoger(response_text).play(songs_array[0])
+              audio('').clear_queue(stop=True)
+              return audio(response_text).play(songs_array[0])
             else:
               response_text = render_template('could_not_find_song_artist', song_name=heard_song, artist=heard_artist).encode("utf-8")
           else:
@@ -292,8 +292,8 @@ def alexa_stream_song(kodi, Song, Artist):
           playlist_queue = music.MusicPlayer(kodi, songs_array)
 
           response_text = render_template('streaming_song', song_name=heard_song).encode("utf-8")
-          audioRoger('').clear_queue(stop=True)
-          return audioRoger(response_text).play(songs_array[0])
+          audio('').clear_queue(stop=True)
+          return audio(response_text).play(songs_array[0])
         else:
           response_text = render_template('could_not_find_song', song_name=heard_song).encode("utf-8")
       else:

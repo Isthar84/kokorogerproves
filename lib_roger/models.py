@@ -7,18 +7,18 @@ from .cache import push_stream
 import uuid
 
 
-class _FieldRoger(dict):
+class _Field(dict):
     """Container to represent Alexa Request Data.
 
     Initialized with request_json and creates a dict object with attributes
     to be accessed via dot notation or as a dict key-value.
 
     Parameters within the request_json that contain their data as a json object
-    are also represented as a _FieldRoger object.
+    are also represented as a _Field object.
 
     Example:
 
-    payload_object = _FieldRoger(alexa_json_payload)
+    payload_object = _Field(alexa_json_payload)
 
     request_type_from_keys = payload_object['request']['type']
     request_type_from_attrs = payload_object.request.type
@@ -27,10 +27,10 @@ class _FieldRoger(dict):
     """
 
     def __init__(self, request_json={}):
-        super(_FieldRoger, self).__init__(request_json)
+        super(_Field, self).__init__(request_json)
         for key, value in request_json.items():
             if isinstance(value, dict):
-                value = _FieldRoger(value)
+                value = _Field(value)
             self[key] = value
 
     def __getattr__(self, attr):
@@ -43,7 +43,7 @@ class _FieldRoger(dict):
         self.__setitem__(key, value)
 
 
-class _ResponseRoger(object):
+class _Response(object):
 
     def __init__(self, speech):
         self._json_default = None
@@ -182,17 +182,17 @@ class _ResponseRoger(object):
         return json.dumps(response_wrapper, **kw)
 
 
-class statementRoger(_ResponseRoger):
+class statement(_Response):
 
     def __init__(self, speech):
-        super(statementRoger, self).__init__(speech)
+        super(statement, self).__init__(speech)
         self._response['shouldEndSession'] = True
 
 
-class questionRoger(_ResponseRoger):
+class question(_Response):
 
     def __init__(self, speech):
-        super(questionRoger, self).__init__(speech)
+        super(question, self).__init__(speech)
         self._response['shouldEndSession'] = False
 
     def reprompt(self, reprompt):
@@ -201,7 +201,7 @@ class questionRoger(_ResponseRoger):
         return self
 
 
-class delegateRoger(_ResponseRoger):
+class delegate(_Response):
 
     def __init__(self, updated_intent=None):
         self._response = {
@@ -213,7 +213,7 @@ class delegateRoger(_ResponseRoger):
             self._response['directives'][0]['updatedIntent'] = updated_intent
 
 
-class elicit_slotRoger(_ResponseRoger):
+class elicit_slot(_Response):
     """
     Sends an ElicitSlot directive.
     slot - The slot name to elicit
@@ -234,7 +234,7 @@ class elicit_slotRoger(_ResponseRoger):
         if updated_intent:
             self._response['directives'][0]['updatedIntent'] = updated_intent
 
-class confirm_slotRoger(_ResponseRoger):
+class confirm_slot(_Response):
     """
     Sends a ConfirmSlot directive.
     slot - The slot name to confirm
@@ -255,7 +255,7 @@ class confirm_slotRoger(_ResponseRoger):
         if updated_intent:
             self._response['directives'][0]['updatedIntent'] = updated_intent
 
-class confirm_intentRoger(_ResponseRoger):
+class confirm_intent(_Response):
     """
     Sends a ConfirmIntent directive.
     
@@ -273,7 +273,7 @@ class confirm_intentRoger(_ResponseRoger):
             self._response['directives'][0]['updatedIntent'] = updated_intent
 
 
-class audioRoger(_ResponseRoger):
+class audio(_Response):
     """Returns a response object with an Amazon AudioPlayer Directive.
 
     Responses for LaunchRequests and IntentRequests may include outputSpeech in addition to an audio directive
@@ -285,16 +285,16 @@ class audioRoger(_ResponseRoger):
     def play_foo_audio():
         speech = 'playing from foo'
         stream_url = www.foo.com
-        return audioRoger(speech).play(stream_url)
+        return audio(speech).play(stream_url)
 
 
     @ask.intent('AMAZON.PauseIntent')
     def stop_audio():
-        return audioRoger('Ok, stopping the audio').stop()
+        return audio('Ok, stopping the audio').stop()
     """
 
     def __init__(self, speech=''):
-        super(audioRoger, self).__init__(speech)
+        super(audio, self).__init__(speech)
         if not speech:
             self._response = {}
         self._response['directives'] = []
