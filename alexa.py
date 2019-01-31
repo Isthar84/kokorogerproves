@@ -220,11 +220,13 @@ def alexa_stream_album(kodi, Album, Artist):
 @ask.intent('StreamSong')
 @preflight_check
 def alexa_stream_song(kodi, Song, Artist):
+  log.info('Entrando en StreamSong')
   heard_song = str(Song).lower().translate(None, string.punctuation)
   card_title = render_template('streaming_song_card').encode("utf-8")
   log.info(card_title)
 
   if Artist:
+    log.info('Es artista')
     heard_artist = str(Artist).lower().translate(None, string.punctuation)
     artists = kodi.GetMusicArtists()
     if 'result' in artists and 'artists' in artists['result']:
@@ -269,6 +271,7 @@ def alexa_stream_song(kodi, Song, Artist):
     else:
       response_text = render_template('could_not_find_song_artist', song_name=heard_song, artist=heard_artist).encode("utf-8")
   else:
+    log.info('Es cancion')
     songs = kodi.GetSongs()
     if 'result' in songs and 'songs' in songs['result']:
       songs_list = songs['result']['songs']
@@ -293,7 +296,8 @@ def alexa_stream_song(kodi, Song, Artist):
 
           response_text = render_template('streaming_song', song_name=heard_song).encode("utf-8")
           audio('').clear_queue(stop=True)
-          return audio(response_text).play(songs_array[0])
+          log.info('En la siguiente linea se envia el json con el audio')
+          return audio('hola').play(songs_array[0])
         else:
           response_text = render_template('could_not_find_song', song_name=heard_song).encode("utf-8")
       else:
