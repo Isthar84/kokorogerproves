@@ -294,6 +294,7 @@ class audio(_Response):
     """
 
     def __init__(self, speech=''):
+        log.info('libroger: Entrando en audio de lib_roger')
         super(audio, self).__init__(speech)
         if not speech:
             self._response = {}
@@ -301,7 +302,8 @@ class audio(_Response):
 
     def play(self, stream_url, offset=0, opaque_token=None):
         """Sends a Play Directive to begin playback and replace current and enqueued streams."""
-
+        
+        log.info('libroger: Entrando en Play de lib_Roger')
         self._response['shouldEndSession'] = True
         directive = self._play_directive('REPLACE_ALL')
         directive['audioItem'] = self._audio_item(stream_url=stream_url, offset=offset, opaque_token=opaque_token)
@@ -309,6 +311,8 @@ class audio(_Response):
         metadata['title'] = 'Titol de prova'
         metadata['subtitle'] = 'Subtitol de prova'
         directive['metadata'] = metadata
+        log.info('libroger: Intentando mostrar directive')
+        log.info(directive)
         self._response['directives'].append(directive)
         return self
 
