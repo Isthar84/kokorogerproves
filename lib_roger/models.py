@@ -6,6 +6,13 @@ from .core import session, context, current_stream, stream_cache, dbgdump
 from .cache import push_stream
 import uuid
 
+import logging
+
+log = logging.getLogger('flask_Roger')
+log.addHandler(logging.StreamHandler())
+if log.level == logging.NOTSET:
+    log.setLevel(logging.WARN)
+
 
 class _Field(dict):
     """Container to represent Alexa Request Data.
