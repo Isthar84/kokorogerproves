@@ -314,10 +314,10 @@ class audio(_Response):
         self._response['shouldEndSession'] = True
         directive = self._play_directive('REPLACE_ALL')
         directive['audioItem'] = self._audio_item(stream_url=stream_url, offset=offset, opaque_token=opaque_token)
-        metadata = {}
-        metadata['title'] = 'Titol de prova'
-        metadata['subtitle'] = 'Subtitol de prova'
-        directive['metadata'] = metadata
+        #metadata = {}
+        #metadata['title'] = 'Titol de prova'
+        #metadata['subtitle'] = 'Subtitol de prova'
+        #directive['metadata'] = metadata
         log.info('libroger: Intentando mostrar directive')
         log.info(directive)
         self._response['directives'].append(directive)
@@ -331,12 +331,12 @@ class audio(_Response):
                                       push_buffer=False,
                                       opaque_token=opaque_token)
         audio_item['stream']['expectedPreviousToken'] = current_stream.token
-        metadata = {}
-        metadata['title'] = 'Titol de prova'
-        metadata['subtitle'] = 'Subtitol de prova'
+        #metadata = {}
+        #metadata['title'] = 'Titol de prova'
+        #metadata['subtitle'] = 'Subtitol de prova'
 
         directive['audioItem'] = audio_item
-        directive['metadata'] = metadata
+        #directive['metadata'] = metadata
         self._response['directives'].append(directive)
         return self
 
@@ -363,8 +363,12 @@ class audio(_Response):
 
     def _audio_item(self, stream_url=None, offset=0, push_buffer=True, opaque_token=None):
         """Builds an AudioPlayer Directive's audioItem and updates current_stream"""
-        audio_item = {'stream': {}}
+        log.info('Entrant a _audio_item')
+        audio_item = {'stream': {},'metadata':{}}
         stream = audio_item['stream']
+        metadata = audio_item['metadata']
+        metadata['title'] = 'Titol de prova'
+        metadata['subtitle'] = 'Subtitol de prova'
 
         # existing stream
         if not stream_url:
