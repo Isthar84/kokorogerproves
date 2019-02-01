@@ -4,6 +4,11 @@ logger = logging.getLogger('flask_Roger')
 logger.addHandler(logging.StreamHandler())
 if logger.level == logging.NOTSET:
     logger.setLevel(logging.WARN)
+    
+log = logging.getLogger('flask_Roger')
+log.addHandler(logging.StreamHandler())
+if log.level == logging.NOTSET:
+    log.setLevel(logging.WARN)
 
 
 from .core import (
