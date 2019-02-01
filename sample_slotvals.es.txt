@@ -7,8 +7,8 @@ MusicGenre Pop
 AudioPlaylist Vacaciones
 Song Elastic Heart
 Show Farscape
-VideoPlaylist vÃ­deos HD
-ShowGenre Ciencia FicciÃ³n
+VideoPlaylist vídeos HD
+ShowGenre Ciencia Ficción
 MusicVideoGenre Pop
 MusicVideo Chandelier
 Volume setenta y cinco

@@ -7,36 +7,36 @@
 # http://www.makermusings.com/amazon-echo-utterance-expander/
 
 
-StreamArtist (reproduce/pon/quiero oir/quiero escuchar) (/a/musica de/canciones de/√°lbumes de/discos de) {Artist}
-StreamArtist (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/a/musica de/canciones de/√°lbumes de/discos de) {Artist}
+StreamArtist (reproduce/pon/quiero oir/quiero escuchar) (/a/musica de/canciones de/·lbumes de/discos de) {Artist}
+StreamArtist (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/a/musica de/canciones de/·lbumes de/discos de) {Artist}
 
-StreamAlbum (reproduce/pon/quiero oir/quiero escuchar) (/el √°lbum/el disco/las canciones del √°lbum) {Album}
-StreamAlbum (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/el √°lbum/el disco/las canciones del √°lbum) {Album}
-StreamAlbum (reproduce/pon/quiero oir/quiero escuchar) (/el √°lbum/el disco/las canciones del √°lbum) {Album} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
-StreamAlbum (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/el √°lbum/el disco/las canciones del √°lbum) {Album} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
+StreamAlbum (reproduce/pon/quiero oir/quiero escuchar) (/el ·lbum/el disco/las canciones del ·lbum) {Album}
+StreamAlbum (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/el ·lbum/el disco/las canciones del ·lbum) {Album}
+StreamAlbum (reproduce/pon/quiero oir/quiero escuchar) (/el ·lbum/el disco/las canciones del ·lbum) {Album} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
+StreamAlbum (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/el ·lbum/el disco/las canciones del ·lbum) {Album} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
 
-StreamSong (reproduce/pon/quiero oir/quiero escuchar) (/la canci√≥n) {Song}
-StreamSong (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/la canci√≥n) {Song}
-StreamSong (reproduce/pon/quiero oir/quiero escuchar) (/la canci√≥n) {Song} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
-StreamSong (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/la canci√≥n) {Song} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
+StreamSong (reproduce/pon/quiero oir/quiero escuchar) (/la canciÛn) {Song}
+StreamSong (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/la canciÛn) {Song}
+StreamSong (reproduce/pon/quiero oir/quiero escuchar) (/la canciÛn) {Song} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
+StreamSong (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/la canciÛn) {Song} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
 
-StreamAlbumOrSong (reproduce/pon/quiero oir/quiero escuchar) (/el √°lbum/el disco/las canciones del √°lbum) {Album} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
-StreamAlbumOrSong (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/el √°lbum/el disco/las canciones del √°lbum) {Album} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
-StreamAlbumOrSong (reproduce/pon/quiero oir/quiero escuchar) (/la canci√≥n) {Song} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
-StreamAlbumOrSong (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/la canci√≥n) {Song} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
+StreamAlbumOrSong (reproduce/pon/quiero oir/quiero escuchar) (/el ·lbum/el disco/las canciones del ·lbum) {Album} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
+StreamAlbumOrSong (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/el ·lbum/el disco/las canciones del ·lbum) {Album} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
+StreamAlbumOrSong (reproduce/pon/quiero oir/quiero escuchar) (/la canciÛn) {Song} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
+StreamAlbumOrSong (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/la canciÛn) {Song} (de/del/del grupo/del grupo musical/de la banda/de la banda musical/de los/de las/del artista/de la artista/del cantante/de la cantante/de los cantantes/de las cantantes) {Artist}
 
 StreamAudioPlaylist (reproduce/pon/quiero oir/quiero escuchar) la playlist {AudioPlaylist}
 StreamAudioPlaylist (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) la playlist {AudioPlaylist}
 
-StreamAudioPlaylistRecent (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (canciones/m√∫sica/√°lbumes/discos) (reciente/recientes)
-StreamAudioPlaylistRecent (reproduce/pon/quiero oir/quiero escuchar) (canciones/m√∫sica/√°lbumes/discos) (reciente/recientes)
-StreamAudioPlaylistRecent (reproduce/pon/quiero oir/quiero escuchar) (canciones/m√∫sica/√°lbumes/discos) (a√±adida recientemente/a√±adidas recientemente/a√±adidos recientemente)
-StreamAudioPlaylistRecent (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (canciones/m√∫sica/√°lbumes/discos) (a√±adida recientemente/a√±adidas recientemente/a√±adidos recientemente)
+StreamAudioPlaylistRecent (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (canciones/m˙sica/·lbumes/discos) (reciente/recientes)
+StreamAudioPlaylistRecent (reproduce/pon/quiero oir/quiero escuchar) (canciones/m˙sica/·lbumes/discos) (reciente/recientes)
+StreamAudioPlaylistRecent (reproduce/pon/quiero oir/quiero escuchar) (canciones/m˙sica/·lbumes/discos) (aÒadida recientemente/aÒadidas recientemente/aÒadidos recientemente)
+StreamAudioPlaylistRecent (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (canciones/m˙sica/·lbumes/discos) (aÒadida recientemente/aÒadidas recientemente/aÒadidos recientemente)
 
-StreamThis (reproduce/pon/quiero oir/quiero escuchar) (esto/esta canci√≥n/este √°lbum/este disco/esta playlist/la playlist actual)
-StreamThis (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (esto/esta canci√≥n/este √°lbum/este disco/esta playlist/la playlist actual)
-StreamThis (reproduce/pon/quiero oir/quiero escuchar) (la canci√≥n/el √°lbum/el disco/la playlist) (/que est√° sonando/que est√° sonando ahora/que est√° en reproducci√≥n/que est√° reproduci√©ndose) (/actual)
-StreamThis (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (la canci√≥n/el √°lbum/el disco/la playlist) (/que est√° sonando/que est√° en reproducci√≥n/que est√° reproduci√©ndose) (/actual/ahora)
+StreamThis (reproduce/pon/quiero oir/quiero escuchar) (esto/esta canciÛn/este ·lbum/este disco/esta playlist/la playlist actual)
+StreamThis (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (esto/esta canciÛn/este ·lbum/este disco/esta playlist/la playlist actual)
+StreamThis (reproduce/pon/quiero oir/quiero escuchar) (la canciÛn/el ·lbum/el disco/la playlist) (/que est· sonando/que est· sonando ahora/que est· en reproducciÛn/que est· reproduciÈndose) (/actual)
+StreamThis (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (la canciÛn/el ·lbum/el disco/la playlist) (/que est· sonando/que est· en reproducciÛn/que est· reproduciÈndose) (/actual/ahora)
 
-StreamPartyMode (reproduce/pon/quiero oir/quiero escuchar) (/de forma aletoria/aleatoriamente/en modo aleatorio) (/todas las/toda la) (canciones/m√∫sica) (/de forma aletoria/aleatoriamente/en modo aleatorio)
-StreamPartyMode (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/de forma aletoria/aleatoriamente/en modo aleatorio) (/todas las/toda la) (canciones/m√∫sica) (/de forma aletoria/aleatoriamente/en modo aleatorio)
+StreamPartyMode (reproduce/pon/quiero oir/quiero escuchar) (/de forma aletoria/aleatoriamente/en modo aleatorio) (/todas las/toda la) (canciones/m˙sica) (/de forma aletoria/aleatoriamente/en modo aleatorio)
+StreamPartyMode (que reproduzca/de reproducir/que ponga/de poner/que quiero oir/que quiero escuchar) (/de forma aletoria/aleatoriamente/en modo aleatorio) (/todas las/toda la) (canciones/m˙sica) (/de forma aletoria/aleatoriamente/en modo aleatorio)
