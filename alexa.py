@@ -222,8 +222,10 @@ def alexa_stream_album(kodi, Album, Artist):
 def alexa_stream_song(kodi, Song, Artist):
   log.info('Entrando en StreamSong')
   heard_song = str(Song).lower().translate(None, string.punctuation)
+  log.info('heard_song: '+heard_song)
+  log.info('heard_song: '+heard_song)
   card_title = render_template('streaming_song_card').encode("utf-8")
-  log.info(card_title)
+  log.info('card_title: '+card_title)
 
   if Artist:
     log.info('Es artista')
@@ -295,6 +297,7 @@ def alexa_stream_song(kodi, Song, Artist):
           playlist_queue = music.MusicPlayer(kodi, songs_array)
 
           response_text = render_template('streaming_song', song_name=heard_song).encode("utf-8")
+          log.info('response_text: '+response_text)
           audio('').clear_queue(stop=True)
           log.info('En la siguiente linea se envia el json con el audio')
           return audio('hola').play(songs_array[0])
