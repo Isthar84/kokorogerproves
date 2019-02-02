@@ -306,12 +306,14 @@ class audio(_Response):
         if not speech:
             self._response = {}
         else:
-            card = {}
-            card['type'] = 'Simple'
-            card['title'] = 'Titol de la card'
-            card['content'] = _output_speech(speech)
-            self._response['card'].append(card)
+            card = {
+                'type': 'Simple',
+                'title': 'Titol de la card',
+                'content': _output_speech(speech)
+            }
+            self._response['card'] = card
         self._response['directives'] = []
+
 
     def play(self, stream_url, offset=0, opaque_token=None):
         """Sends a Play Directive to begin playback and replace current and enqueued streams."""
