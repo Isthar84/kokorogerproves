@@ -280,7 +280,7 @@ class confirm_intent(_Response):
             self._response['directives'][0]['updatedIntent'] = updated_intent
 
 
-class audio(_Response, song_title, song_artist, song_album, song_fanart, song_thumbnail):
+class audio(_Response):
     """Returns a response object with an Amazon AudioPlayer Directive.
 
     Responses for LaunchRequests and IntentRequests may include outputSpeech in addition to an audio directive
