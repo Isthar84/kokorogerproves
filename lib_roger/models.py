@@ -308,7 +308,7 @@ class audio(_Response):
         else:
             self._response['card']= {}
             card['type'] = 'Simple'
-            card['title'] = 'Títol de la card'
+            card['title'] = 'Titol de la card'
             card['content'] = _output_speech(speech)
             self._response['card'].append(card)
         self._response['directives'] = []
