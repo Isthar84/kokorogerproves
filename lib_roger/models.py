@@ -300,7 +300,7 @@ class audio(_Response, song_title, song_artist, song_album, song_fanart, song_th
         return audio('Ok, stopping the audio').stop()
     """
 
-    def __init__(self, speech='', song_title, song_artist, song_album, song_fanart, song_thumbnail):
+    def __init__(self, speech='', song_title='', song_artist='', song_album='', song_fanart='', song_thumbnail=''):
         log.info('libroger: Entrando en audio de lib_roger')
         super(audio, self).__init__(speech)
         if not speech:
