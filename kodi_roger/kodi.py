@@ -1350,6 +1350,18 @@ class Kodi:
     data = self.SendCommand(RPCString("AudioLibrary.GetSongDetails", {"songid": int(song_id)}, fields=["artist"]))
     return data['result']['songdetails']
 
+  def GetSongIdTitle(self, song_id):
+    return self.SendCommand(RPCString("AudioLibrary.GetSongDetails", {"songid": int(song_id)}, fields=["title"]))
+
+  def GetSongIdAlbum(self, song_id):
+    return self.SendCommand(RPCString("AudioLibrary.GetSongDetails", {"songid": int(song_id)}, fields=["album"]))
+
+  def GetSongIdFanArt(self, song_id):
+    return self.SendCommand(RPCString("AudioLibrary.GetSongDetails", {"songid": int(song_id)}, fields=["fanart"]))
+
+  def GetSongIdThumbnail(self, song_id):
+    return self.SendCommand(RPCString("AudioLibrary.GetSongDetails", {"songid": int(song_id)}, fields=["thumbnail"]))
+
   def GetArtistSongs(self, artist_id, sort=None, limits=None):
     return self.GetSongs(sort=sort, filters=[{"artistid": int(artist_id)}], limits=limits)
 

@@ -17,7 +17,8 @@ from functools import wraps
 from lib_roger import Ask, session, question, statement, audio, request, context
 from shutil import copyfile
 
-from kodi_voice import KodiConfigParser, Kodi
+#from kodi_voice import KodiConfigParser, Kodi
+from kodi_roger import KodiConfigParser, Kodi
 
 
 app = Flask(__name__)
@@ -285,6 +286,11 @@ def alexa_stream_song(kodi, Song, Artist):
         song = None
 
         song_result = kodi.GetSongIdPath(song_located['songid'])
+        song_artist = kodi.GetSongDetails(song_located['songid'])
+        song_title = kodi.GetSongIdTitle(song_located['songid'])
+        song_album = kodi.GetSongIdAlbum(song_located['songid'])
+        song_FanArt = kodi.GetSongIdFanArt(song_located['songid'])
+        song_thumbnail = kodi.GetSongIdThumbnail(song_located['songid'])
 
         if 'songdetails' in song_result['result']:
           song = song_result['result']['songdetails']['file']
@@ -300,7 +306,7 @@ def alexa_stream_song(kodi, Song, Artist):
           log.info('response_text: '+response_text)
           audio('').clear_queue(stop=True)
           log.info('En la siguiente linea se envia el json con el audio')
-          return audio(response_text).play(songs_array[0])
+          return audio(response_text, song_title, song_artist, song_album, song_FanArt, song_thumbnail).play(songs_array[0])
         else:
           response_text = render_template('could_not_find_song', song_name=heard_song).encode("utf-8")
       else:

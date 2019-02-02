@@ -280,7 +280,7 @@ class confirm_intent(_Response):
             self._response['directives'][0]['updatedIntent'] = updated_intent
 
 
-class audio(_Response):
+class audio(_Response, song_title, song_artist, song_album, song_fanart, song_thumbnail):
     """Returns a response object with an Amazon AudioPlayer Directive.
 
     Responses for LaunchRequests and IntentRequests may include outputSpeech in addition to an audio directive
@@ -300,7 +300,7 @@ class audio(_Response):
         return audio('Ok, stopping the audio').stop()
     """
 
-    def __init__(self, speech=''):
+    def __init__(self, speech='', song_title, song_artist, song_album, song_fanart, song_thumbnail):
         log.info('libroger: Entrando en audio de lib_roger')
         super(audio, self).__init__(speech)
         if not speech:
@@ -308,8 +308,10 @@ class audio(_Response):
         else:
             card = {
                 'type': 'Simple',
-                'title': 'Titol de la card',
-                'content': speech
+                #'title': 'Titol de la card',
+                'title': speech,
+                #'content': speech
+                'content': 'song_title: '+song_title+',\nsong_artist: '+song_artist+',\nsong_album: '+song_album+',\nsong_fanart: '+song_fanart+',\nsong_thumbnail: '+song_thumbnail
             }
             self._response['card'] = card
         self._response['directives'] = []
