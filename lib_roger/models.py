@@ -306,7 +306,7 @@ class audio(_Response):
         if not speech:
             self._response = {}
         else:
-            self._response['card']= {}
+            card = {}
             card['type'] = 'Simple'
             card['title'] = 'Titol de la card'
             card['content'] = _output_speech(speech)
