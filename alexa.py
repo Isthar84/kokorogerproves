@@ -70,15 +70,15 @@ def preflight_check(f):
     kodi = Kodi(config, context)
 
     if kodi.config_error:
-      response_text = render_template('config_missing').decode("latin-1").encode("utf-8")
+      response_text = render_template('config_missing').encode("utf-8")
 
-      card_title = render_template('card_config_missing').decode("latin-1").encode("utf-8")
+      card_title = render_template('card_config_missing').encode("utf-8")
       return statement(response_text).simple_card(card_title, response_text)
 
     CAN_STREAM = music.has_music_functionality(kodi)
 
     if not CAN_STREAM:
-      response_text = render_template('config_missing').decode("latin-1").encode("utf-8")
+      response_text = render_template('config_missing').encode("utf-8")
       return statement(response_text)
 
     # Since we're not getting any of the actual args passed in, we have to create them here
@@ -99,7 +99,7 @@ def preflight_check(f):
 def alexa_stream_artist(kodi, Artist):
   heard_artist = str(Artist).lower().translate(None, string.punctuation)
 
-  card_title = render_template('stream_artist', heard_artist=heard_artist).decode("latin-1").encode("utf-8")
+  card_title = render_template('stream_artist', heard_artist=heard_artist).encode("utf-8")
   log.info(card_title)
 
   artists = kodi.GetMusicArtists()
@@ -121,15 +121,15 @@ def alexa_stream_artist(kodi, Artist):
         random.shuffle(songs_array)
         playlist_queue = music.MusicPlayer(kodi, songs_array)
 
-        response_text = render_template('streaming', heard_name=heard_artist).decode("latin-1").encode("utf-8")
+        response_text = render_template('streaming', heard_name=heard_artist).encode("utf-8")
         audio('').clear_queue(stop=True)
         return audio(response_text).play(songs_array[0])
       else:
-        response_text = render_template('could_not_find', heard_name=heard_artist).decode("latin-1").encode("utf-8")
+        response_text = render_template('could_not_find', heard_name=heard_artist).encode("utf-8")
     else:
-      response_text = render_template('could_not_find', heard_name=heard_artist).decode("latin-1").encode("utf-8")
+      response_text = render_template('could_not_find', heard_name=heard_artist).encode("utf-8")
   else:
-    response_text = render_template('could_not_find', heard_name=heard_artist).decode("latin-1").encode("utf-8")
+    response_text = render_template('could_not_find', heard_name=heard_artist).encode("utf-8")
 
   return statement(response_text).simple_card(card_title, response_text)
 
@@ -139,7 +139,7 @@ def alexa_stream_artist(kodi, Artist):
 @preflight_check
 def alexa_stream_album(kodi, Album, Artist):
   heard_album = str(Album).lower().translate(None, string.punctuation)
-  card_title = render_template('streaming_album_card').decode("latin-1").encode("utf-8")
+  card_title = render_template('streaming_album_card').encode("utf-8")
   log.info(card_title)
 
   if Artist:
@@ -170,19 +170,19 @@ def alexa_stream_album(kodi, Album, Artist):
               random.shuffle(songs_array)
               playlist_queue = music.MusicPlayer(kodi, songs_array)
 
-              response_text = render_template('streaming_album_artist', album_name=heard_album, artist=heard_artist).decode("latin-1").encode("utf-8")
+              response_text = render_template('streaming_album_artist', album_name=heard_album, artist=heard_artist).encode("utf-8")
               audio('').clear_queue(stop=True)
               return audio(response_text).play(songs_array[0])
             else:
-              response_text = render_template('could_not_find_album_artist', album_name=heard_album, artist=heard_artist).decode("latin-1").encode("utf-8")
+              response_text = render_template('could_not_find_album_artist', album_name=heard_album, artist=heard_artist).encode("utf-8")
           else:
-            response_text = render_template('could_not_find_album_artist', album_name=heard_album, artist=heard_artist).decode("latin-1").encode("utf-8")
+            response_text = render_template('could_not_find_album_artist', album_name=heard_album, artist=heard_artist).encode("utf-8")
         else:
-          response_text = render_template('could_not_find_album_artist', album_name=heard_album, artist=heard_artist).decode("latin-1").encode("utf-8")
+          response_text = render_template('could_not_find_album_artist', album_name=heard_album, artist=heard_artist).encode("utf-8")
       else:
-        response_text = render_template('could_not_find_album_artist', album_name=heard_album, artist=heard_artist).decode("latin-1").encode("utf-8")
+        response_text = render_template('could_not_find_album_artist', album_name=heard_album, artist=heard_artist).encode("utf-8")
     else:
-      response_text = render_template('could_not_find_album_artist', album_name=heard_album, artist=heard_artist).decode("latin-1").encode("utf-8")
+      response_text = render_template('could_not_find_album_artist', album_name=heard_album, artist=heard_artist).encode("utf-8")
   else:
     albums = kodi.GetAlbums()
     if 'result' in albums and 'albums' in albums['result']:
@@ -203,15 +203,15 @@ def alexa_stream_album(kodi, Album, Artist):
           random.shuffle(songs_array)
           playlist_queue = music.MusicPlayer(kodi, songs_array)
 
-          response_text = render_template('streaming_album', album_name=heard_album).decode("latin-1").encode("utf-8")
+          response_text = render_template('streaming_album', album_name=heard_album).encode("utf-8")
           audio('').clear_queue(stop=True)
           return audio(response_text).play(songs_array[0])
         else:
-          response_text = render_template('could_not_find_album', album_name=heard_album).decode("latin-1").encode("utf-8")
+          response_text = render_template('could_not_find_album', album_name=heard_album).encode("utf-8")
       else:
-        response_text = render_template('could_not_find_album', album_name=heard_album).decode("latin-1").encode("utf-8")
+        response_text = render_template('could_not_find_album', album_name=heard_album).encode("utf-8")
     else:
-      response_text = render_template('could_not_find_album', album_name=heard_album).decode("latin-1").encode("utf-8")
+      response_text = render_template('could_not_find_album', album_name=heard_album).encode("utf-8")
 
   return statement(response_text).simple_card(card_title, response_text)
 
@@ -222,7 +222,7 @@ def alexa_stream_album(kodi, Album, Artist):
 def alexa_stream_song(kodi, Song, Artist):
   log.info('Entrando en StreamSong')
   heard_song = str(Song).lower().translate(None, string.punctuation)
-  card_title = render_template('streaming_song_card').decode("latin-1").encode("utf-8")
+  card_title = render_template('streaming_song_card').encode("utf-8")
   log.info(card_title)
 
   if Artist:
@@ -257,19 +257,19 @@ def alexa_stream_song(kodi, Song, Artist):
               random.shuffle(songs_array)
               playlist_queue = music.MusicPlayer(kodi, songs_array)
 
-              response_text = render_template('streaming_song_artist', song_name=heard_song, artist=heard_artist).decode("latin-1").encode("utf-8")
+              response_text = render_template('streaming_song_artist', song_name=heard_song, artist=heard_artist).encode("utf-8")
               audio('').clear_queue(stop=True)
               return audio(response_text).play(songs_array[0])
             else:
-              response_text = render_template('could_not_find_song_artist', song_name=heard_song, artist=heard_artist).decode("latin-1").encode("utf-8")
+              response_text = render_template('could_not_find_song_artist', song_name=heard_song, artist=heard_artist).encode("utf-8")
           else:
-            response_text = render_template('could_not_find_song_artist', song_name=heard_song, artist=heard_artist).decode("latin-1").encode("utf-8")
+            response_text = render_template('could_not_find_song_artist', song_name=heard_song, artist=heard_artist).encode("utf-8")
         else:
-          response_text = render_template('could_not_find_song_artist', song_name=heard_song, artist=heard_artist).decode("latin-1").encode("utf-8")
+          response_text = render_template('could_not_find_song_artist', song_name=heard_song, artist=heard_artist).encode("utf-8")
       else:
-        response_text = render_template('could_not_find_song_artist', song_name=heard_song, artist=heard_artist).decode("latin-1").encode("utf-8")
+        response_text = render_template('could_not_find_song_artist', song_name=heard_song, artist=heard_artist).encode("utf-8")
     else:
-      response_text = render_template('could_not_find_song_artist', song_name=heard_song, artist=heard_artist).decode("latin-1").encode("utf-8")
+      response_text = render_template('could_not_find_song_artist', song_name=heard_song, artist=heard_artist).encode("utf-8")
   else:
     log.info('Es cancion')
     songs = kodi.GetSongs()
@@ -294,16 +294,16 @@ def alexa_stream_song(kodi, Song, Artist):
           random.shuffle(songs_array)
           playlist_queue = music.MusicPlayer(kodi, songs_array)
 
-          response_text = render_template('streaming_song', song_name=heard_song).decode("latin-1").encode("utf-8")
+          response_text = render_template('streaming_song', song_name=heard_song).encode("utf-8")
           audio('').clear_queue(stop=True)
           log.info('En la siguiente linea se envia el json con el audio')
           return audio('hola').play(songs_array[0])
         else:
-          response_text = render_template('could_not_find_song', song_name=heard_song).decode("latin-1").encode("utf-8")
+          response_text = render_template('could_not_find_song', song_name=heard_song).encode("utf-8")
       else:
-        response_text = render_template('could_not_find_song', song_name=heard_song).decode("latin-1").encode("utf-8")
+        response_text = render_template('could_not_find_song', song_name=heard_song).encode("utf-8")
     else:
-      response_text = render_template('could_not_find_song', song_name=heard_song).decode("latin-1").encode("utf-8")
+      response_text = render_template('could_not_find_song', song_name=heard_song).encode("utf-8")
 
   return statement(response_text).simple_card(card_title, response_text)
 
@@ -319,7 +319,7 @@ def alexa_stream_album_or_song(kodi, Song, Album, Artist):
   if Artist:
     heard_artist = str(Artist).lower().translate(None, string.punctuation)
 
-  card_title = render_template('streaming_album_or_song').decode("latin-1").encode("utf-8")
+  card_title = render_template('streaming_album_or_song').encode("utf-8")
   log.info(card_title)
 
   artists = kodi.GetMusicArtists()
@@ -348,11 +348,11 @@ def alexa_stream_album_or_song(kodi, Song, Album, Artist):
             random.shuffle(songs_array)
             playlist_queue = music.MusicPlayer(kodi, songs_array)
 
-            response_text = render_template('streaming_album_artist', album_name=heard_search, artist=heard_artist).decode("latin-1").encode("utf-8")
+            response_text = render_template('streaming_album_artist', album_name=heard_search, artist=heard_artist).encode("utf-8")
             audio('').clear_queue(stop=True)
             return audio(response_text).play(songs_array[0])
           else:
-            response_text = render_template('could_not_find_album_artist', album_name=heard_search, artist=heard_artist).decode("latin-1").encode("utf-8")
+            response_text = render_template('could_not_find_album_artist', album_name=heard_search, artist=heard_artist).encode("utf-8")
         else:
           songs = kodi.GetArtistSongs(located['artistid'])
           if 'result' in songs and 'songs' in songs['result']:
@@ -376,21 +376,21 @@ def alexa_stream_album_or_song(kodi, Song, Album, Artist):
                 random.shuffle(songs_array)
                 playlist_queue = music.MusicPlayer(kodi, songs_array)
 
-                response_text = render_template('streaming_song_artist', song_name=heard_search, artist=heard_artist).decode("latin-1").encode("utf-8")
+                response_text = render_template('streaming_song_artist', song_name=heard_search, artist=heard_artist).encode("utf-8")
                 audio('').clear_queue(stop=True)
                 return audio(response_text).play(songs_array[0])
               else:
-                response_text = render_template('could_not_find_song_artist', song_name=heard_search, artist=heard_artist).decode("latin-1").encode("utf-8")
+                response_text = render_template('could_not_find_song_artist', song_name=heard_search, artist=heard_artist).encode("utf-8")
             else:
-              response_text = render_template('could_not_find_song_artist', heard_name=heard_search, artist=heard_artist).decode("latin-1").encode("utf-8")
+              response_text = render_template('could_not_find_song_artist', heard_name=heard_search, artist=heard_artist).encode("utf-8")
           else:
-            response_text = render_template('could_not_find_song_artist', heard_name=heard_search, artist=heard_artist).decode("latin-1").encode("utf-8")
+            response_text = render_template('could_not_find_song_artist', heard_name=heard_search, artist=heard_artist).encode("utf-8")
       else:
-        response_text = render_template('could_not_find_song_artist', heard_name=heard_search, artist=heard_artist).decode("latin-1").encode("utf-8")
+        response_text = render_template('could_not_find_song_artist', heard_name=heard_search, artist=heard_artist).encode("utf-8")
     else:
-      response_text = render_template('could_not_find_song_artist', heard_name=heard_search, artist=heard_artist).decode("latin-1").encode("utf-8")
+      response_text = render_template('could_not_find_song_artist', heard_name=heard_search, artist=heard_artist).encode("utf-8")
   else:
-    response_text = render_template('could_not_find', heard_name=heard_artist).decode("latin-1").encode("utf-8")
+    response_text = render_template('could_not_find', heard_name=heard_artist).encode("utf-8")
 
   return statement(response_text).simple_card(card_title, response_text)
 
@@ -399,8 +399,8 @@ def alexa_stream_album_or_song(kodi, Song, Album, Artist):
 @ask.intent('StreamAudioPlaylistRecent')
 @preflight_check
 def alexa_stream_recently_added_songs(kodi):
-  card_title = render_template('streaming_recent_songs').decode("latin-1").encode("utf-8")
-  response_text = render_template('no_recent_songs').decode("latin-1").encode("utf-8")
+  card_title = render_template('streaming_recent_songs').encode("utf-8")
+  response_text = render_template('no_recent_songs').encode("utf-8")
   log.info(card_title)
 
   songs_result = kodi.GetRecentlyAddedSongsPath()
@@ -416,7 +416,7 @@ def alexa_stream_recently_added_songs(kodi):
       random.shuffle(songs_array)
       playlist_queue = music.MusicPlayer(kodi, songs_array)
 
-      response_text = render_template('streaming_recent_songs').decode("latin-1").encode("utf-8")
+      response_text = render_template('streaming_recent_songs').encode("utf-8")
       audio('').clear_queue(stop=True)
       return audio(response_text).play(songs_array[0])
 
@@ -430,11 +430,11 @@ def alexa_stream_audio_playlist(kodi, AudioPlaylist, shuffle=False):
   heard_search = str(AudioPlaylist).lower().translate(None, string.punctuation)
 
   if shuffle:
-    op = render_template('shuffling_empty').decode("latin-1").encode("utf-8")
+    op = render_template('shuffling_empty').encode("utf-8")
   else:
-    op = render_template('playing').decode("latin-1").encode("utf-8")
+    op = render_template('playing').encode("utf-8")
 
-  card_title = render_template('action_audio_playlist', action=op).decode("latin-1").encode("utf-8")
+  card_title = render_template('action_audio_playlist', action=op).encode("utf-8")
   log.info(card_title)
 
   playlist = kodi.FindAudioPlaylist(heard_search)
@@ -451,13 +451,13 @@ def alexa_stream_audio_playlist(kodi, AudioPlaylist, shuffle=False):
         random.shuffle(songs_array)
       playlist_queue = music.MusicPlayer(kodi, songs_array)
 
-      response_text = render_template('playing_playlist', action=op, playlist_name=heard_search).decode("latin-1").encode("utf-8")
+      response_text = render_template('playing_playlist', action=op, playlist_name=heard_search).encode("utf-8")
       audio('').clear_queue(stop=True)
       return audio(response_text).play(songs_array[0])
     else:
-      response_text = render_template('could_not_find_playlist', heard_name=heard_search).decode("latin-1").encode("utf-8")
+      response_text = render_template('could_not_find_playlist', heard_name=heard_search).encode("utf-8")
   else:
-    response_text = render_template('could_not_find_playlist', heard_name=heard_search).decode("latin-1").encode("utf-8")
+    response_text = render_template('could_not_find_playlist', heard_name=heard_search).encode("utf-8")
 
   return statement(response_text).simple_card(card_title, response_text)
 
@@ -466,10 +466,10 @@ def alexa_stream_audio_playlist(kodi, AudioPlaylist, shuffle=False):
 @ask.intent('StreamPartyMode')
 @preflight_check
 def alexa_stream_party_play(kodi):
-  card_title = render_template('streaming_party_mode').decode("latin-1").encode("utf-8")
+  card_title = render_template('streaming_party_mode').encode("utf-8")
   log.info(card_title)
 
-  response_text = render_template('streaming_party').decode("latin-1").encode("utf-8")
+  response_text = render_template('streaming_party').encode("utf-8")
 
   songs = kodi.GetSongsPath()
 
@@ -483,13 +483,13 @@ def alexa_stream_party_play(kodi):
       random.shuffle(songs_array)
       playlist_queue = music.MusicPlayer(kodi, songs_array)
 
-      response_text = render_template('streaming_party').decode("latin-1").encode("utf-8")
+      response_text = render_template('streaming_party').encode("utf-8")
       audio('').clear_queue(stop=True)
       return audio(response_text).play(songs_array[0])
     else:
-      response_text = render_template('error_parsing_results').decode("latin-1").encode("utf-8")
+      response_text = render_template('error_parsing_results').encode("utf-8")
   else:
-    response_text = render_template('error_parsing_results').decode("latin-1").encode("utf-8")
+    response_text = render_template('error_parsing_results').encode("utf-8")
 
   return statement(response_text).simple_card(card_title, response_text)
 
@@ -499,7 +499,7 @@ def alexa_stream_party_play(kodi):
 @ask.intent('StreamThis')
 @preflight_check
 def alexa_stream_this(kodi):
-  card_title = render_template('streaming_current_playlist').decode("latin-1").encode("utf-8")
+  card_title = render_template('streaming_current_playlist').encode("utf-8")
   log.info(card_title)
 
   current_item = kodi.GetActivePlayItem()
@@ -542,7 +542,7 @@ def alexa_stream_this(kodi):
       kodi.PlayerStop()
       kodi.ClearAudioPlaylist()
 
-      response_text = render_template('transferring_stream').decode("latin-1").encode("utf-8")
+      response_text = render_template('transferring_stream').encode("utf-8")
       audio('').clear_queue(stop=True)
       return audio(response_text).play(songs_array[0])
 
@@ -574,7 +574,7 @@ def alexa_stream_skip(kodi):
     # current_item is now set as the next item from the playlist
     return audio('').play(playlist_queue.current_item)
   else:
-    response_text = render_template('no_more_songs').decode("latin-1").encode("utf-8")
+    response_text = render_template('no_more_songs').encode("utf-8")
     return audio(response_text)
 
 
@@ -588,7 +588,7 @@ def alexa_stream_prev(kodi):
     # current_item is now set as the previous item from the playlist
     return audio('').play(playlist_queue.current_item)
   else:
-    response_text = render_template('no_songs_history').decode("latin-1").encode("utf-8")
+    response_text = render_template('no_songs_history').encode("utf-8")
     return audio(response_text)
 
 
@@ -600,7 +600,7 @@ def alexa_stream_restart_track(kodi):
   if playlist_queue.current_item:
     return audio('').play(playlist_queue.current_item, offset=0)
   else:
-    response_text = render_template('no_current_song').decode("latin-1").encode("utf-8")
+    response_text = render_template('no_current_song').encode("utf-8")
     return audio(response_text)
 
 
@@ -613,7 +613,7 @@ def alexa_stream_resume(kodi):
   if playlist_queue.current_item:
     return audio('').play(playlist_queue.current_item, offset=playlist_queue.current_offset)
   else:
-    response_text = render_template('no_current_song').decode("latin-1").encode("utf-8")
+    response_text = render_template('no_current_song').encode("utf-8")
     return audio(response_text)
 
 
@@ -626,7 +626,7 @@ def alexa_cancel():
 # Handle the AMAZON.LoopOnIntent intent.
 # @ask.intent('AMAZON.LoopOnIntent')
 # def alexa_loop_on():
-#   card_title = render_template('loop_enable').decode("latin-1").encode("utf-8")
+#   card_title = render_template('loop_enable').encode("utf-8")
 #   log.info(card_title)
 
 #   kodi.PlayerLoopOn()
@@ -636,11 +636,11 @@ def alexa_cancel():
 #   curprops = kodi.GetActivePlayProperties()
 #   if curprops is not None:
 #     if curprops['repeat'] == 'one':
-#       response_text = render_template('loop_one').decode("latin-1").encode("utf-8")
+#       response_text = render_template('loop_one').encode("utf-8")
 #     elif curprops['repeat'] == 'all':
-#       response_text = render_template('loop_all').decode("latin-1").encode("utf-8")
+#       response_text = render_template('loop_all').encode("utf-8")
 #     elif curprops['repeat'] == 'off':
-#       response_text = render_template('loop_off').decode("latin-1").encode("utf-8")
+#       response_text = render_template('loop_off').encode("utf-8")
 
 #   return statement(response_text).simple_card(card_title, response_text)
 
@@ -648,11 +648,11 @@ def alexa_cancel():
 # Handle the AMAZON.LoopOffIntent intent.
 # @preflight_check
 # def alexa_loop_off():
-#   card_title = render_template('loop_disable').decode("latin-1").encode("utf-8")
+#   card_title = render_template('loop_disable').encode("utf-8")
 #   log.info(card_title)
 
 #   kodi.PlayerLoopOff()
-#   response_text = render_template('loop_off').decode("latin-1").encode("utf-8")
+#   response_text = render_template('loop_off').encode("utf-8")
 #   return statement(response_text).simple_card(card_title, response_text)
 
 
@@ -697,7 +697,7 @@ def get_help_samples(limit=7):
   fn = os.path.join(os.path.dirname(__file__), 'sample_slotvals.%s.txt' % (LANGUAGE))
   f = codecs.open(fn, 'rb', 'utf-8')
   for line in f:
-    media_type, media_title = line.decode("latin-1").encode("utf-8").strip().split(' ', 1)
+    media_type, media_title = line.encode("utf-8").strip().split(' ', 1)
     sample_slotvals[media_type] = media_title.strip()
   f.close()
 
@@ -710,7 +710,7 @@ def get_help_samples(limit=7):
   fn = os.path.join(os.path.dirname(__file__), 'speech_assets/SampleUtterances.%s.txt' % (LANGUAGE))
   f = codecs.open(fn, 'rb', 'utf-8')
   for line in f:
-    intent, utterance = line.decode("latin-1").encode("utf-8").strip().split(' ', 1)
+    intent, utterance = line.encode("utf-8").strip().split(' ', 1)
     if intent in ignore_intents: continue
     if intent not in utterances:
       utterances[intent] = []
@@ -730,13 +730,13 @@ def get_help_samples(limit=7):
 def prepare_help_message():
   sample_utterances = get_help_samples()
 
-  response_text = render_template('help', example=sample_utterances.popitem()[1]).decode("latin-1").encode("utf-8")
-  reprompt_text = render_template('help_short', example=sample_utterances.popitem()[1]).decode("latin-1").encode("utf-8")
-  card_title = render_template('help_card').decode("latin-1").encode("utf-8")
+  response_text = render_template('help', example=sample_utterances.popitem()[1]).encode("utf-8")
+  reprompt_text = render_template('help_short', example=sample_utterances.popitem()[1]).encode("utf-8")
+  card_title = render_template('help_card').encode("utf-8")
   samples = ''
   for sample in sample_utterances.values():
     samples += '"%s"\n' % (sample)
-  card_text = render_template('help_text', examples=samples).decode("latin-1").encode("utf-8")
+  card_text = render_template('help_text', examples=samples).encode("utf-8")
   log.info(card_title)
 
   if not 'queries_keep_open' in session.attributes:
@@ -750,8 +750,8 @@ def prepare_help_message():
 def alexa_launch():
   sample_utterances = get_help_samples()
 
-  response_text = render_template('welcome').decode("latin-1").encode("utf-8")
-  reprompt_text = render_template('help_short', example=sample_utterances.popitem()[1]).decode("latin-1").encode("utf-8")
+  response_text = render_template('welcome').encode("utf-8")
+  reprompt_text = render_template('help_short', example=sample_utterances.popitem()[1]).encode("utf-8")
   card_title = response_text
   log.info(card_title)
 

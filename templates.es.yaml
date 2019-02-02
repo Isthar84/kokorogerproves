@@ -4,27 +4,27 @@
 
 streaming_recent_songs: "Reproduciendo canciones recientes"
 
-config_missing: "No he podido encontrar tota la información que necesito de la conexión. Por favor comprueba tu archivo kodi.config"
+config_missing: "No he podido encontrar tota la informaciÃ³n que necesito de la conexiÃ³n. Por favor comprueba tu archivo kodi.config"
 
 streaming: "Reproduciendo canciones de {{ heard_name }}"
 
 could_not_find: "No he podido encontrar {{ heard_name }}"
 
-streaming_album_artist: "Reproduciendo el álbum {{ album_name }} de {{ artist }}"
+streaming_album_artist: "Reproduciendo el Ã¡lbum {{ album_name }} de {{ artist }}"
 
-could_not_find_album_artist: "No he podido encontrar el álbum {{ album_name }} de {{ artist }}"
+could_not_find_album_artist: "No he podido encontrar el Ã¡lbum {{ album_name }} de {{ artist }}"
 
-streaming_album: "Reproduciendo el álbum {{ album_name }}"
+streaming_album: "Reproduciendo el Ã¡lbum {{ album_name }}"
 
-could_not_find_album: "No he podido encontrar el álbum {{ album_name }}"
+could_not_find_album: "No he podido encontrar el Ã¡lbum {{ album_name }}"
 
-streaming_song_artist: "Reproduciendo la canción {{ song_name }} de {{ artist }}"
+streaming_song_artist: "Reproduciendo la canciÃ³n {{ song_name }} de {{ artist }}"
 
-could_not_find_song_artist: "No he podido encontrar la canción {{ song_name }} de {{ artist }}"
+could_not_find_song_artist: "No he podido encontrar la canciÃ³n {{ song_name }} de {{ artist }}"
 
-streaming_song: "Reproduciendo la canción {{ song_name }}"
+streaming_song: "Reproduciendo la canciÃ³n {{ song_name }}"
 
-could_not_find_song: "No he podido encontrar la canción {{ song_name }}"
+could_not_find_song: "No he podido encontrar la canciÃ³n {{ song_name }}"
 
 no_recent_songs: "No hay canciones recientes"
 
@@ -36,25 +36,25 @@ playing_playlist_audio: "{{ action }} la playlist de audio {{ playlist_name }}"
 
 could_not_find_playlist: "No he podido encontrar ninguna playlist llamada {{ heard_name }}"
 
-streaming_party: "Reproduciendo toda la música en modo aleatorio"
+streaming_party: "Reproduciendo toda la mÃºsica en modo aleatorio"
 
 error_parsing_results: "Error analizando los resultados"
 
 transferring_stream: "Transferiendo el stream a Alexa"
 
-nothing_currently_playing: "Kodi no está reproduciendo música en este momento"
+nothing_currently_playing: "Kodi no estÃ¡ reproduciendo mÃºsica en este momento"
 
-help: "Que te gustaría hacer? Prueba por ejemplo con: {{ example }}"
+help: "Que te gustarÃ­a hacer? Prueba por ejemplo con: {{ example }}"
 
 help_short: "Prueba por ejemplo con: {{ example }}"
 
-help_text: "Kodi Música te permite emitir música en streaming desde Kodi. Aquí tienes algunos ejemplos de cosas que puedes decir::\n
+help_text: "Kodi MÃºsica te permite emitir mÃºsica en streaming desde Kodi. AquÃ­ tienes algunos ejemplos de cosas que puedes decir::\n
 \xa0\n
 {{ examples }}
 \xa0\n
-Para ver una lista de todas la peticiones admitidas, por favor comprueba el archivo LÉEME (Readme) en Github (https://github.com/m0ngr31/koko/README.md)."
+Para ver una lista de todas la peticiones admitidas, por favor comprueba el archivo LÃ‰EME (Readme) en Github (https://github.com/m0ngr31/koko/README.md)."
 
-welcome: "Hola soy Kodi Música"
+welcome: "Hola soy Kodi MÃºsica"
 
 
 
@@ -62,19 +62,19 @@ welcome: "Hola soy Kodi Música"
 ##  Card Title Templates  ##
 ############################
 
-streaming_album_card: "Reproduciendo el álbum"
+streaming_album_card: "Reproduciendo el Ã¡lbum"
 
-card_config_missing: "Configuración no válida"
+card_config_missing: "ConfiguraciÃ³n no vÃ¡lida"
 
 stream_artist: "Reproduciendo canciones de {{ heard_artist }}"
 
-streaming_album_card: "Reproduciendo el álbum"
+streaming_album_card: "Reproduciendo el Ã¡lbum"
 
-streaming_song_card: "Reproduciendo la canción"
+streaming_song_card: "Reproduciendo la canciÃ³n"
 
-streaming_album_or_song: "Reproduciendo la canción o el álbum"
+streaming_album_or_song: "Reproduciendo la canciÃ³n o el Ã¡lbum"
 
-streaming_party_mode: "Reproduciendo toda la música en modo aleatorio"
+streaming_party_mode: "Reproduciendo toda la mÃºsica en modo aleatorio"
 
 streaming_current_playlist: "Reproduciendo la playlist actual"
 
@@ -85,10 +85,10 @@ help_card: "Ayuda"
 ##   General Templates    ##
 ############################
 
-no_more_songs: "No hay más canciones en lista"
+no_more_songs: "No hay mÃ¡s canciones en lista"
 
 no_songs_history: "No hay canciones en tu historial de playlists"
 
-no_current_song: "No hay ninguna canción en reproducción actualmente"
+no_current_song: "No hay ninguna canciÃ³n en reproducciÃ³n actualmente"
 
 playing: "Reproduciendo"
