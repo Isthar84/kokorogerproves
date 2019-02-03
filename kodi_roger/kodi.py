@@ -1350,6 +1350,9 @@ class Kodi:
     data = self.SendCommand(RPCString("AudioLibrary.GetSongDetails", {"songid": int(song_id)}, fields=["artist"]))
     return data['result']['songdetails']
 
+  def GetSongIdArtist(self, song_id):
+    return self.SendCommand(RPCString("AudioLibrary.GetSongDetails", {"songid": int(song_id)}, fields=["artist"]))
+  
   def GetSongIdTitle(self, song_id):
     return self.SendCommand(RPCString("AudioLibrary.GetSongDetails", {"songid": int(song_id)}, fields=["title"]))
 

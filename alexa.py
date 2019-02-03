@@ -286,11 +286,21 @@ def alexa_stream_song(kodi, Song, Artist):
         song = None
 
         song_result = kodi.GetSongIdPath(song_located['songid'])
-        song_artist = kodi.GetSongDetails(song_located['songid'])
-        song_title = kodi.GetSongIdTitle(song_located['songid'])
-        song_album = kodi.GetSongIdAlbum(song_located['songid'])
-        song_FanArt = kodi.GetSongIdFanArt(song_located['songid'])
-        song_thumbnail = kodi.GetSongIdThumbnail(song_located['songid'])
+        result_temp = kodi.GetSongIdArtist(song_located['songid'])
+        if 'artist' in result_temp['result']:
+          song_artist = result_temp['result']['songdetails']['artist']
+        result_temp = kodi.GetSongIdTitle(song_located['songid'])
+        if 'title' in result_temp['result']:
+          song_title = result_temp['result']['songdetails']['title']
+        result_temp = kodi.GetSongIdAlbum(song_located['songid'])
+        if 'album' in result_temp['result']:
+          song_album = result_temp['result']['songdetails']['album']
+        result_temp = kodi.GetSongIdFanArt(song_located['songid'])
+        if 'fanart' in result_temp['result']:
+          song_FanArt = result_temp['result']['songdetails']['fanart']
+        result_temp = kodi.GetSongIdThumbnail(song_located['songid'])
+        if 'thumbnail' in result_temp['result']:
+          song_thumbnail = result_temp['result']['songdetails']['fanart']
 
         if 'songdetails' in song_result['result']:
           song = song_result['result']['songdetails']['file']
