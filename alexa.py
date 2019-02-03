@@ -301,31 +301,31 @@ def alexa_stream_song(kodi, Song, Artist):
         result_temp = kodi.GetSongIdArtist(song_located['songid'])
         json_string = json.dumps(result_temp)
         log.info('result_temp_Artist: '+json_string)
-        if 'artist' in result_temp['result']:
+        if 'songdetails' in result_temp['result']:
           song_artist = result_temp['result']['songdetails']['artist']
           log.info('song_artist: '+song_artist)
         result_temp = kodi.GetSongIdTitle(song_located['songid'])
         json_string = json.dumps(result_temp)
         log.info('result_temp_title: '+json_string)
-        if 'title' in result_temp['result']:
+        if 'songdetails' in result_temp['result']:
           song_title = result_temp['result']['songdetails']['title']
           log.info('song_title: '+song_title)
         result_temp = kodi.GetSongIdAlbum(song_located['songid'])
         json_string = json.dumps(result_temp)
         log.info('result_temp_album: '+json_string)
-        if 'album' in result_temp['result']:
+        if 'songdetails' in result_temp['result']:
           song_album = result_temp['result']['songdetails']['album']
           log.info('song_album: '+song_album)
         result_temp = kodi.GetSongIdFanArt(song_located['songid'])
         json_string = json.dumps(result_temp)
         log.info('result_temp_fanart: '+json_string)
-        if 'fanart' in result_temp['result']:
+        if 'songdetails' in result_temp['result']:
           song_FanArt = result_temp['result']['songdetails']['fanart']
           log.info('song_FanArt: '+song_FanArt)
         result_temp = kodi.GetSongIdThumbnail(song_located['songid'])
         json_string = json.dumps(result_temp)
         log.info('result_temp_thumbnail: '+json_string)
-        if 'thumbnail' in result_temp['result']:
+        if 'songdetails' in result_temp['result']:
           song_thumbnail = result_temp['result']['songdetails']['thumbnail']
           log.info('song_thumbnail: '+song_thumbnail)
 
