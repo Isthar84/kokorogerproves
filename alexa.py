@@ -302,7 +302,7 @@ def alexa_stream_song(kodi, Song, Artist):
         json_string = json.dumps(result_temp)
         log.info('result_temp_Artist: '+json_string)
         if 'songdetails' in result_temp['result']:
-          song_artist = result_temp['result']['songdetails']['artist']
+          song_artist = str(result_temp['result']['songdetails']['artist'])
           log.info('song_artist: '+song_artist)
         result_temp = kodi.GetSongIdTitle(song_located['songid'])
         json_string = json.dumps(result_temp)
